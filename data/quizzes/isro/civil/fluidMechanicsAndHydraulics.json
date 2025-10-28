@@ -1,0 +1,12 @@
+{
+    "title": "Fluid Mechanics and Hydraulics",
+    "chapters": [
+        "Properties of fluids and fluid statics",
+        "Flow through pipes (laminar, turbulent)",
+        "Boundary layer and dimensional analysis",
+        "Open channel flow",
+        "Hydraulic jumps",
+        "Turbines and pumps"
+    ],
+    "questions": []
+}

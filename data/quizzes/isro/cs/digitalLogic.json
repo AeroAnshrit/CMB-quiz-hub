@@ -1,0 +1,13 @@
+{
+    "title": "Digital Logic",
+    "chapters": [
+        "Boolean algebra and logic gates",
+        "Minimization",
+        "Number systems and arithmetic",
+        "Combinational circuits",
+        "Sequential circuits",
+        "Finite state machines",
+        "A/D and D/A converters"
+    ],
+    "questions": []
+}

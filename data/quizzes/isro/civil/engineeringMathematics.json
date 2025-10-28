@@ -1,0 +1,12 @@
+{
+    "title": "Engineering Mathematics",
+    "chapters": [
+        "Linear algebra",
+        "Calculus",
+        "Differential equations",
+        "Vector calculus",
+        "Probability and Statistics",
+        "Numerical methods"
+    ],
+    "questions": []
+}

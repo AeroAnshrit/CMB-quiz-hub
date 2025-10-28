@@ -1,0 +1,1019 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2017II",
+  "questions": [
+    {
+      "chapter": "Fluid Machinery",
+      "question": "For a non-dimensional specific speed value of 1, for maximum efficiency, which of the following turbines is preferred?",
+      "image": "",
+      "options": [
+        "Pelton wheel",
+        "Francis turbine",
+        "Kaplan turbine",
+        "Tyson wheel"
+      ],
+      "answer": "Francis turbine",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "In a circular tube of diameter 100 mm and length 13 m with laminar flow, the friction factor is estimated to be 0.05. Calculate the Reynolds number?",
+      "image": "",
+      "options": [
+        "950",
+        "2300",
+        "1280",
+        "None of the above"
+      ],
+      "answer": "1280",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "In a P-V diagram of a steady flow compressor, the intercooling can be represented as",
+      "image": "",
+      "options": [
+        "Vertical line",
+        "Horizontal line",
+        "Parabolic line",
+        "None of the above"
+      ],
+      "answer": "Horizontal line",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Machinery",
+      "question": "A centrifugal pump having an impeller diameter of 127 mm, delivers a power of 12 hp. If the impeller diameter is changed to 254 mm, what is the power, if other parameters are kept constant?",
+      "image": "",
+      "options": [
+        "48 hp",
+        "192 hp",
+        "24 hp",
+        "96 hp"
+      ],
+      "answer": "96 hp",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "An experiment is conducted with a fluid of density 1 kg/m³ at 10 m/s velocity. The free stream static pressure is 100 kPa and the local static pressure is 101 kPa. What is the pressure coefficient at the location?",
+      "image": "",
+      "options": [
+        "70",
+        "80",
+        "20",
+        "50"
+      ],
+      "answer": "20",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "An open tank is filled with water to a height of 20 m. What is the velocity of the water flow at the outlet, if the outlet is at the base of the tank?",
+      "image": "",
+      "options": [
+        "40 m/s (approx.)",
+        "20 m/s (approx.)",
+        "10 m/s (approx.)",
+        "5 m/s (approx.)"
+      ],
+      "answer": "20 m/s (approx.)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Which of the following is a non-Newtonian fluid?",
+      "image": "",
+      "options": [
+        "Air",
+        "Water",
+        "Gasoline",
+        "None of the above"
+      ],
+      "answer": "None of the above",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A hot body at 1000 K transfers 2000 kJ of heat to a body at 500 K. Determine the net entropy change?",
+      "image": "",
+      "options": [
+        "+4 kJ/kg",
+        "-2 kJ/kg",
+        "+2 kJ/kg",
+        "-4 kJ/kg"
+      ],
+      "answer": "+2 kJ/kg",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Highest ratio of specific heat is possible for?",
+      "image": "",
+      "options": [
+        "Argon",
+        "Helium",
+        "Hydrogen",
+        "Air"
+      ],
+      "answer": "Argon",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Which of the following can be used to determine the variation of saturation pressure with temperature along phase boundaries?",
+      "image": "",
+      "options": [
+        "Joule-Thomson relation",
+        "Carnot equation",
+        "Rankine- Hougoniot's relation",
+        "Clausius- Clapeyron relation"
+      ],
+      "answer": "Clausius- Clapeyron relation",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Air at 27°C and 100 kPa enters in a steady flow nozzle at a velocity of 100 m/s. If the inlet area of the nozzle is 0.5 m², what is the mass flow rate through the system",
+      "image": "",
+      "options": [
+        "116 kg/s",
+        "232 kg/s",
+        "58 kg/s",
+        "143 kg/s"
+      ],
+      "answer": "58 kg/s",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Critical point of water is",
+      "image": "",
+      "options": [
+        "22.06 kPa",
+        "22.06 MPa",
+        "22.06 atm",
+        "22.06 mbar"
+      ],
+      "answer": "22.06 MPa",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "In a shower mixer, cold water at 27 deg C, flowing at 5 kg/min is mixed with hot water at 77 deg C flowing at 15 kg/min. The exit temperature of the mixture is",
+      "image": "",
+      "options": [
+        "45.4 deg C",
+        "64.5 deg C",
+        "34.5 deg C",
+        "68.4 deg C"
+      ],
+      "answer": "64.5 deg C",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Which of the following uses a regenerator?",
+      "image": "",
+      "options": [
+        "Brayton cycle",
+        "Ericsson cycle",
+        "Stirling cycle",
+        "Both (b) and (c)"
+      ],
+      "answer": "Both (b) and (c)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat and Mass Transfer",
+      "question": "Ratio of convective mass transfer to the mass diffusion rate is called?",
+      "image": "",
+      "options": [
+        "Sherwood number",
+        "Schmidt number",
+        "Rayleigh number",
+        "Strouhal number"
+      ],
+      "answer": "Sherwood number",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A gas is contained in a cylinder with a moveable piston of 100 kg mass. When 2500 J of heat flow into the gas, the internal energy of the gas increases by 1500 J. What is the distance through which the piston rises?",
+      "image": "",
+      "options": [
+        "2 m",
+        "1 m",
+        "2.5 m",
+        "0.5 m"
+      ],
+      "answer": "1 m",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A mass of 1 kg of air at 27°C and 0.98 atm is taken through a diesel cycle. If the compression ratio of the engine is 16, calculate the temperature of the air after compression? (for calculation, take the ratio of specific heats of air as 1.5)",
+      "image": "",
+      "options": [
+        "1200 deg C",
+        "1473 deg C",
+        "927 deg C",
+        "768 deg C"
+      ],
+      "answer": "927 deg C",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The external surface of a wall of 3 m height, 5 m width and 0.5 m thickness is at a temperature of 2°C. If a heat loss of 150 W from the room is measured across the wall, find the inner wall temperature? The thermal conductivity of wall material can be taken as 1 W/m.K",
+      "image": "",
+      "options": [
+        "280 K",
+        "285 K",
+        "268 K",
+        "282 K"
+      ],
+      "answer": "280 K",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The typical range of Prandtl number for water is",
+      "image": "",
+      "options": [
+        "0.004-0.300",
+        "1.7-13.7",
+        "50-500",
+        "2000-1000"
+      ],
+      "answer": "1.7-13.7",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "Analogy between momentum and heat transfer is known as",
+      "image": "",
+      "options": [
+        "Stanton-Prandtl analogy",
+        "Crassoff-Meyer analogy",
+        "Chilton-Colburn analogy",
+        "None of the above"
+      ],
+      "answer": "Chilton-Colburn analogy",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Gas Dynamics",
+      "question": "Which of the following statement is true for a Rayleigh flow at M=1?",
+      "image": "",
+      "options": [
+        "Enthalpy is maximum",
+        "Entropy is maximum",
+        "Enthalpy is minimum",
+        "Both (b) and (c)"
+      ],
+      "answer": "Entropy is maximum",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Gas Dynamics",
+      "question": "A fluid passes through a well insulated tube of 4.7 cm² cross section area and 5 m length. If the pipe friction coefficient is 0.07 and the flow velocity is 3 m/s, then the flow can be represented using?",
+      "image": "",
+      "options": [
+        "Rayleigh flow model",
+        "Isentropic flow model",
+        "Gino flow model",
+        "Fanno flow model"
+      ],
+      "answer": "Fanno flow model",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A fluid having a density of 1 g/cc is in a state with Grashof number 2 × 10⁶ and prandtl number 0.7. Assuming acceleration due to gravity as 10 m/s², calculate the Rayleigh number?",
+      "image": "",
+      "options": [
+        "1.4 × 10⁶",
+        "2.86 × 10⁶",
+        "3.7 × 10⁵",
+        "8.4 × 10⁶"
+      ],
+      "answer": "1.4 × 10⁶",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A cold liquid enters a counter flow heat exchanger at 15 deg C at a rate of 8 kg/s. A hot stream of the same liquid enters the heat exchanger at 75 deg C at 2 kg/s. Assuming the specific heat of the fluid as 4 kJ/kg °C determine the maximum heat transfer rate.",
+      "image": "",
+      "options": [
+        "960 kW",
+        "240 kW",
+        "1920 kW",
+        "480 kW"
+      ],
+      "answer": "480 kW",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The temperature of a surface with 0.2 m² area is 17 deg C. Calculate the wavelength corresponding to maximum monochromatic emissive power",
+      "image": "",
+      "options": [
+        "20 micrometers",
+        "30 micrometers",
+        "10 micrometers",
+        "40 micrometers"
+      ],
+      "answer": "10 micrometers",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "For a surface, the direct and diffuse components of the solar radiation are 400 and 300 W/m² and the direct radiation makes 60 deg angle with the normal. If the surface temperature is 300 K and effective sky temperature is 200 K, calculate net rate of radiation heat transfer. (Assume solar absorptivity and emissivity as 0.1 each; For calculation take Stefan Boltzmanns constant as 6 × 10⁻⁸ W/m².K⁴)",
+      "image": "",
+      "options": [
+        "11 W/m²",
+        "45 W/m²",
+        "33 W/m²",
+        "64 W/m²"
+      ],
+      "answer": "11 W/m²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "Which of the following element is added to high speed tool steels as a scavenger to remove slag impurities during melting and also for increasing cutting efficiency of tools.",
+      "image": "",
+      "options": [
+        "Chromium",
+        "Vanadium",
+        "Molybdenum",
+        "Manganese"
+      ],
+      "answer": "Vanadium",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "Region of disorder created by movement of dislocations in super lattice is called:",
+      "image": "",
+      "options": [
+        "Twin",
+        "Stacking fault",
+        "Anti-phase boundary",
+        "Orowon loop"
+      ],
+      "answer": "Anti-phase boundary",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "The state of stress during deep drawing forming operation of a cup is",
+      "image": "",
+      "options": [
+        "In the flange of blank, uni-axial compression and in wall of cup, bi-axial tension and compression",
+        "In the flange of the blank, uni-axial tension and in wall of cup, bi-axial tension and compression",
+        "In the flange of the blank, bi-axial tension and compression and in the wall of cup, simple uni-axial tension",
+        "Both flange and wall of the cup will have bi-axial compression and tension"
+      ],
+      "answer": "In the flange of the blank, bi-axial tension and compression and in the wall of cup, simple uni-axial tension",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "During turning of a metallic rod at a given condition, the tool life was found to decrease from 100 min to 25 min. When cutting speed was increased from 50 m/min. to 100 m/min. How much will be life of tool if machined at 80 m/min.?",
+      "image": "",
+      "options": [
+        "38.06 min.",
+        "39.06 min.",
+        "40.06 min.",
+        "41.06 min."
+      ],
+      "answer": "39.06 min.",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In a single pass rolling operation, the thickness of a 100 mm wide plate is reduced from 20 mm to 15 mm. The roller radius is 125 mm and rotational speed is 8 rpm. The average flow stress for the plate material is 400 MPa. The power required for rolling operation in kW is?",
+      "image": "",
+      "options": [
+        "12.5 π/3",
+        "10π",
+        "40 π/3",
+        "20 π/3"
+      ],
+      "answer": "20 π/3",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Industrial Engineering",
+      "question": "A dummy activity is used in PERT network to describe",
+      "image": "",
+      "options": [
+        "Precedence relationship",
+        "Necessary time delay",
+        "Resource restriction",
+        "Resource idleness"
+      ],
+      "answer": "Precedence relationship",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In small castings, which of the following allowances can be ignored.",
+      "image": "",
+      "options": [
+        "Shrinkage Allowance",
+        "Rapping Allowance",
+        "Draft Allowance",
+        "Machining Allowance"
+      ],
+      "answer": "Rapping Allowance",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In an arc welding process, two weld coupons were made using two different welding processes. For the first coupon, the voltage, current and welding speed used are 15V, 300 A and 30 mm/min respectively. Whereas the second coupon welded with 60 kV, 200 mA and 25 mm/s. If the heat transfer efficiency for welding the first coupon is half of that of second coupon, the ratio of heat input per unit length is?",
+      "image": "",
+      "options": [
+        "50:2",
+        "75:8",
+        "5:8",
+        "5:2"
+      ],
+      "answer": "75:8",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In Gas tungsten arc welding (GTAW) which of the following polarity is generally used for getting higher penetration",
+      "image": "",
+      "options": [
+        "Direct current straight polarity (DCSP)",
+        "Direct current reverse polarity (DCRP)",
+        "Alternating current high frequency (ACHF)",
+        "All of the above"
+      ],
+      "answer": "Direct current straight polarity (DCSP)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "The laws of adhesive wear, commonly referred to as Archard's law can be expressed as (If 'Q' is the total volume of wear debris produced, 'W' is the normal load, 'L' is the sliding distance, 'H' is the hardness of the softest contacting surfaces being worn away, and 'k' is a non-dimensional wear coefficient dependent on the materials in contact and their exact degree of cleanliness)",
+      "image": "",
+      "options": [
+        "Q = kWL/H",
+        "Q = kW/LH",
+        "Q = kHW/L",
+        "Q = k/L WH"
+      ],
+      "answer": "Q = kWL/H",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "In a four-bar linkage if 'S' is the length of the shortest link, 'L' is the length of longest link and 'P' & 'Q' are length of other links, then the criteria for getting a triple rocker mechanism in which no links will fully rotate is",
+      "image": "",
+      "options": [
+        "S + Q > P + L",
+        "S + L < P + Q",
+        "S + L = P + Q",
+        "S + L > P + Q"
+      ],
+      "answer": "S + L > P + Q",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "The piston of an engine moves with simple harmonic motion. The crank rotates at 120 r.p.m. with a stroke of 2 meters. The velocity of the piston, when it is at a distance of 0.8 metre from the center is",
+      "image": "",
+      "options": [
+        "4.8π",
+        "2.4π",
+        "1.2π",
+        "0.6π"
+      ],
+      "answer": "2.4π",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "If a block slides outward on a link at a uniform rate of 30 m/s, while the link is rotating at a constant angular velocity of 50 rad/s counter clockwise, the Coriolis component of acceleration is m/s².",
+      "image": "",
+      "options": [
+        "1000",
+        "1500",
+        "3000",
+        "4500"
+      ],
+      "answer": "3000",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "In a screw jack of lead angle α, the effort required to lift the load W is given by (Φ = Friction Angle)",
+      "image": "",
+      "options": [
+        "P = W tan(α - Φ)",
+        "P = W tan(α + Φ)",
+        "P = W cos(α - Φ)",
+        "P = W cos(α + Φ)"
+      ],
+      "answer": "P = W tan(α + Φ)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "When the axis of first and last gear are co-axial, then gear train is known as",
+      "image": "",
+      "options": [
+        "simple gear train",
+        "compound gear train",
+        "reverted gear train",
+        "epicyclic gear train"
+      ],
+      "answer": "reverted gear train",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "A disc spinning on its axis at 20 rad/s will undergo precession when a torque 100 N-m is applied about an axis normal to it. If the mass moment of inertia is 1 kg-m², then the angular velocity of precession is?",
+      "image": "",
+      "options": [
+        "0.2 rad/s",
+        "5 rad/s",
+        "10 rad/s",
+        "200 rad/s"
+      ],
+      "answer": "5 rad/s",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "Which of the following is an absorption type dynamometer?",
+      "image": "",
+      "options": [
+        "Prony brake dynamometer",
+        "Epicyclic- train dynamometer",
+        "Torsion dynamometer",
+        "Belt transmission dynamometer"
+      ],
+      "answer": "Prony brake dynamometer",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "Which of the following mechanism provides intermittent rotary motion?",
+      "image": "",
+      "options": [
+        "Chebyschev linkage",
+        "Geneva Mechanism",
+        "Peaucellier Mechanism",
+        "Roberts Mechanism"
+      ],
+      "answer": "Geneva Mechanism",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "If m,n are integers and m+n is odd then value of ∫[0 to π] sin(mx) × cos(nx) dx is",
+      "image": "",
+      "options": [
+        "0",
+        "π/2",
+        "π",
+        "2m/(m²-n²)"
+      ],
+      "answer": "2m/(m²-n²)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "1 + x + x²/2 - x⁴/8 - x⁵/15 + ... =",
+      "image": "",
+      "options": [
+        "e^(tan x)",
+        "e^(cos x)",
+        "e^(sin x)",
+        "eˣ sin x"
+      ],
+      "answer": "e^(sin x)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "The Laplace transform of eᵃᵗ cosωt",
+      "image": "",
+      "options": [
+        "(s-a)/((s-a)² + ω²)",
+        "ω/((s-a)² + ω²)",
+        "a/((s-a)² + ω²)",
+        "s/((s-a)² + ω²)"
+      ],
+      "answer": "(s-a)/((s-a)² + ω²)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "if u = yzi + 3zxj + zk, then curl u is",
+      "image": "",
+      "options": [
+        "-3xi + yj + 2zk",
+        "3xi - yj + 2zk",
+        "-3xi - yj - 2zk",
+        "3xi + yj - 2zk"
+      ],
+      "answer": "-3xi + yj + 2zk",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "cos(z) can be expressed as",
+      "image": "",
+      "options": [
+        "(1/2)(e^(iz) + e^(-iz))",
+        "(1/2)(e^(iz) - e^(-iz))",
+        "(1/2i)(e^(iz) + e^(-iz))",
+        "(1/2i)(e^(iz) - e^(-iz))"
+      ],
+      "answer": "(1/2)(e^(iz) + e^(-iz))",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "In a vector field, Divergence of the gradient is",
+      "image": "",
+      "options": [
+        "curl",
+        "unity",
+        "zero",
+        "Laplacian"
+      ],
+      "answer": "Laplacian",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "If a continuously differentiable vector function is the gradient of a scalar function, then its curl is",
+      "image": "",
+      "options": [
+        "infinite",
+        "indeterminate",
+        "unity",
+        "zero"
+      ],
+      "answer": "zero",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Drawing",
+      "question": "What does 'a' and 'e' indicate in the surface texture symbol shown below",
+      "image": "",
+      "options": [
+        "Roughness value, machining allowance",
+        "Production method, roughness value",
+        "Machining allowance, sampling length",
+        "Heat treatment method, sample length"
+      ],
+      "answer": "Roughness value, machining allowance",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "Two steel trusses, XY and YZ of identical size supports a load of 200 N as shown in fig. The length of the truss in 1m. The force in the truss xy in N is",
+      "image": "",
+      "options": [
+        "100 N",
+        "200 N",
+        "150 N",
+        "50 N"
+      ],
+      "answer": "200 N",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A block weighing 100 N is resting on a plane inclined with horizontal as shown in Fig. What horizontal force P is necessary to hold the body from sliding down the plane? (Coefficient of friction can be taken as 0.25)",
+      "image": "",
+      "options": [
+        "30 N",
+        "120 N",
+        "60 N",
+        "15 N"
+      ],
+      "answer": "60 N",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "The ratio of maximum shear stress to average shear stress in a beam of rectangular section is",
+      "image": "",
+      "options": [
+        "1.5",
+        "2/3",
+        "3/2",
+        "1.0"
+      ],
+      "answer": "3/2",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "A mass less beam has a loading pattern shown in figure. Find the bending moment at mid span?",
+      "image": "",
+      "options": [
+        "1 kN-m",
+        "3 kN-m",
+        "2 kN-m",
+        "0.0 kN-m"
+      ],
+      "answer": "1 kN-m",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "Steel machine element at the critical section is in biaxial stress state with two principal stress being 300 N/mm² and 300 N/mm² (equal magnitude). Find the von Mises stress (in N/mm²) in the member",
+      "image": "",
+      "options": [
+        "212.1",
+        "600",
+        "424.2",
+        "300"
+      ],
+      "answer": "300",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Mechanical Vibrations",
+      "question": "A machine component of 90 kg mass needs to be held in position using three springs as shown below. The spring constants K₁, K₂ and K₃ are 4, 4 and 8 N/m respectively. Find the natural frequency of the system in rad/sec.",
+      "image": "",
+      "options": [
+        "0.33",
+        "0.42",
+        "0.13",
+        "1/3"
+      ],
+      "answer": "1/3",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "A cylindrical pressure vessel has diameter 200 mm and thickness 2 mm. Find the hoop and axial stress (N/mm²) in the cylindrical vessel, when it is subjected to an internal pressure of 5 MPa.",
+      "image": "",
+      "options": [
+        "125, 125",
+        "125, 250",
+        "250, 250",
+        "250, 125"
+      ],
+      "answer": "250, 125",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "For a long slender column of uniform cross section, the ratio of critical buckling load for the case with both ends hinged to the case with both ends clamped is",
+      "image": "",
+      "options": [
+        "0.25",
+        "4.0",
+        "0.125",
+        "0.5"
+      ],
+      "answer": "0.25",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "If the length of a column subjected to compressive load is increase by three times its original length, the critical buckling load becomes",
+      "image": "",
+      "options": [
+        "1/3 of the original value",
+        "3 times the original value",
+        "1/9 of the original value",
+        "1/27 of the original value"
+      ],
+      "answer": "1/9 of the original value",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "A square bar of size 10 mm × 10 mm and length 1000 mm is subjected to 200 N axial tensile force. The bar is made of mild steel having modulus of elasticity of 200 GPa. Find the strain energy density stored in the bar under this state of loading?",
+      "image": "",
+      "options": [
+        "10 J/m³",
+        "20 J/m³",
+        "2 J/m³",
+        "5 J/m³"
+      ],
+      "answer": "10 J/m³",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "A solid circular shaft needs to be designed to transmit a torque of 55 N m. If the allowable shear stress of the material is 280 N/mm² find the diameter (in mm) of the shaft required to transmit torque. (Assume, π = 22/7)",
+      "image": "",
+      "options": [
+        "5.62",
+        "10",
+        "31.62",
+        "25.0"
+      ],
+      "answer": "10",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "If S is the applied stress, c is the width of the crack and r the radius of curvature at the tip of the crack, Griffith's crack theory gives the concentrated stress S<0xE1><0xB5><0xA8> as",
+      "image": "",
+      "options": [
+        "2S(c/r)¹ᐟ²",
+        "2S(c/r)¹ᐟ³",
+        "S(c/r)¹ᐟ²",
+        "2S(2c/r)¹ᐟ²"
+      ],
+      "answer": "2S(c/r)¹ᐟ²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "A metal alloy machine component is subjected to fluctuating tensile stress from 100 N/mm² to 200 N/mm². The material has yield and endurance strength of 450 and 200 N/mm² respectively. Find the factor of safety of the machine component.",
+      "image": "",
+      "options": [
+        "5/6",
+        "12/7",
+        "1/3",
+        "6/5"
+      ],
+      "answer": "12/7",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Mechanical Vibrations",
+      "question": "A driver of mass 100 kg is standing at the tip of a spring board of negligible mass. The natural frequency of the spring board with the driver is 1.6 Hz. What is the static deflection at the tip of the spring board when the driver is standing at the tip?",
+      "image": "",
+      "options": [
+        "0.1 mm",
+        "981 mm",
+        "98.1 mm",
+        "9.81 mm"
+      ],
+      "answer": "98.1 mm",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "Which of the following is classified as a secondary bond in materials?",
+      "image": "",
+      "options": [
+        "Ionic bonding",
+        "Covalent bonding",
+        "Metallic bonding",
+        "Hydrogen bonding"
+      ],
+      "answer": "Hydrogen bonding",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "The number of atoms per unit cell for an FCC crystal structure is",
+      "image": "",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "4",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "Which of the following hardness test uses diamond cone type indenter?",
+      "image": "",
+      "options": [
+        "Brinell",
+        "Vickers",
+        "Knoop",
+        "Rockwell"
+      ],
+      "answer": "Rockwell",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "In a two component system, if the non-compositional variable is only temperature, the number of degrees of freedom in the case of a single phase field as per Gibbs Phase Rule is?",
+      "image": "",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "In an iron-carbon diagram, the percentage by weight of carbon at eutectoid composition is",
+      "image": "",
+      "options": [
+        "1.12",
+        "0.76",
+        "0.24",
+        "0.03"
+      ],
+      "answer": "0.76",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "Of the various microstructures that may be produced for a given steel alloy, which among the following is the hardest form",
+      "image": "",
+      "options": [
+        "Martensite",
+        "Pearlite",
+        "Bainite",
+        "Spheroidite"
+      ],
+      "answer": "Martensite",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "Which spring steel is widely used for aircraft engine valves",
+      "image": "",
+      "options": [
+        "Oil tempered wire (0.6 C to 0.7 C)",
+        "Chrome vanadium",
+        "Hard drawn wire (0.6 C to 0.7 C)",
+        "Phosphor bronze wire"
+      ],
+      "answer": "Chrome vanadium",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "If, K<0xE2><0x82><0x9F> is the fatigue stress concentration factor and K<0xE1><0xB5><0x9C> is the theoretical stress concentration factor then, the notch sensitivity q is?",
+      "image": "",
+      "options": [
+        "(K<0xE2><0x82><0x9F> + 1)/(K<0xE1><0xB5><0x9C> + 1)",
+        "(K<0xE2><0x82><0x9F> - 1)/(K<0xE1><0xB5><0x9C> - 1)",
+        "(K<0xE1><0xB5><0x9C> - 1)/(K<0xE2><0x82><0x9F> - 1)",
+        "(K<0xE2><0x82><0x9F> - 1)/(K<0xE1><0xB5><0x9C> + 1)"
+      ],
+      "answer": "(K<0xE2><0x82><0x9F> - 1)/(K<0xE1><0xB5><0x9C> - 1)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "Beach or clamshell marks on a failed metallic surface are typical of",
+      "image": "",
+      "options": [
+        "Ductile fracture",
+        "Brittle fracture",
+        "Creep failure",
+        "Fatigue failure"
+      ],
+      "answer": "Fatigue failure",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Mechanical Vibrations",
+      "question": "In vibration isolation if ω/ω<0xE2><0x82><0x99> is less than √2 then the transmissibility will be",
+      "image": "",
+      "options": [
+        "Less than one",
+        "Equal to one",
+        "Greater than one",
+        "Zero"
+      ],
+      "answer": "Greater than one",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Mechanical Vibrations",
+      "question": "The natural frequency of a simply supported beam of length / with mass M at its centre, flexural rigidity EI and negligible beam mass is",
+      "image": "",
+      "options": [
+        "(1/2π)√(48EI/Ml³)",
+        "(1/2π)√(3EI/Ml³)",
+        "(1/2π)√(EI/Ml³)",
+        "None of the above"
+      ],
+      "answer": "(1/2π)√(48EI/Ml³)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Mechanical Vibrations",
+      "question": "A machine component of natural frequency 20 rad/s is subjected to a base motion from the machine which is harmonic in natural with amplitude 3 m/s² at 10 rad/s. What is the peak amplitude of relative displacement of the components if the damping is negligible?",
+      "image": "",
+      "options": [
+        "0.1 mm",
+        "1.0 mm",
+        "10.0 mm",
+        "100.0 mm"
+      ],
+      "answer": "10.0 mm",
+      "explanation": "Coming soon"
+    }
+  ]
+}

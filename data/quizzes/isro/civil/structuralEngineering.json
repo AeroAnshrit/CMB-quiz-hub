@@ -1,0 +1,14 @@
+{
+    "title": "Structural Engineering",
+    "chapters": [
+        "Engineering mechanics and equilibrium",
+        "Trusses and frames",
+        "Stress-strain relationships",
+        "Bending and shear stresses",
+        "Deflection of beams",
+        "Torsion and combined stresses",
+        "Mohr’s circle and shear center",
+        "Matrix methods of structural analysis"
+    ],
+    "questions": []
+}

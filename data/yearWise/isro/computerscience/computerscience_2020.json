@@ -1,0 +1,980 @@
+{
+  "title": "ISRO Scientist/Engineer CS - 2020",
+  "questions": [
+    {
+      "chapter": "Software Engineering",
+      "question": "Regression testing is primarily related to",
+      "image": "",
+      "options": [
+        "Functional testing",
+        "Development testing",
+        "Data flow testing",
+        "Maintenance testing"
+      ],
+      "answer": "Functional testing",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Algorithms",
+      "question": "Of the following sort algorithms, which has execution time that is least dependant on initial ordering of the input?",
+      "image": "",
+      "options": [
+        "Insertion sort",
+        "Quick sort",
+        "Merge sort",
+        "Selection sort"
+      ],
+      "answer": "Merge sort",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "The following circuit compares two 2-bit binary numbers, X and Y represented by X₁X₀ and Y₁Y₀ respectively. (X₀ and Y₀ represent Least Significant Bits)  Under what condition Z will be 1?",
+      "image": "",
+      "options": [
+        "X > Y",
+        "X < Y",
+        "X = Y",
+        "X != Y"
+      ],
+      "answer": "X > Y",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Software Engineering",
+      "question": "What is the availability of the software with following reliability figures.\nMean Time Between Failures (MTBF) is 20 days\nMean Time To Repair (MTTR) is 20 hours.",
+      "image": "",
+      "options": [
+        "90%",
+        "96%",
+        "24%",
+        "50%"
+      ],
+      "answer": "50%",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Software Engineering",
+      "question": "What is the defect rate for Six sigma?",
+      "image": "",
+      "options": [
+        "1.0 defect per million lines of code",
+        "1.4 defects per million lines of code",
+        "3.0 defects per million lines of code",
+        "3.4 defects per million lines of code"
+      ],
+      "answer": "3.4 defects per million lines of code",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "Consider a 5-segment pipeline with a clock cycle time 20 ns in each sub operation. Find out the approximate speed-up ratio between pipelined and non-pipelined system to execute 100 instructions. (If an average, every five cycles, a bubble due to data hazard has to be introduced in the pipeline)",
+      "image": "",
+      "options": [
+        "5",
+        "4.03",
+        "4.81",
+        "4.17"
+      ],
+      "answer": "4.03",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "Consider a 32-bit processor which supports 70 instructions. Each instruction is 32 bit long and has 4 fields namely opcode, two register identifiers and an immediate operand of unsigned integer type. Maximum value of the immediate operand that can be supported by the processor is 8191. How many registers the processor has?",
+      "image": "",
+      "options": [
+        "32",
+        "64",
+        "128",
+        "16"
+      ],
+      "answer": "64",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "In a 8-bit ripple carry adder using identical full adders, each full adder takes 34 ns for computing sum. If the time taken for 8-bit addition is 90 ns, find time taken by each full adder to find carry.",
+      "image": "",
+      "options": [
+        "6 ns",
+        "7 ns",
+        "10 ns",
+        "8 ns"
+      ],
+      "answer": "8 ns",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "Following Multiplexer circuit is equivalent to ",
+      "image": "",
+      "options": [
+        "Sum equation of full adder",
+        "Carry equation of full adder",
+        "Borrow equation for full subtractor",
+        "Difference equation of a full subtractor"
+      ],
+      "answer": "Sum equation of full adder",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "A stack is implemented with an array of A[0...N-1] and a variable 'pos'. The push and pop operations are defined by the following code.\npush (x)\n  A[pos] <- x\n  pos <- pos - 1\nend push\npop ()\n  pos <- pos + 1\n  return A[pos]\nend pop\nWhich of the following will initialize an empty stack with capacity N for the above implementation?",
+      "image": "",
+      "options": [
+        "pos <- -1",
+        "pos <- 0",
+        "pos <- 1",
+        "pos <- N"
+      ],
+      "answer": "pos <- N",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Discrete Mathematics",
+      "question": "Given that\nB(a) means \"a is a bear\"\nF(a) means \"a is a fish\" and\nE(a, b) means \"a eats b\"\nThen what is the best meaning of\n∀x[F(x) → ∀y(E(y, x) → B(y))]",
+      "image": "",
+      "options": [
+        "Every fish is eaten by some bear",
+        "Bears eat only fish",
+        "Every bear eats fish",
+        "Only bears eat fish"
+      ],
+      "answer": "Only bears eat fish",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "Following declaration of an array of struct, assumes size of byte, short, int and long are 1, 2, 3 and 4 respectively. Alignment rule stipulates that n-byte field must be located at an address divisible by n. The fields in a struct are not rearranged, padding is used to ensure alignment. All elements of array should be of same size.\nStruct complx\n  Short s\n  Byte b\n  Long l\n  Int i\nEnd complx\nComplx C[10]\nAssuming C is located at an address divisible by 8, what is the total size of C, in Bytes?",
+      "image": "",
+      "options": [
+        "150",
+        "160",
+        "200",
+        "240"
+      ],
+      "answer": "160",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "The immediate addressing mode can be used for\n1. Loading internal registers with initial values\n2. Perform arithmetic or logical operation on data contained in instructions\nWhich of the following is true?",
+      "image": "",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Immediate mode refers to data in cache"
+      ],
+      "answer": "Both 1 and 2",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "Statements associated with registers of a CPU are given. Identify the false statement.",
+      "image": "",
+      "options": [
+        "The program counter holds the memory address of the instruction in execution.",
+        "Only opcode is transferred to the control unit.",
+        "An instruction in the instruction register consists of the opcode and the operand",
+        "The value of the program counter is incremented by 1 once its value has been read to the memory address register."
+      ],
+      "answer": "The program counter holds the memory address of the instruction in execution.",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "Which of the following affects the processing power assuming they do not influence each other.\n1. Data bus capability\n2. Addressing scheme\n3. Clock speed",
+      "image": "",
+      "options": [
+        "3 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": "1 and 3 only",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "G is an undirected graph with vertex set {v1, v2, v3, v4, v5, v6, v7} and edge set {v1v2, v1v3, v1v4, v2v4, v2v5, v3v4, v4v5, v4v6, v5v6, v6v7}. A breadth first search of the graph is performed with v1 as the root node. Which of the following is a tree edge?",
+      "image": "",
+      "options": [
+        "v2v4",
+        "v1v4",
+        "v4v5",
+        "v3v4"
+      ],
+      "answer": "v1v4",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "If the array A contains the items 10, 4, 7, 23, 67, 12 and 5 in that order, what will be the resultant array A after third pass of insertion sort?",
+      "image": "",
+      "options": [
+        "67, 12, 10, 5, 4, 7, 23",
+        "4, 7, 10, 23, 67, 12, 5",
+        "4, 5, 7, 67, 10, 12, 23",
+        "10, 7, 4, 67, 23, 12, 5"
+      ],
+      "answer": "4, 7, 10, 23, 67, 12, 5",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "Huffman tree is constructed for the following data: {A, B, C, D, E} with frequency {0.17, 0.11, 0.24, 0.33 and 0.15} respectively. 100 00 01 101 is decoded as",
+      "image": "",
+      "options": [
+        "BACE",
+        "CADE",
+        "BAD",
+        "CADD"
+      ],
+      "answer": "BACE",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "Given the grammar:\nS → T*S | T\nT → U+T | U\nU → a | b\nWhich of the following statement is wrong?",
+      "image": "",
+      "options": [
+        "Grammar is not ambiguous",
+        "Priority of + over * is ensured",
+        "Right to left evaluation of * and + happens",
+        "None of these"
+      ],
+      "answer": "None of these",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Algorithms",
+      "question": "What is the complexity of the following code?\nsum = 0;\nfor (i = 1; i <= n; i *= 2)\n  for (j = 1; j <= i; j++)\n    sum++;",
+      "image": "",
+      "options": [
+        "O(n²)",
+        "O(n log n)",
+        "O(n)",
+        "O(log n)"
+      ],
+      "answer": "O(n)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "In the following procedure\nInteger procedure P(X, Y)\n  Integer X, Y;\n  value x;\nbegin\n  K = 5;\n  L = 8;\n  P = x + y;\nend\nX is called by value and Y is called by name. If the procedure were invoked by the following program fragment\nK = 0;\nL = 0;\nZ = P(K, L);\nthen the value Z would be set equal to",
+      "image": "",
+      "options": [
+        "5",
+        "8",
+        "13",
+        "0"
+      ],
+      "answer": "0",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Algorithms",
+      "question": "Consider product of three matrices M₁, M₂ and M₃ having w rows and x columns, x rows and y columns, and y rows and z columns. Under what condition will it take less time to compute the product as (M₁M₂)M₃ than to compute M₁(M₂M₃)?",
+      "image": "",
+      "options": [
+        "Always take the same time",
+        "(1/x + 1/z) < (1/w + 1/y)",
+        "x > y",
+        "(w + x) > (y + z)"
+      ],
+      "answer": "(1/x + 1/z) < (1/w + 1/y)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "A new flipflop with inputs X and Y, has the following property [Table showing next state based on inputs X, Y and current state Qn]. Which of the following expresses the next state in terms of X, Y, current state?",
+      "image": "",
+      "options": [
+        "(X̅ ∧ Q̅) ∨ (Y̅ ∧ Q)",
+        "(X̅ ∧ Q) ∨ (Y̅ ∧ Q̅)",
+        "(X ∧ Q̅) ∨ (Y ∧ Q)",
+        "(X ∧ Q̅) ∨ (Y̅ ∧ Q)"
+      ],
+      "answer": "(X̅ ∧ Q̅) ∨ (Y̅ ∧ Q)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "What is the output of the following 'c' code assuming it runs on a byte addressed little endian machine?\n#include <stdio.h>\nint main()\n{\n  int x; char *ptr;\n  x = 622, 100, 101;\n  printf(\"%d\", (*(char*)&x)*(x%3));\n  return 0;\n}",
+      "image": "",
+      "options": [
+        "622",
+        "311",
+        "22",
+        "110"
+      ],
+      "answer": "110",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "What is the output in a 32 bit machine with 32 bit compiler?\n#include <stdio.h>\nrer(int **ptr2, int **ptr1)\n{\n  int *ii;\n  ii = *ptr2;\n  *ptr2 = *ptr1;\n  *ptr1 = ii;\n  **ptr1 *= **ptr2;\n  **ptr2 += **ptr1;\n}\nvoid main()\n{\n  int var1 = 5, var2 = 10;\n  int *ptr1 = &var1, *ptr2 = &var2;\n  rer(&ptr1, &ptr2);\n  printf(\"%d %d \", var2, var1);\n}",
+      "image": "",
+      "options": [
+        "60 70",
+        "50 50",
+        "50 60",
+        "60 50"
+      ],
+      "answer": "60 50",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "Which of the following is an efficient method of cache updating?",
+      "image": "",
+      "options": [
+        "Snoopy writes",
+        "Write through",
+        "Write back",
+        "Buffered write"
+      ],
+      "answer": "Write back",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Software Engineering",
+      "question": "In a columnar transposition cipher, the plain text is \"the tomato is a plant in the night shade family\", keyword is \"TOMATO\". The cipher text is",
+      "image": "",
+      "options": [
+        "\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"",
+        "\"TINESAX / EOAHTFX / MAIIAIX / HTLTHEY / TAPNGDL / OSTNHMX\"",
+        "\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / OSTNHMX / TAPNGDL\"",
+        "\"EOAHTFX / TINESAX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\""
+      ],
+      "answer": "\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Software Engineering",
+      "question": "Avalanche effect in cryptography refers",
+      "image": "",
+      "options": [
+        "Large changes in cipher text when the keyword is changed minimally",
+        "Large changes in cipher text when the plain text is changed",
+        "Large impact of keyword change to length of the cipher text",
+        "None of the above"
+      ],
+      "answer": "Large changes in cipher text when the plain text is changed",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "A magnetic disk has 100 cylinders, each with 10 tracks of 10 sectors. If each sector contains 128 Bytes, what is the maximum capacity of the disk in kilobytes?",
+      "image": "",
+      "options": [
+        "1,280,000",
+        "1280",
+        "1250",
+        "128,000"
+      ],
+      "answer": "1280",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "How many total bits are required for a direct-mapped cache with 128 KB of data and 1 word block size, assuming a 32-bit address and 1 word size of 4 bytes?",
+      "image": "",
+      "options": [
+        "2 Mbits",
+        "1.7 Mbits",
+        "2.5 Mbits",
+        "1.5 Mbits"
+      ],
+      "answer": "1.5 Mbits",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Databases",
+      "question": "Properties of 'DELETE' and 'TRUNCATE' commands indicate that",
+      "image": "",
+      "options": [
+        "After the execution of 'TRUNCATE operation, COMMIT and ROLLBACK statements cannot be performed to retrieve the lost data, while 'DELETE' allow it.",
+        "After the execution of 'DELETE' and 'TRUNCATE' operation retrieval is easily possible for the lost data.",
+        "After the execution of 'DELETE' operation, COMMIT and ROLLBACK statements can be performed to retrieve the lost data, while TRUNCATE do not allow it.",
+        "After the execution of 'DELETE' and 'TRUNCATE operation no retrieval is possible for the lost data."
+      ],
+      "answer": "After the execution of 'DELETE' operation, COMMIT and ROLLBACK statements can be performed to retrieve the lost data, while TRUNCATE do not allow it.",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "Remote Procedure Calls are used for",
+      "image": "",
+      "options": [
+        "communication between two processes remotely different from each other on the same system.",
+        "communication between two processes on the same system.",
+        "communication between two processes on separate system.",
+        "None of the above"
+      ],
+      "answer": "communication between two processes on separate system.",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "Consider the following recursive C function that takes two arguments\nunsigned int rer (unsigned int n, unsigned int r) {\n  if (n > 0) return (n % r + rer(n / r, r));\n  else return 0;\n}\nWhat is the return value of the function rer when it is called as rer (513, 2)?",
+      "image": "",
+      "options": [
+        "9",
+        "8",
+        "5",
+        "2"
+      ],
+      "answer": "2",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "A given grammar is called ambiguous if",
+      "image": "",
+      "options": [
+        "two or more productions have the same non-terminal on the left hand side",
+        "a derivation tree has more than one associated sentence",
+        "there is a sentence with more than one derivation tree corresponding to it",
+        "brackets are not present in the grammar"
+      ],
+      "answer": "there is a sentence with more than one derivation tree corresponding to it",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "What is the output of the code given below?\n#include <stdio.h>\nint main()\n{\n  char name[] = \"satellites\";\n  int len;\n  int size;\n  len = strlen(name);\n  size = sizeof(name);\n  printf(\"%d\", len * size);\n  return 0;\n}",
+      "image": "",
+      "options": [
+        "100",
+        "110",
+        "40",
+        "44"
+      ],
+      "answer": "110",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Networks",
+      "question": "Checksum field in TCP header is",
+      "image": "",
+      "options": [
+        "ones complement of sum of header and data in bytes",
+        "ones complement of sum of header, data and pseudo header in 16 bit words",
+        "dropped from IPv6 header format",
+        "better than md5 or sh1 methods"
+      ],
+      "answer": "ones complement of sum of header, data and pseudo header in 16 bit words",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Discrete Mathematics",
+      "question": "If x + 2y = 30 then (2y/5 + x/3) + (x/5 + 2y/3) will be equal to",
+      "image": "",
+      "options": [
+        "8",
+        "16",
+        "18",
+        "20"
+      ],
+      "answer": "16",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Discrete Mathematics",
+      "question": "For the distributions given below:  Which of the following is correct for the above distributions?",
+      "image": "",
+      "options": [
+        "Standard deviation of A is significantly lower than standard deviation of B",
+        "Standard deviation of A is slightly lower than standard deviation of B",
+        "Standard deviation of A is same as standard deviation of B",
+        "Standard deviation of A is significantly higher than standard deviation of B"
+      ],
+      "answer": "Standard deviation of A is same as standard deviation of B",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "The hardware implementation which provides mutual exclusion is",
+      "image": "",
+      "options": [
+        "Semaphores",
+        "Test and set instruction",
+        "Both options",
+        "None of the options"
+      ],
+      "answer": "Both options",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "Which of the following algorithms defines time quantum?",
+      "image": "",
+      "options": [
+        "shortest job scheduling algorithm",
+        "round robin scheduling algorithm",
+        "priority scheduling algorithm",
+        "multilevel queue scheduling algorithm"
+      ],
+      "answer": "round robin scheduling algorithm",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "Dispatch latency is defined as",
+      "image": "",
+      "options": [
+        "the speed of dispatching a process from running to the ready state",
+        "the time of dispatching a process from running to ready state and keeping the CPU idle",
+        "the time to stop one process and start running another one",
+        "none of these"
+      ],
+      "answer": "the time to stop one process and start running another one",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "An aid to determine the deadlock occurrence is",
+      "image": "",
+      "options": [
+        "resource allocation graph",
+        "starvation graph",
+        "inversion graph",
+        "none of the above"
+      ],
+      "answer": "resource allocation graph",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "Consider the following page reference string.\n1 2 3 4 2 1 5 6 2 1 2 3 7 6 3 2 1 2 3 6\nWhat are the minimum number of frames required to get a single page fault for the above sequence assuming LRU replacement strategy?",
+      "image": "",
+      "options": [
+        "7",
+        "4",
+        "6",
+        "5"
+      ],
+      "answer": "6",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "Three CPU-bound tasks, with execution times of 15, 12 and 5 time units respectively arrive at times 0, t and 8, respectively. If the operating system implements a shortest remaining time first scheduling algorithm, what should be the value of t to have 4 context switches? Ignore the context switches at time 0 and at the end.",
+      "image": "",
+      "options": [
+        "0 < t < 3",
+        "t = 0",
+        "t <= 3",
+        "3 < t < 8"
+      ],
+      "answer": "0 < t < 3",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Databases",
+      "question": "In linear hashing, if blocking factor bfr, loading factor i and file buckets N are known, the number of records r will be",
+      "image": "",
+      "options": [
+        "r = i + bfr + N",
+        "r = i * bfr - N",
+        "r = i - bfr - N",
+        "r = i * bfr * N"
+      ],
+      "answer": "r = i * bfr * N",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "What is compaction refers to",
+      "image": "",
+      "options": [
+        "a technique for overcoming internal fragmentation",
+        "a paging technique",
+        "a technique for overcoming external fragmentation",
+        "a technique for compressing the data"
+      ],
+      "answer": "a technique for overcoming external fragmentation",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "The operating system and the other processes are protected from being modified by an already running process because",
+      "image": "",
+      "options": [
+        "they run at different time instants and not in parallel",
+        "they are in different logical addresses",
+        "they use a protection algorithm in the scheduler",
+        "every address generated by the CPU is being checked against the relocation and limit parameters"
+      ],
+      "answer": "every address generated by the CPU is being checked against the relocation and limit parameters",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "A grammar is defined as\nA → BC\nB → x | Bx\nC → B | D\nD → y | Ey\nE → z\nThe non-terminal alphabet of the grammar is",
+      "image": "",
+      "options": [
+        "{A, B, C, D, E}",
+        "{B, C D, E}",
+        "{A, B, C, D, E, x, y, z}",
+        "{x, y, z}"
+      ],
+      "answer": "{A, B, C, D, E}",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "Consider the following circuit  The function by the network above is",
+      "image": "",
+      "options": [
+        "A̅B̅ E + EF + C̅D̅ F",
+        "(E̅ + AB F̅)(C + D + F̅)",
+        "(AB + E)(E + F)(C + D + F)",
+        "(A + B)E̅ + E̅F̅ + CDF̅"
+      ],
+      "answer": "(E̅ + AB F̅)(C + D + F̅)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "What is the in-order successor of 15 in the given binary search tree? ",
+      "image": "",
+      "options": [
+        "18",
+        "6",
+        "17",
+        "20"
+      ],
+      "answer": "17",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "The minimum height of an AVL tree with n nodes is",
+      "image": "",
+      "options": [
+        "Ceil(log₂(n+1))",
+        "1.44 log₂n",
+        "Floor(log₂(n+1))",
+        "1.64 log₂n"
+      ],
+      "answer": "Floor(log₂(n+1))",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Algorithms",
+      "question": "The Master theorem",
+      "image": "",
+      "options": [
+        "assumes the subproblems are unequal sizes",
+        "can be used if the subproblems are of equal size",
+        "cannot be used for divide and conquer algorithms",
+        "cannot be used for asymptotic complexity analysis"
+      ],
+      "answer": "can be used if the subproblems are of equal size",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Operating System",
+      "question": "Raymonds tree based algorithm ensures",
+      "image": "",
+      "options": [
+        "no starvation, but deadlock may occur in rare cases",
+        "no deadlock, but starvation may occur",
+        "neither deadlock nor starvation can occur",
+        "deadlock may occur in cases where the process is already starved"
+      ],
+      "answer": "no deadlock, but starvation may occur",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Software Engineering",
+      "question": "Consider the following pseudo-code:\nI = 0; J = 0; K = 8;\nwhile (I < K - 1) // while-1\n{\n  J = I + 1;\n  while (J < K) // while-2\n  {\n    if (x[I] < x[J])\n    {\n      temp = x[I];\n      x[I] = x[J];\n      x[J] = temp;\n    }\n  } // end of while-2\n  I = I + 1;\n} // end of while-1\nThe cyclomatic complexity of the above is",
+      "image": "",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "answer": "4",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Software Engineering",
+      "question": "In a class definition with 10 methods, to make the class maximally cohesive, number of direct and indirect connections required among the methods are",
+      "image": "",
+      "options": [
+        "90, 0",
+        "45, 0",
+        "10, 10",
+        "45, 45"
+      ],
+      "answer": "45, 0",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "Of the following, which best approximates the ratio of the number of non-terminal nodes in the total number of nodes in a complete K-ary tree of depth N?",
+      "image": "",
+      "options": [
+        "1/N",
+        "(N-1)/N",
+        "1/K",
+        "(K-1)/K"
+      ],
+      "answer": "1/K",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "Minimum number of NAND gates required to implement the following binary equation Y = (A̅ + B̅)(C + D)",
+      "image": "",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": "4",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "If ABCD is a 4-bit binary number, then what is code generated by the following circuit? ",
+      "image": "",
+      "options": [
+        "BCD code",
+        "Gray code",
+        "8421 code",
+        "Excess-3 code"
+      ],
+      "answer": "Gray code",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "The number of tokens in the following C code segment is\nswitch(inputvalue)\n{\n  case 1: b = c * d; break;\n  default: b = b++; break;\n}",
+      "image": "",
+      "options": [
+        "27",
+        "29",
+        "26",
+        "24"
+      ],
+      "answer": "26",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "In a two-pass assembler, resolution of subroutine calls and inclusion of labels in the symbol table is done during",
+      "image": "",
+      "options": [
+        "second pass",
+        "first pass and second pass respectively",
+        "second pass and first pass respectively",
+        "first pass"
+      ],
+      "answer": "second pass and first pass respectively",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "One instruction tries to write an operand before it is written by previous instruction. This may lead to a dependency called",
+      "image": "",
+      "options": [
+        "True dependency",
+        "Anti-dependency",
+        "Output dependency",
+        "Control hazard"
+      ],
+      "answer": "Output dependency",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Databases",
+      "question": "If every non-key attribute functionally dependant on the primary key, then the relation will be in",
+      "image": "",
+      "options": [
+        "First normal form",
+        "Second normal form",
+        "Third normal form",
+        "Fourth normal form"
+      ],
+      "answer": "Third normal form",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Networks",
+      "question": "To send same bit sequence, NRZ encoding require",
+      "image": "",
+      "options": [
+        "Same clock frequency as Manchester encoding",
+        "Half the clock frequency as Manchester encoding",
+        "Twice the clock frequency as Manchester encoding",
+        "A clock frequency which depend on number of zeros and ones in the bit sequence"
+      ],
+      "answer": "Half the clock frequency as Manchester encoding",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Networks",
+      "question": "The persist timer is used in TCP to",
+      "image": "",
+      "options": [
+        "To detect crashes from the other end of the connection",
+        "To enable retransmission",
+        "To avoid deadlock condition",
+        "To timeout FIN_Wait1 condition"
+      ],
+      "answer": "To avoid deadlock condition",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "An array of 2 two byte integers is stored in big endian machine in byte address as shown below. What will be its storage pattern in little endian machine?\nAddress | Data\n--------|-----\n0x104   | 78\n0x103   | 56\n0x102   | 34\n0x101   | 12",
+      "image": "",
+      "options": [
+        "0x104: 12, 0x103: 56, 0x102: 34, 0x101: 78",
+        "0x104: 12, 0x103: 34, 0x102: 56, 0x101: 78",
+        "0x104: 56, 0x103: 78, 0x102: 12, 0x101: 34",
+        "0x104: 56, 0x103: 12, 0x102: 78, 0x101: 34"
+      ],
+      "answer": "0x104: 12, 0x103: 34, 0x102: 56, 0x101: 78",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "A non-pipelined CPU has 12 general purpose registers (R0, R1, ..., R11). Following operation are supported\nADD Ra, Rb, Rr ; Add Ra to Rb and store the result in Rr\nMUL Ra, Rb, Rr ; Multiply Ra to Rb and store the result in Rr\nMUL operations takes two clock cycles, ADD takes one clock cycle.\nCalculate minimum number of clock cycles required to compute the value of the expression XY + XYZ + YZ. The variables X, Y, Z are initially available in registers R0, R1 and R2 and contents of these registers must not be modified.",
+      "image": "",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "Context free languages are closed under",
+      "image": "",
+      "options": [
+        "union, intersection",
+        "union, kleene closure",
+        "intersection, complement",
+        "complement, kleene closure"
+      ],
+      "answer": "union, kleene closure",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "Which of the following is true?",
+      "image": "",
+      "options": [
+        "Every subset of a regular set is regular",
+        "Every finite subset of non-regular set is regular",
+        "The union of two non-regular set is not regular",
+        "Infinite union of finite set is regular"
+      ],
+      "answer": "Every finite subset of non-regular set is regular",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "The language which is generated by the grammar S → aSa | bSb | a | b over the alphabet {a, b} is the set of",
+      "image": "",
+      "options": [
+        "Strings that begin and end with the same symbol",
+        "All odd and even length palindromes",
+        "All odd length palindromes",
+        "All even length palindromes"
+      ],
+      "answer": "All odd length palindromes",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Networks",
+      "question": "Which of the following classes of languages can validate an IPv4 address in dotted decimal format? It is to be ensured that the decimal values are between 0 and 255",
+      "image": "",
+      "options": [
+        "Regular Expressions and higher",
+        "Context Free Grammar and higher",
+        "Context Sensitive Grammar and higher",
+        "Recursively enumerable language"
+      ],
+      "answer": "Regular Expressions and higher",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "Minimum number of states required in DFA accepting binary strings not ending in \"101\" is",
+      "image": "",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "4",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "Which of the following is a type of a out-of-order execution, with the reordering done by a compiler",
+      "image": "",
+      "options": [
+        "loop unrolling",
+        "dead code elimination",
+        "strength reduction",
+        "software pipelining"
+      ],
+      "answer": "loop unrolling",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "A stack organised computer is characterised by instructions with",
+      "image": "",
+      "options": [
+        "indirect addressing",
+        "direct addressing",
+        "zero addressing",
+        "index addressing"
+      ],
+      "answer": "zero addressing",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Computer Organization and Architecture",
+      "question": "A computer which issues instructions in order, has only 2 registers and 3 opcodes ADD, SUB and MOV. Consider 2 different implementations of the following basic block:\nCase 1\nt1 = a + b;\nt2 = c + d;\nt3 = e - t2;\nt4 = t1 - t3;\nCase 2\nt2 = c + d;\nt3 = e - t2;\nt1 = a + b;\nt4 = t1 - t3;\nAssume that all operands are initially in memory. Final value of computation also has to reside in memory. Which one is better in terms of memory accesses and by how many MOV instructions?",
+      "image": "",
+      "options": [
+        "Case 2, 2",
+        "Case 2, 3",
+        "Case 1, 2",
+        "Case 1, 3"
+      ],
+      "answer": "Case 2, 2",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Programming and Data Structures",
+      "question": "Which one indicates a technique of building cross compilers?",
+      "image": "",
+      "options": [
+        "Beta cross",
+        "Canadian cross",
+        "Mexican cross",
+        "X-cross"
+      ],
+      "answer": "Canadian cross",
+      "explanation": "Coming soon"
+    }
+  ]
+}

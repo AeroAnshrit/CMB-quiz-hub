@@ -1,0 +1,10 @@
+{
+    "title": "Databases",
+    "chapters": [
+        "ER model and relational model (algebra, SQL)",
+        "Normalization",
+        "Transaction processing and concurrency",
+        "Indexing (B, B+ trees)"
+    ],
+    "questions": []
+}
