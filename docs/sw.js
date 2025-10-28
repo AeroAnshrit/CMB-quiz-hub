@@ -1,15 +1,15 @@
 const CACHE_NAME = 'engineering-quiz-cache-v2';
 // List all the core files your app needs to run
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/css/styles.css',
-    '/js/app.js',
-    '/js/api.js',
-    '/js/quiz.js',
-    '/js/ui.js',
-    '/js/theme-init.js',
-    '/images/CMB.png'
+    './',
+    './index.html',
+    './css/styles.css',
+    './js/app.js',
+    './js/api.js',
+    './js/quiz.js',
+    './js/ui.js',
+    './js/theme-init.js',
+    './images/CMB.png'
 ];
 
 // 1. Install the Service Worker
