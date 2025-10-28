@@ -1,0 +1,10 @@
+{
+    "title": "Theory of Computation",
+    "chapters": [
+        "Regular languages and finite automata",
+        "Context-free grammars and pushdown automata",
+        "Turing machines and undecidability",
+        "Language hierarchy"
+    ],
+    "questions": []
+}

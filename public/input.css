@@ -1,0 +1,65 @@
+/* stylelint-disable at-rule-no-unknown */
+/* Tailwind directives — disable linting for unknown at-rules so stylelint/linters accept them */
+/* Use @import forms to avoid "Unknown at rule @tailwind" in editors that don't recognize Tailwind directives */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* stylelint-enable at-rule-no-unknown */
+
+body { font-family: 'Inter', sans-serif; }
+.option-btn { transition: background-color 0.3s, transform 0.2s; }
+.option-btn:hover { transform: translateY(-2px); }
+.correct { background-color: #22c55e !important; color: white; border-color: #16a3a4; }
+.incorrect { background-color: #ef4444 !important; color: white; border-color: #dc2626; }
+.main-card {
+    transition: opacity 0.3s ease-in-out;
+}
+.chapter-link { cursor: pointer; }
+.chapter-link:hover { color: #2563eb; }
+.active-chapter { color: #2563eb; font-weight: 700; }
+
+/* Styles for Question Navigator */
+.question-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 8px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.question-nav-item {
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+.question-nav-item:hover {
+    background-color: #f3f4f6;
+}
+.question-nav-item.active-q-nav {
+    background-color: #3b82f6;
+    color: white;
+    border-color: #2563eb;
+}
+.question-nav-item.q-nav-answered {
+    background-color: #93c5fd;
+    color: white;
+}
+
+/* Style for selected option in Quiz Mode */
+.option-selected {
+    background-color: #e0f2fe !important;
+    border-color: #3b82f6 !important;
+    font-weight: 500;
+}
+
+/* Dark mode variant for selected option (applies when <html> has the .dark class) */
+.dark .option-selected {
+    /* Indigo look in dark mode */
+    background-color: #4f46e5 !important; /* indigo-600 */
+    border-color: #6366f1 !important;     /* indigo-500 */
+    color: #ffffff !important;
+}
+
+/* For displaying chapter name above question */

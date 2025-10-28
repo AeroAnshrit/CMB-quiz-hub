@@ -1,0 +1,1045 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2016",
+  "questions": [
+    {
+      "chapter": "Thermodynamics",
+      "question": "Starting from the same initial conditions, an ideal gas expands from volume V₁ to V₂ in three different ways, the work done by the gas is W₁ if the process is purely isothermal, W₂ if purely isobaric and W₃ if purely adiabatic, then",
+      "image": "",
+      "options": [
+        "W₂ > W₁ > W₃",
+        "W₂ > W₃ > W₁",
+        "W₁ > W₂ > W₃",
+        "W₁ > W₃ > W₂"
+      ],
+      "answer": "W₂ > W₁ > W₃",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A beaker filled with hot water in a room cools from 70°C to 65°C in t₁ minutes, 65°C to 60°C in t₂ minutes and from 60°C to 55°C in t₃ minutes. Then,",
+      "image": "",
+      "options": [
+        "t₁ > t₂ > t₃",
+        "t₁ = t₂ = t₃",
+        "t₁ < t₂ < t₃",
+        "cannot be concluded"
+      ],
+      "answer": "t₁ < t₂ < t₃",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A house refrigerator with its door open is switched on in a closed room. The air in the room is",
+      "image": "",
+      "options": [
+        "cooled",
+        "remains at same temperature",
+        "heated",
+        "heated or cooled depending on atmospheric pressure"
+      ],
+      "answer": "heated",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "An elevator has a mass of 5000 kg. When the tension in the supporting cable is 60 kN, the acceleration of the elevator is nearly",
+      "image": "",
+      "options": [
+        "8 m/s²",
+        "12 m/s²",
+        "-2 m/s²",
+        "2 m/s²"
+      ],
+      "answer": "2 m/s²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "The piston of a steam engine moves with simple harmonic motion. The speed of rotation of crank is 120 rpm with a stroke of 2 m. What is the velocity of piston when it is 0.5 m from the centre?",
+      "image": "",
+      "options": [
+        "4π√3",
+        "π√3",
+        "2π√3",
+        "3π√3"
+      ],
+      "answer": "2π√3",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "The sine of the angle between the two vectors a = 3i + j + k and b = 2i - 2j + k is",
+      "image": "",
+      "options": [
+        "√(74/99)",
+        "√(25/99)",
+        "√(37/99)",
+        "√(5/51)"
+      ],
+      "answer": "√(74/99)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "Equation of the line normal to function f(x) = (x - 8)²/³ + 1 at P(0, 5) is",
+      "image": "",
+      "options": [
+        "y = 3x - 5",
+        "3y = x - 15",
+        "3y = x + 15",
+        "y = 3x + 5"
+      ],
+      "answer": "y = 3x + 5",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "There are 20 locks and 20 matching keys. Maximum number of trials required to match all the locks is",
+      "image": "",
+      "options": [
+        "190",
+        "210",
+        "400",
+        "40"
+      ],
+      "answer": "210",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "If φ(x,y,z) is a scalar function and if ∇²f = 0, then φ is",
+      "image": "",
+      "options": [
+        "Irrational",
+        "Harmonic",
+        "Irrotational",
+        "Solenoidal"
+      ],
+      "answer": "Harmonic",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "A and B are two candidates appearing for an interview by a company. The probability that A is selected is 0.5 and the probability that both A and B are selected is at most 0.3. The probability of B getting selected is",
+      "image": "",
+      "options": [
+        "0.9",
+        "≤ 0.3",
+        "≤ 0.6",
+        "0.5"
+      ],
+      "answer": "≤ 0.6",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Mechanical Vibrations",
+      "question": "The reading of a spring balance is from 0 to 200 N and is 10 cm long. A body suspended from the spring balance is observed to oscillate vertically at 2 Hz. The mass of the body is nearly",
+      "image": "",
+      "options": [
+        "22.5 kg",
+        "12.5 kg",
+        "37 kg",
+        "45 kg"
+      ],
+      "answer": "12.5 kg",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A ball is dropped vertically from a height d above the ground. It hits the ground and bounces up to a height d/2. Neglecting the subsequent motion and air resistance, its velocity (v) varies with height (h) above the ground as",
+      "image": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": "",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A 10 kW drilling machine is used to drill a bore in a small aluminium block of mass 8 kg. How much is the rise in temperature of the block in 2.5 minutes, assuming 50% of power is used up in heating the block? (specific heat of aluminum: 0.91 J/(g°C))",
+      "image": "",
+      "options": [
+        "50°C",
+        "206°C",
+        "103°C",
+        "227°C"
+      ],
+      "answer": "103°C",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "In the figure shown, the minimum ratio of μ₁/μ₂ so that the masses move together with the application of force F is",
+      "image": "",
+      "options": [
+        "5",
+        "2",
+        "4",
+        "3"
+      ],
+      "answer": "3",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A thin wire of length L and uniform linear mass density ρ is bent into a circular loop with centre O as shown in figure. The moment of inertia of the loop about the axis XX' is",
+      "image": "",
+      "options": [
+        "ρL³/16π²",
+        "ρL³/8π²",
+        "5ρL³/16π²",
+        "3ρL³/8π²"
+      ],
+      "answer": "3ρL³/8π²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A 10 kg mass is hung from 2 light, inextensible strings as shown. The tension in the horizontal string is nearly",
+      "image": "",
+      "options": [
+        "49 N",
+        "57 N",
+        "100 N",
+        "0 N"
+      ],
+      "answer": "57 N",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A block of ice at -10°C is slowly heated and converted to steam at 100°C. Which of the following curves represent the phenomena qualitatively?",
+      "image": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": "",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "If the temperature of the sun is doubled, the rate of energy received on earth will be increased by a factor of",
+      "image": "",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": "16",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The transmission of heat by molecular collision is called",
+      "image": "",
+      "options": [
+        "Convection",
+        "Conduction",
+        "Radiation",
+        "Ionization"
+      ],
+      "answer": "Conduction",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "If two ends of rods of length L and radius r, made of same material are kept at the same temperature difference, which of the following rods conduct most heat per unit time?",
+      "image": "",
+      "options": [
+        "L = 50 cm, r = 1 cm",
+        "L = 2 cm, r = 0.5 cm",
+        "L = 100 cm, r = 2 cm",
+        "L = 3 cm, r = 1 cm"
+      ],
+      "answer": "L = 3 cm, r = 1 cm",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A thermometer works on the principle of",
+      "image": "",
+      "options": [
+        "Law of stable equilibrium",
+        "Zeroth law of thermodynamics",
+        "First law of thermodynamics",
+        "Second law of thermodynamics"
+      ],
+      "answer": "Zeroth law of thermodynamics",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The working temperatures in evaporator and condenser coils of a refrigerator are -25°C and 30°C respectively. The COP of the refrigerator is 0.85 of the maximum COP for a power input of 2 kW. The refrigeration effect produced will be",
+      "image": "",
+      "options": [
+        "7.6 kW",
+        "9 kW",
+        "10.2 kW",
+        "12 kW"
+      ],
+      "answer": "7.6 kW",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A mercury thermometer was first placed in melting ice and the length of mercury column was observed to be 10 mm; when it was placed in steam, the length of the column was 250 mm. When placed in tap water, the length of the column was 58 mm. The temperature of the tap water is",
+      "image": "",
+      "options": [
+        "24.2°C",
+        "20°C",
+        "38.4°C",
+        "4.14°C"
+      ],
+      "answer": "20°C",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The amount of steam (at 100°C) required to raise the temperature of 200 g of water from 60°C to 100°C is",
+      "image": "",
+      "options": [
+        "10 g",
+        "16.8 g",
+        "20 g",
+        "14.8 g"
+      ],
+      "answer": "14.8 g",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A engine works on Carnot cycle between 727°C and 227°C. The efficiency of the engine is",
+      "image": "",
+      "options": [
+        "50%",
+        "75.4%",
+        "31.2%",
+        "68.8%"
+      ],
+      "answer": "50%",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A steam thermal power plant works on",
+      "image": "",
+      "options": [
+        "Brayton cycle",
+        "Rankine cycle",
+        "Carnot cycle",
+        "Otto cycle"
+      ],
+      "answer": "Rankine cycle",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A boat which has a speed of 5 km/h in still water crosses a river of width 1 km along the shortest path in 15 min. The velocity of the river in km/h is",
+      "image": "",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "√41"
+      ],
+      "answer": "3",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "In 1st, a particle goes from point A to point B, moving in a semicircle (as shown in figure). The magnitude of the average velocity is",
+      "image": "",
+      "options": [
+        "3.14 m/s",
+        "1 m/s",
+        "2 m/s",
+        "Zero"
+      ],
+      "answer": "2 m/s",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A block is made to slide down an inclined plane (30° with horizontal) which is smooth. It starts sliding from rest and takes a time 't' to reach the bottom of the plane. An identical body is freely dropped from the same point. The time the body takes to reach the bottom is",
+      "image": "",
+      "options": [
+        "t",
+        "t/2",
+        "t/3",
+        "t/4"
+      ],
+      "answer": "t/2",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "What parameter will remain constant in throttling process?",
+      "image": "",
+      "options": [
+        "Entropy",
+        "Temperature",
+        "Pressure",
+        "Enthalpy"
+      ],
+      "answer": "Enthalpy",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "The main objective of 'shot peening' is to improve which property of metal parts",
+      "image": "",
+      "options": [
+        "Surface finish",
+        "Ductility",
+        "Fatigue strength",
+        "None of the above"
+      ],
+      "answer": "Fatigue strength",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "When a material is strain hardened?",
+      "image": "",
+      "options": [
+        "its yield strength reduces and ductility increases",
+        "its yield strength increases and ductility reduces",
+        "both yield strength and ductility increases",
+        "both yield strength and ductility reduces"
+      ],
+      "answer": "its yield strength increases and ductility reduces",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "Which thread is more suited in power screw to take load on both directions?",
+      "image": "",
+      "options": [
+        "Acme thread",
+        "Square thread",
+        "Buttress thread",
+        "None of these"
+      ],
+      "answer": "Square thread",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Metrology",
+      "question": "A hole is specified as 50 (+0.050 / -0.000) mm. The mating shaft has a clearance fit with minimum clearance of 0.02 mm. The tolerance on the shaft is 0.03 mm. Maximum clearance between hole and shaft is",
+      "image": "",
+      "options": [
+        "0.100 mm",
+        "0.030 mm",
+        "0.080 mm",
+        "0.070 mm"
+      ],
+      "answer": "0.100 mm",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In a cutting operation the cutting speed was reduced by 20%. Assuming n = 0.5 and C = 350 in Taylor's equation, the increase in tool life is",
+      "image": "",
+      "options": [
+        "46%",
+        "48%",
+        "59%",
+        "56%"
+      ],
+      "answer": "56%",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Mass production of seamless tubes is by the process of",
+      "image": "",
+      "options": [
+        "Rolling",
+        "Spinning",
+        "Welding",
+        "Extrusion"
+      ],
+      "answer": "Extrusion",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Misrun is a casting defect which occurs due to",
+      "image": "",
+      "options": [
+        "Very high pouring temperature of metal",
+        "Absorption of gases by liquid metal",
+        "Insufficient fluidity of molten metal",
+        "Improper alignment of mould flasks"
+      ],
+      "answer": "Insufficient fluidity of molten metal",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A simple steam power cycle receives 1,00,000 kJ/min as heat transfer from hot combustion gases and rejects 66,000 kJ/min as heat transfer to the environment. If the pump power required is 1400 kJ/min, the thermal efficiency of the cycle and turbine power output is",
+      "image": "",
+      "options": [
+        "51.5% and 590 kW",
+        "34% and 590 kW",
+        "51.5% and 566.6 kW",
+        "34% and 566.6 kW"
+      ],
+      "answer": "34% and 590 kW",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Air at 100 kPa, 2°C occupies a 10 liter piston-cylinder device that is arranged to maintain constant air pressure. This device is now heated until its volume is 20 liters. The work produced by the air is",
+      "image": "",
+      "options": [
+        "20 kJ",
+        "10 kJ",
+        "2 kJ",
+        "1 kJ"
+      ],
+      "answer": "1 kJ",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A heat engine working with a thermal efficiency of 35% receives 2 kW of heat from a furnace. The waste heat rejected from the engine is",
+      "image": "",
+      "options": [
+        "0.7 kW",
+        "0.35 kW",
+        "1.3 kW",
+        "1.65 kW"
+      ],
+      "answer": "1.3 kW",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Joule-Thomson coefficient for an ideal gas is",
+      "image": "",
+      "options": [
+        "higher than zero",
+        "less than zero",
+        "zero",
+        "1"
+      ],
+      "answer": "zero",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Air is heated from 0°C to 100°C in a sealed metal container. Its density",
+      "image": "",
+      "options": [
+        "Increases slightly",
+        "Decreases slightly",
+        "Remains the same",
+        "Change cannot be predicted"
+      ],
+      "answer": "Decreases slightly",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "If a certain mass of moist air in an air tight vessel is heated to a higher temperature, then",
+      "image": "",
+      "options": [
+        "Specific humidity of the air increases",
+        "Specific humidity of the air decreases",
+        "Relative humidity of the air increases",
+        "Relative humidity of the air decreases"
+      ],
+      "answer": "Relative humidity of the air decreases",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Air is accelerated isentropically from 100 m/s to 300 m/s in a nozzle. If the temperature at the inlet is 127°C, the inlet Mach number is (take R = 287 J/(kg K) and specific heat ratio = 1.4)",
+      "image": "",
+      "options": [
+        "0.249",
+        "0.442",
+        "0.747",
+        "0.333"
+      ],
+      "answer": "0.249",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "Two equal forces are acting at a point with an angle of 60° between them. If the resultant force is equal to 60√3, what is the magnitude of each force?",
+      "image": "",
+      "options": [
+        "30",
+        "50",
+        "40",
+        "60"
+      ],
+      "answer": "60",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A two member truss ABC is configured as shown in figure. The force in the member AB is",
+      "image": "",
+      "options": [
+        "15 kN",
+        "30 kN",
+        "20 kN",
+        "5 kN"
+      ],
+      "answer": "20 kN",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "Four forces of magnitudes 20 N, 40N, 60 N and 80 N are acting respectively along the four sides of a square ABCD as shown in figure. The magnitude of resultant is",
+      "image": "",
+      "options": [
+        "40√2 N",
+        "50√2 N",
+        "45√2 N",
+        "60√2 N"
+      ],
+      "answer": "40√2 N",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "In a simply supported beam loaded as shown in figure, the maximum bending moment in Nm is",
+      "image": "",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "60"
+      ],
+      "answer": "30",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "Two steel rails each of 12 m length are laid with a gap of 1.5 mm at ends at a temperature of 24°C. The thermal stress produced at a temperature of 40°C is (take E = 2 × 10⁵ N/mm² coefficient of thermal expansion = 12 × 10⁻⁶/°C)",
+      "image": "",
+      "options": [
+        "10.5 N/mm²",
+        "12.5 N/mm²",
+        "13.4 N/mm²",
+        "15.5 N/mm²"
+      ],
+      "answer": "13.4 N/mm²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "An aluminum tensile test specimen has a diameter, d₀ = 25 mm and a gauge length of L₀ = 250 mm. If a force of 175 kN elongates the gauge length by 1.25 mm, the modulus of elasticity of the material is nearly",
+      "image": "",
+      "options": [
+        "71 GPa",
+        "71 MPa",
+        "142 GPa",
+        "142 MPa"
+      ],
+      "answer": "71 GPa",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "A tubular shaft, having an inner diameter of 30 mm and an outer diameter of 40 mm, is to be used to transmit 80 kW of power. The speed of rotation of the shaft so that the shear stress will not exceed 50 MPa is",
+      "image": "",
+      "options": [
+        "29.6 rpm",
+        "3557.4 rpm",
+        "1778.7 rpm",
+        "59.2 rpm"
+      ],
+      "answer": "1778.7 rpm",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "A cantilever beam of length L is subjected to a concentrated load P at a distance of L/3 from the free end. The deflection at the free end is",
+      "image": "",
+      "options": [
+        "(1/3)(PL³/EI)",
+        "(14/81)(PL³/EI)",
+        "(7/18)(PL³/EI)",
+        "(1/2)(PL³/EI)"
+      ],
+      "answer": "(14/81)(PL³/EI)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "What is the common surface hardening treatment in steel?",
+      "image": "",
+      "options": [
+        "Carburizing",
+        "Tempering",
+        "Quenching",
+        "None of the above"
+      ],
+      "answer": "Carburizing",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "Which of the following order of crystal structure will match with metals Iron - Copper - Zinc in that order?",
+      "image": "",
+      "options": [
+        "BCC-HCP-FCC",
+        "FCC-BCC-HCP",
+        "HCP-FCC-BCC",
+        "BCC-FCC-HCP"
+      ],
+      "answer": "BCC-FCC-HCP",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "A resistance spot-welding operation is performed on two pieces of 1.5 mm thick sheet steel using 12000 amps current for a duration of 0.20 second. The electrodes are 6 mm in diameter at the contacting surfaces. Resistance is assumed to be 0.0001 ohms and the resulting weld nugget is 6 mm in diameter and 2.5 mm thick. The unit melting energy for the metal is 12 J/mm³. What portion of heat generated was used to form the weld?",
+      "image": "",
+      "options": [
+        "29.4%",
+        "70.6%",
+        "58.8%",
+        "41.2%"
+      ],
+      "answer": "29.4%",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A manometer is used to measure the pressure of a gas in a tank. The fluid used has a specific gravity of 0.85 and the manometer column height is 55 cm, as shown in figure. If the local atmospheric pressure is 96 kPa, what is the absolute pressure in the tank?",
+      "image": "",
+      "options": [
+        "4.6 kPa",
+        "98.6 kPa",
+        "100.6 kPa",
+        "200 kPa"
+      ],
+      "answer": "100.6 kPa",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A crane is used to lower weights into the sea (sea water density = 1025 kg/m³) for an underwater construction project. What is the percentage reduction in the tension in the rope of the crane due to a rectangular 0.4m × 0.4m × 3m concrete block (density = 2300 kg/m³) when it is completely immersed in water compared to the tension in the rope when it was suspended in air",
+      "image": "",
+      "options": [
+        "45%",
+        "55%",
+        "65%",
+        "75%"
+      ],
+      "answer": "45%",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A steady, incompressible, two-dimensional velocity field is given by, V⃗ = (u, v) = (0.5 + 0.8x)i⃗ + (1.5 - 0.8y)j⃗. The number of stagnation points there in the flow field is",
+      "image": "",
+      "options": [
+        "zero",
+        "many",
+        "1",
+        "2"
+      ],
+      "answer": "1",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A piezometer and a Pitot tube are tapped into a horizontal water pipe, as shown in figure. The velocity of water at the center of the pipe is",
+      "image": "",
+      "options": [
+        "2.4 m/s",
+        "1.53 m/s",
+        "2.07 m/s",
+        "1.93 m/s"
+      ],
+      "answer": "1.53 m/s",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "The pressure difference between the inside and outside of a liquid droplet of diameter 'd' due to surface tension (σ) is given by the relation",
+      "image": "",
+      "options": [
+        "ΔP = 4σ/d",
+        "ΔP = 8σ/d",
+        "ΔP = 2σ/d",
+        "ΔP = 6σ/d"
+      ],
+      "answer": "ΔP = 4σ/d",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A stream function is given by Ψ = 4x - 3y. The resultant velocity at any point is",
+      "image": "",
+      "options": [
+        "7.81 units/s",
+        "7 units/s",
+        "3.5 units/s",
+        "5 units/s"
+      ],
+      "answer": "5 units/s",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "The coefficient of discharge for an orifice meter is in the range",
+      "image": "",
+      "options": [
+        "0.97 to 0.99",
+        "0.93 to 0.98",
+        "0.62 to 0.65",
+        "0.51 to 0.55"
+      ],
+      "answer": "0.62 to 0.65",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "The hydraulic diameter, Dₕ of a rectangular duct with sides 'a' and 'b' is",
+      "image": "",
+      "options": [
+        "Dₕ = 4ab / (2a + b)",
+        "Dₕ = 2ab / (a + b)",
+        "Dₕ = 2ab / (2a + b)",
+        "Dₕ = 4ab / (a + b)"
+      ],
+      "answer": "Dₕ = 2ab / (a + b)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A flat plate of length 1 m and width 50 cm is placed in an air stream at 30°C blowing parallel to it. The convective heat transfer co-efficient is 30 W/(m²K). The heat transfer if the plate is maintained at a temperature of 400°C is",
+      "image": "",
+      "options": [
+        "5.55 kW",
+        "4.05 kW",
+        "55.5 kW",
+        "6 kW"
+      ],
+      "answer": "5.55 kW",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "It is required to insulate a kitchen oven with cork board (K = 0.043 W/(m K)) so that the heat losses from the oven does not exceed 400 W/m² when the inner surface of the oven is at 225°C and the outer surface of the oven is at 40°C. The thickness of insulation required is nearly",
+      "image": "",
+      "options": [
+        "1 cm",
+        "2 cm",
+        "3 cm",
+        "4 cm"
+      ],
+      "answer": "2 cm",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A radiator in a domestic heating system operates at a surface temperature of 55°C. Assuming the radiator behaves as a black body, the rate at which it emits the radiant heat per unit area is (assume σ = 5.67 × 10⁻⁸ W/(m²K⁴))",
+      "image": "",
+      "options": [
+        "0.66 kW/m²",
+        "0.0005 kW/m²",
+        "0.5 kW/m²",
+        "66 kW/m²"
+      ],
+      "answer": "0.66 kW/m²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A grey body is defined such that",
+      "image": "",
+      "options": [
+        "Monochromatic emissivity of the body is independent of temperature",
+        "Monochromatic emissivity of the body is dependent of temperature",
+        "Monochromatic emissivity of the body is independent of wave length",
+        "Monochromatic emissivity of the body is dependent of wave length"
+      ],
+      "answer": "Monochromatic emissivity of the body is independent of wave length",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Strength of Materials",
+      "question": "A cantilever beam of rectangular cross section (depth 'd', width 'b' & length 'L') is subjected to a shear force 'F' at its free end as shown in figure. The beam is made of material which follows maximum shear stress theory. Which of the following is TRUE?",
+      "image": "",
+      "options": [
+        "The beam section has a uniform shear stress, F/bd",
+        "Maximum shear stress in section and maximum bending stress in beam is equal when L = d/2",
+        "For L > d/2, bending stress decides the failure stress",
+        "Bending stress developed in the beam is independent of 'b'"
+      ],
+      "answer": "For L > d/2, bending stress decides the failure stress",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "Critical thickness rate from a yields",
+      "image": "",
+      "options": [
+        "No heat transfer rate from a pipe",
+        "Minimum heat transfer rate from a pipe",
+        "Maximum heat transfer rate from a pipe",
+        "None of the above"
+      ],
+      "answer": "Maximum heat transfer rate from a pipe",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A system is undergoing a cycle that consists of three processes. During the first process, the work is 5 kJ and the heat is 23 kJ. In the second process no work takes place and the heat interaction is -50 kJ. The third process is adiabatic. The work in the third process is",
+      "image": "",
+      "options": [
+        "-32 kJ",
+        "-23 kJ",
+        "-22 kJ",
+        "zero"
+      ],
+      "answer": "-32 kJ",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Machinery",
+      "question": "Multi stage centrifugal pumps are used for",
+      "image": "",
+      "options": [
+        "high discharge",
+        "high head and high discharge",
+        "high pressure",
+        "high efficiency"
+      ],
+      "answer": "high pressure",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Metrology",
+      "question": "A wire has a mass (0.3 ± 0.003) g, radius (0.5 ± 0.005) mm and length (6 ± 0.06) cm. The maximum percentage error in the measurement of density is",
+      "image": "",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "4",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Metrology",
+      "question": "Which of the following pressure gauge is generally used for the calibration of other pressure measuring gauges",
+      "image": "",
+      "options": [
+        "Bourdon's tube pressure gauge",
+        "Diaphragm pressure gauge",
+        "Dead weight pressure gauge",
+        "Manometer gauge"
+      ],
+      "answer": "Dead weight pressure gauge",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "In a ball bearing, if the number of balls is reduced to half and diameter of the ball is increased to 4 times, then static load capacity of the ball bearing is",
+      "image": "",
+      "options": [
+        "reduced 4 times",
+        "reduced 8 times",
+        "increased 4 times",
+        "increased 8 times"
+      ],
+      "answer": "increased 8 times",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The velocity of sound in winter compared to summer will be",
+      "image": "",
+      "options": [
+        "higher",
+        "lower",
+        "same",
+        "cannot be predicted"
+      ],
+      "answer": "lower",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Gas Dynamics",
+      "question": "Gaseous Nitrogen at 30°C is expanded through a converging nozzle from a total pressure of 0.5 MPa to a back pressure chamber. If the back pressure is increased from 0.1 MPa to 0.4 MPa in steps of 0.02 MPa, the trend in mass flow rate through the nozzle",
+      "image": "",
+      "options": [
+        "will gradually decrease",
+        "will gradually increase",
+        "will remain constant till a point and then gradually decrease",
+        "will remain constant till a point and then gradually increase"
+      ],
+      "answer": "will remain constant till a point and then gradually decrease",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "What is the value of |(b²+c² ab ac), (ba c²+a² bc), (ca cb a²+b²)|",
+      "image": "",
+      "options": [
+        "4a²b²c²",
+        "8a²b²c²",
+        "2a²b²c²",
+        "zero"
+      ],
+      "answer": "4a²b²c²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Gas Dynamics",
+      "question": "Critical to Stagnation Pressure ratio (P*/P₀) for an expansion process is",
+      "image": "",
+      "options": [
+        "P*/P₀ = [2/(γ+1)]²ᵞ/(ᵞ⁻¹)",
+        "P*/P₀ = [2/(γ+1)](ᵞ⁺¹)/(ᵞ⁻¹)",
+        "P*/P₀ = [2/(γ+1)]ᵞ/(ᵞ⁺¹)",
+        "P*/P₀ = [2/(γ+1)]ᵞ/(ᵞ⁻¹)"
+      ],
+      "answer": "P*/P₀ = [2/(γ+1)]ᵞ/(ᵞ⁻¹)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Materials Science",
+      "question": "Match the items in column-1 and column-2 and choose the correct combination\nColumn-1\nA. Resilience\nB. Fatigue\nC. Stiffness\nD. Elasticity\nColumn-2\n1. Ability of the material to return to the original shape when load is removed.\n2. Capacity of a material to absorb energy elastically\n3. Ability of the material to absorb certain amount of energy without failure.\n4. Resistance of the material to elastic deformation\n5. Failure of material at loads less than that at normal conditions",
+      "image": "",
+      "options": [
+        "A-2, B-5, C-3, D-1",
+        "A-3, B-2, C-1, D-4",
+        "A-3, B-5, C-4, D-2",
+        "A-2, B-5, C-4, D-1"
+      ],
+      "answer": "A-2, B-5, C-4, D-1",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Fluid Machinery",
+      "question": "A Pelton wheel turbine operates under a head of 125 m at a speed of 2000 rpm. To operate very close to the maximum efficiency, the mean diameter of the Pelton wheel is nearly",
+      "image": "",
+      "options": [
+        "24 cm",
+        "48 cm",
+        "12.5 cm",
+        "36 cm"
+      ],
+      "answer": "24 cm",
+      "explanation": "Coming soon"
+    }
+  ]
+}

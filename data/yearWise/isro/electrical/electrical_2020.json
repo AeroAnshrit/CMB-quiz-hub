@@ -1,0 +1,1045 @@
+{
+  "title": "ISRO Scientist/Engineer EC - 2020",
+  "questions": [
+    {
+      "chapter": "Electromagnetics",
+      "question": "The plane wave propagating through the dielectric has the magnetic field component as H = 20e⁻ᵃˣcos(ωt - 0.25x) a<0xE1><0xB5><0xA7> A/m (aₓ, a<0xE1><0xB5><0xA7>, a<0xE1><0xB5><0xA₂) are unit vectors along x, y and z axis respectively). Determine the polarization of the wave",
+      "image": "",
+      "options": [
+        "aₓ",
+        "-a<0xE1><0xB5><0xA₂>",
+        "(aₓ + a<0xE1><0xB5><0xA7>)/√2",
+        "a<0xE1><0xB5><0xA7>"
+      ],
+      "answer": "-a<0xE1><0xB5><0xA₂>",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "In free space, H = 0.1 cos(ωt - βx) a<0xE1><0xB5><0xA₂> A/m (aₓ, a<0xE1><0xB5><0xA7>, a<0xE1><0xB5><0xA₂) are unit vectors along x, y and z axis respectively). The total power passing through a square plate of side 10 cm on plane x + 2y = 1.0 is approximately:",
+      "image": "",
+      "options": [
+        "42.12 mW",
+        "16.85 mW",
+        "18.84 mW",
+        "8.425 mW"
+      ],
+      "answer": "8.425 mW",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "Consider the rectangular cavity as shown below:  If a = c > b, the dominant mode of resonance corresponding to the above rectangular cavity is",
+      "image": "",
+      "options": [
+        "TE₀₁₁",
+        "TE₁₀₁",
+        "TM₁₁₀",
+        "TM₀₁₁"
+      ],
+      "answer": "TE₁₀₁",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Communication Systems",
+      "question": "A video camera generates data at a rate of 5 Mbps. The data is channel coded at rate 1/3 and 8 PSK modulated. Which of the following statements is correct?",
+      "image": "",
+      "options": [
+        "Information rate: 15 Mbps; Symbol rate: 5 Msps",
+        "Information rate: 5 Mbps; Symbol rate: 5 Msps",
+        "Information rate: 15 Mbps; Symbol rate: 15 Msps",
+        "Information rate: 5 Mbps; Symbol rate: 15 Msps"
+      ],
+      "answer": "Information rate: 15 Mbps; Symbol rate: 5 Msps",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Mathematics",
+      "question": "Evaluate ∫[-∞ to ∞] x⁴f(x)dx, where, f(x) = (1/√2π)e^(-x²/2), x ∈ (-∞, ∞)",
+      "image": "",
+      "options": [
+        "3",
+        "3√π",
+        "√3π",
+        "3π"
+      ],
+      "answer": "3",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Mathematics",
+      "question": "Consider a transformation T: R³ → R² where R³ and R² represent three and two dimensional real column vectors respectively. Also, T(x) = Ax for some matrix A and for each x in R³. How many rows and columns does A have and what is the its maximum possible rank?",
+      "image": "",
+      "options": [
+        "Rows: 3; Columns: 2; Rank: 3",
+        "Rows: 3; Columns: 2; Rank: 2",
+        "Rows: 2; Columns: 3; Rank: 2",
+        "Rows: 2; Columns: 3; Rank: 3"
+      ],
+      "answer": "Rows: 2; Columns: 3; Rank: 2",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "The output of a three element co-linear antenna array operating in a free space environment is combined (after appropriate phase shifting) to maximize the signal received from a particular direction as shown in figure.  If the inter-element spacing is half of the signal wavelength and direction of maximum response is 30° from the perpendicular to the array, what are the phases to be applied to each element? Consider the first element as the reference.",
+      "image": "",
+      "options": [
+        "[-π/3 0 π/3]",
+        "[-π/4 0 π/4]",
+        "[0 π/2 π]",
+        "[0 π/4 π/2]"
+      ],
+      "answer": "[0 π/2 π]",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "The transmission line of characteristic impedance 50 Ω and feeding a purely resistive load of 200 Ω uses single quarter wavelength long short-circuit stub which is placed at a distance d from the load. The VSWR on the transmission line section of length d and VSWR on the stub respectively are ",
+      "image": "",
+      "options": [
+        "0 and 0 respectively",
+        "1 and 1 respectively",
+        "4 and 1 respectively",
+        "4 and ∞ respectively"
+      ],
+      "answer": "4 and ∞ respectively",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "The plane Y=0 carries a uniform current density of -20k̂ mA/m. The magnetic field intensity at X=1, Y=10 and Z=-2 is",
+      "image": "",
+      "options": [
+        "-10î mA/m",
+        "10î mA/m",
+        "-20î mA/m",
+        "20î mA/m"
+      ],
+      "answer": "10î mA/m",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "A charge of 2 Coulombs is placed near a grounded conducting plate at a distance of 1 m. The force acting between the charge of 2 C and ground conducting plate in Newton is",
+      "image": "",
+      "options": [
+        "1/(4πε)",
+        "1/(8πε)",
+        "1/(16πε)",
+        "4πε"
+      ],
+      "answer": "1/(4πε)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Signals and Systems",
+      "question": "A data sequence x[n] = {1, 2, 3, 4, 5} passes through a linear time-invariant system with impulse response h[n] = {5, 4, 3, 2, 1}. The output of the filter will be",
+      "image": "",
+      "options": [
+        "{6, 6, 6, 6, 6}",
+        "{5, 8, 9, 8, 5}",
+        "{5, 14, 26, 40, 55, 40, 26, 14, 5}",
+        "{1, 4, 10, 20, 35, 44, 46, 40, 25}"
+      ],
+      "answer": "{5, 14, 26, 40, 55, 40, 26, 14, 5}",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Signals and Systems",
+      "question": "Consider a signal v(t) with Fourier transform V(f). If V'(t) represents the Fourier transform of v(2t), what is the relation of V'(f) to V(f)?",
+      "image": "",
+      "options": [
+        "Magnitude scaled by 0.5 and bandwidth compressed",
+        "Magnitude scaled by 0.5 and bandwidth expanded",
+        "Magnitude scaled by 2 and bandwidth compressed",
+        "Magnitude scaled by 2 and bandwidth expanded"
+      ],
+      "answer": "Magnitude scaled by 0.5 and bandwidth expanded",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Communication Systems",
+      "question": "If one of the code words of a Hamming (7, 4) code is 0001011, which of the following cannot be the valid code word in the same group?",
+      "image": "",
+      "options": [
+        "0011101",
+        "0101100",
+        "0011010",
+        "1110100"
+      ],
+      "answer": "0011010",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Communication Systems",
+      "question": "Which of the following digital modulations can be decoded non-coherently?",
+      "image": "",
+      "options": [
+        "QAM",
+        "APSK",
+        "BPSK",
+        "BFSK"
+      ],
+      "answer": "BFSK",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Communication Systems",
+      "question": "A mobile antenna receives two copies of the signal transmitted by the base station. The first copy is the line-of-sight component and the other is a reflected component which is 20 dB weaker in terms of Power than the LoS component and delayed by 100 ns. If the signal is sufficiently wideband, causing constructive and destructive interference at different frequency points within the signal bandwidth. What will be the ratio of maximum to minimum signal level variation across bandwidth and what will be the frequency separation between two consecutive maxima or minima?",
+      "image": "",
+      "options": [
+        "101/99, 10 MHz",
+        "121/81, 10 MHz",
+        "101/99, 5 MHz",
+        "121/81, 5 MHz"
+      ],
+      "answer": "101/99, 10 MHz",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "An antenna with an efficiency of 90% has a maximum radiation intensity of 0.5 W/Steradian. Calculate the directive gain of the antenna when the input power to the antenna when the input power to the antenna is 0.4 W",
+      "image": "",
+      "options": [
+        "18.23",
+        "17.4",
+        "11.2",
+        "21.6"
+      ],
+      "answer": "17.4",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "In a semiconductor device, if Fermi level (E<0xE1><0xB5><0x9F>) is positioned at conduction band (E<0xE1><0xB5><0x88>). Determine the approximate probability of finding electrons in states at (E<0xE1><0xB5><0x88> + kT) (where k is Boltzmann constant and T is device temperature in Kelvin).",
+      "image": "",
+      "options": [
+        "0.18",
+        "0.27",
+        "0.38",
+        "0.52"
+      ],
+      "answer": "0.27",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "For the following energy band diagram, determine the approximate resistivity for x > L portion of semiconductor. E<0xE1><0xB5><0x8D> = 1.12 eV, T = 300K, μ<0xE2><0x82><0x99> = 600 cm²/V-sec, μ<0xE2><0x82><0x9A> = 400 cm²/V-sec, n<0xE1><0xB5><0xA2> = 10¹⁰/cm³ ",
+      "image": "",
+      "options": [
+        "11.00 ohm-cm",
+        "15.75 ohm-cm",
+        "23 ohm-cm",
+        "31.25 ohm-cm"
+      ],
+      "answer": "31.25 ohm-cm",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "The radiation intensity of a given antenna is U = 2(sin θ sin φ) in the range 0 ≤ θ ≤ π and 0 ≤ φ ≤ π and 0 elsewhere. The directivity is",
+      "image": "",
+      "options": [
+        "3 dB",
+        "6 dB",
+        "8 dB",
+        "9 dB"
+      ],
+      "answer": "6 dB",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "Which of the following is an example of oversampling ADC architecture?",
+      "image": "",
+      "options": [
+        "Sigma delta",
+        "Successive approximation",
+        "Integrator",
+        "Flash"
+      ],
+      "answer": "Sigma delta",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Communication Systems",
+      "question": "A radar receiver has a detection SNR threshold of 10 dB for a 4 MHz bandwidth signal at 300 MHz frequency. If the transmit EIRP of the radar is 40 dBW and receive G/T is 10 dB/K, what is the maximum Radar cross-section (in dB-meter square) detectable at 10 km range? (Given: 10 log(4π) = 11, 10 log(k) = -228.6, k is Boltzmann constant).",
+      "image": "",
+      "options": [
+        "-15.6 dBm²",
+        "-12.6 dBm²",
+        "-9.6 dBm²",
+        "-5.6 dBm²"
+      ],
+      "answer": "-9.6 dBm²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "A source generates four messages m1, m2, m3 and m4 with probabilities 0.5, 0.25, 0.125 and 0.125 respectively. The messages are generated independently of each other. A source coder assigns binary code to each message. Which of the following codes has minimum average length is also uniquely decodable (sequence as per m1, m2, m3, m4)?",
+      "image": "",
+      "options": [
+        "00, 01, 10, 11",
+        "0, 1, 10, 11",
+        "110, 111, 10, 0",
+        "0, 10, 110, 111"
+      ],
+      "answer": "0, 10, 110, 111",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "For the given circuit, switch remains closed for a long time and opens at t=0 seconds. Assuming ideal model for every device, find steady state magnitude of voltage at capacitor. ",
+      "image": "",
+      "options": [
+        "1",
+        "25",
+        "50",
+        "100"
+      ],
+      "answer": "50",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "For the given circuit, aspect ratio of M₁ transistor is 20/0.5, I<0xE1><0xB5><0x85>₁ = 200 μA, V<0xE1><0xB5><0x80><0xE2><0x82><0x9C><0xE1><0xB5><0x8D> = 0.6 V, 2φ<0xE1><0xB5><0x9F> = 0.81 V, γ = 0.4 V<0xC2><0xBD> and μ<0xE2><0x82><0x99>C<0xE1><0xB5><0x92><0xE1><0xB5><0x98> = 59.5 μA/V². If V<0xE1><0xB5><0xA2><0xE2><0x82><0x99> = 1.2 V find the minimum value of aspect ratio of M₂ transistor to remain saturated. (√10 = 3.16) ",
+      "image": "",
+      "options": [
+        "92",
+        "195",
+        "280",
+        "560"
+      ],
+      "answer": "195",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "Two coherent microwave power sources of same frequency f, each generating P Watts of average power, are combined using a four port network in the following manner:  If the S-parameter of 4-port network are [S-matrix values], what should be the phase difference between the inputs to maximize the output at port 2 and what is the maximum power?",
+      "image": "",
+      "options": [
+        "[90°, 2P]",
+        "[90°, √2 P]",
+        "[45°, 2P]",
+        "[45°, √2 P]"
+      ],
+      "answer": "[90°, 2P]",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "Which of the following statement is wrong?",
+      "image": "",
+      "options": [
+        "(1000.64)₈ = (100000000.1101)₂",
+        "(512.512)₇ = (4022.224)₅",
+        "(2202)₆ = (426)₁₁",
+        "(0.23)₄ = (0.1011)₂"
+      ],
+      "answer": "(2202)₆ = (426)₁₁",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "Which of the following statement is correct?",
+      "image": "",
+      "options": [
+        "NAND and NOR functions are Commutative and Associated",
+        "Both NAND and NOR functions are neither Commutative nor Associative",
+        "NAND and NOR functions are Associative but Commutative",
+        "NAND and NOR functions are Commutative but not Associative"
+      ],
+      "answer": "NAND and NOR functions are Commutative but not Associative",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "Which one plot gives the closed resemblance to the stability S(I<0xE1><0xB5><0x88><0xE1><0xB5><0x8D>) of emitter bias configuration of BJT with respect to R<0xE1><0xB5><0x8A>/R<0xE1><0xB5><0x87>? (R<0xE1><0xB5><0x8A> is emitter resistance and R<0xE1><0xB5><0x87> is base resistance)",
+      "image": "",
+      "options": [
+        "Plot (a)",
+        "Plot (b)",
+        "Plot (c)",
+        "Plot (d)"
+      ],
+      "answer": "Plot (b)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "For the given amplifier circuit, find the input cut-off frequency. FET parameters are g<0xE2><0x82><0x98> = 4 mA/V, C<0xE1><0xB5><0x8D><0xE2><0x82><0x9B> = 4 pF, r<0xE1><0xB5><0x85><0xE2><0x82><0x9B> = 40 kΩ, C<0xE1><0xB5><0x8D><0xE1><0xB5><0x85> = 2 pF. ",
+      "image": "",
+      "options": [
+        "35.5 MHz",
+        "45.5 MHz",
+        "90.5 MHz",
+        "10.5 MHz"
+      ],
+      "answer": "45.5 MHz",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "Which of the following digital devices requires an external refresh circuit?",
+      "image": "",
+      "options": [
+        "FLASH Memory",
+        "E²PROM",
+        "SRAM",
+        "DRAM"
+      ],
+      "answer": "DRAM",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "What would be the maximum operating frequency of Mod-8 counter constructed with JK flip flops, having propagation delay of 8 ns?",
+      "image": "",
+      "options": [
+        "16.525 MHz",
+        "15.625 MHz",
+        "25.625 MHz",
+        "18.525 MHz"
+      ],
+      "answer": "15.625 MHz",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "The following state diagram represents which of the input equation. (Given D<0xE2><0x82><0x8A> = [A, x, y]) (Where D<0xE2><0x82><0x8A> denotes a DFF with output. The x and y are the inputs to the circuit) ",
+      "image": "",
+      "options": [
+        "D<0xE2><0x82><0x8A> = A ⊕ x ⊕ y",
+        "D<0xE2><0x82><0x8A> = A + x ⊕ y",
+        "D<0xE2><0x82><0x8A> = A ⊕ x + y",
+        "D<0xE2><0x82><0x8A> = A + x + y"
+      ],
+      "answer": "D<0xE2><0x82><0x8A> = A ⊕ x + y",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "Which of the following logic circuits do not have no-change condition?",
+      "image": "",
+      "options": [
+        "D-FF",
+        "T-FF",
+        "JK-FF",
+        "SR-latch"
+      ],
+      "answer": "D-FF",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "In VHDL, following statement is written a process, where Clock frequency is 24 MHz.\nIf (clock' event and clock = '1') then\n  counter_4bit <= counter_4bit + x\"1\";\nEnd if;\nThe frequency of counter_4bit (2) will be:",
+      "image": "",
+      "options": [
+        "12 MHz",
+        "4 MHz",
+        "6 MHz",
+        "3 MHz"
+      ],
+      "answer": "3 MHz",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "Initial voltage of C₁ capacitance is 3 V in the given circuit. Correct sketch of V<0xE1><0xB5><0x98> as a function of time is. (Threshold voltage (V<0xE1><0xB5><0x80><0xE2><0x82><0x9C>) = 0.5 V) ",
+      "image": "",
+      "options": [
+        "Plot (a)",
+        "Plot (b)",
+        "Plot (c)",
+        "Plot (d)"
+      ],
+      "answer": "Plot (b)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "An SRAM has address lines from A₀ to A₁₉ and data width from D₀ to D₁₅. Total capacity of the SRAM will be",
+      "image": "",
+      "options": [
+        "20 MB",
+        "16 MB",
+        "8 MB",
+        "4 MB"
+      ],
+      "answer": "16 MB",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "Which of the following digital integrated circuit cannot be used as wired logic connections?",
+      "image": "",
+      "options": [
+        "Totem-pole TTL gate",
+        "Open collector TTL gate",
+        "Totem-pole output with 3-state gate",
+        "Emitter Coupled Logic"
+      ],
+      "answer": "Totem-pole TTL gate",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Digital Electronics",
+      "question": "The logic function implemented by following circuit can be represented as ",
+      "image": "",
+      "options": [
+        "Y = [(AB) + (B+C) + (B+D)]'",
+        "Y = [(AB) + (A+C) + (B+D)]'",
+        "Y = [(AB)' + (A+C)' + (AB+D)]'",
+        "Y = [(AB) + (A+C) + (AD)]'"
+      ],
+      "answer": "Y = [(AB) + (A+C) + (AD)]'",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "The value of C required for sinusoidal oscillation of frequency = 2 kHz in the given circuit is ",
+      "image": "",
+      "options": [
+        "1/(2π) μF",
+        "1/(4π) μF",
+        "1/π μF",
+        "None of these"
+      ],
+      "answer": "None of these",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "In the given circuit, V<0xE1><0xB5><0x87><0xE1><0xB5><0x8A> = 0.7 V, V<0xE1><0xB5><0xA₂> = 5.3 V, β = 100. V₀ is ",
+      "image": "",
+      "options": [
+        "5 V",
+        "10 V",
+        "15 V",
+        "20 V"
+      ],
+      "answer": "10 V",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "A 18 μF capacitor holding charge of Q coulomb is connected to the circuit at time t=0 sec.  The time at which the capacitor will be discharged to approximately Q/2.72 coulombs.",
+      "image": "",
+      "options": [
+        "68 ms",
+        "34 ms",
+        "17 ms",
+        "2.72 ms"
+      ],
+      "answer": "68 ms",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "Determine the value of voltage V₁ in the figure shown below.  The value of voltage V₁ in volts is",
+      "image": "",
+      "options": [
+        "100 V",
+        "14.28 V",
+        "50 V",
+        "68.25 V"
+      ],
+      "answer": "100 V",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "Output characteristics of a BJT amplifier is given. Find the minimum collector current required for r₀ = 50 kΩ. (r₀ is output resistance) ",
+      "image": "",
+      "options": [
+        "1 mA",
+        "5 mA",
+        "10 mA",
+        "100 mA"
+      ],
+      "answer": "1 mA",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "In the given circuits, S₁ switch remains closed and S₂ remains open for the long time. At t=0 S₁ opens and S₂ closes and remain in this position for the long time. Find drain current for t<0 and t>>0 respectively if, μ<0xE2><0x82><0x99>C<0xE1><0xB5><0x92><0xE1><0xB5><0x98> = 100 μA/V² and Aspect ratio = 2. ",
+      "image": "",
+      "options": [
+        "600 μA, 0 μA",
+        "600 μA, 25 μA",
+        "600 μA, -25 μA",
+        "0 μA, 600 μA"
+      ],
+      "answer": "600 μA, 0 μA",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "In the circuit shown below, switch S₁ is closed at t=0 seconds. Switch S₂ is opened at t=0 seconds.  The current flowing through the inductor of 0.3 H at t=8 milli seconds is",
+      "image": "",
+      "options": [
+        "0.65 A",
+        "0.32 A",
+        "0.26 A",
+        "0.18 A"
+      ],
+      "answer": "0.65 A",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "The transmission parameters of the network given below is represented in the matrix form as [T] = [[A, B], [C, D]].  Calculate the Transmission parameter B of [T] matrix.",
+      "image": "",
+      "options": [
+        "j2 ohms",
+        "-j2 ohms",
+        "-j2 + 4 ohms",
+        "4 ohms"
+      ],
+      "answer": "-j2 ohms",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "In the circuit shown diodes are ideal. Which is the correct representation of transfer characteristics of the circuit? ",
+      "image": "",
+      "options": [
+        "Plot (a)",
+        "Plot (b)",
+        "Plot (c)",
+        "Plot (d)"
+      ],
+      "answer": "Plot (a)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "Consider the R-L-C network shown below,  The average power absorbed by the inductor in Watts is",
+      "image": "",
+      "options": [
+        "+40",
+        "15",
+        "0",
+        "5"
+      ],
+      "answer": "0",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "The total number of possible trees corresponding to the network shown below is ",
+      "image": "",
+      "options": [
+        "9",
+        "5",
+        "8",
+        "7"
+      ],
+      "answer": "8",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "For an n-type Ge specimen, width = 4 mm, length = 1 mm, current (along the length of specimen) = 1 mA, magnetic field (perpendicular to the current flow direction) = 0.1 Wb/m², and Hall voltage magnitude = 0.005 V. Calculate the majority carriers density.",
+      "image": "",
+      "options": [
+        "3 × 10¹⁹ cm⁻³",
+        "3 × 10¹⁹ m⁻³",
+        "6 × 10¹⁹ cm⁻³",
+        "6 × 10¹⁹ m⁻³"
+      ],
+      "answer": "3 × 10¹⁹ m⁻³",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "The following table gives the forward characteristics of a Si diode. Estimate the temperature of a diode junction. (Given: ln(0.2) = -1.609)\nVf(V) | If(mA)\n------|------\n0.6   | 1\n0.65  | 5",
+      "image": "",
+      "options": [
+        "240 K",
+        "360 K",
+        "400 K",
+        "470 K"
+      ],
+      "answer": "360 K",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "An n-channel MOS transistor is made on a p-type substrate with N<0xE2><0x82><0x90> = 10¹⁵ cm⁻³. Find approximate depletion charge per unit area (Q<0xE1><0xB5><0x85>) at strong inversion. {ln(10) = 2.3, √0.046 = 0.215, n<0xE1><0xB5><0xA2> = 10¹⁰ cm⁻³}",
+      "image": "",
+      "options": [
+        "-6.9 × 10⁻⁸ C/cm²",
+        "6.9 × 10⁻⁸ C/cm²",
+        "-3.4 × 10⁻⁸ C/cm²",
+        "3.4 × 10⁻⁸ C/cm²"
+      ],
+      "answer": "-3.4 × 10⁻⁸ C/cm²",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "For a p-channel Si JFET, N<0xE2><0x82><0x90> = 3 × 10¹⁶ cm⁻³, N<0xE1><0xB5><0x85> = 10¹⁸ cm⁻³. Channel thickness dimension is a = 0.33 μm. Find approximate pinch-off voltage V<0xE1><0xB5><0x9A>. {n<0xE1><0xB5><0xA2> = 10¹⁰ cm⁻³, V<0xE1><0xB5><0x80> = 26 mV, ln(3) = 1.098}",
+      "image": "",
+      "options": [
+        "2.5 V",
+        "1.7 V",
+        "4.2 V",
+        "3.6 V"
+      ],
+      "answer": "1.7 V",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "Consider the circuit shown below:  The power factor of the above circuit as seen by the source is",
+      "image": "",
+      "options": [
+        "0.988 LAG",
+        "0.988 LEAD",
+        "0.235 LAG",
+        "0.235 LEAD"
+      ],
+      "answer": "0.988 LEAD",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "All the three inductors are perfectly coupled as shown below, the value of total inductance (in Henry) across the terminal AB is ",
+      "image": "",
+      "options": [
+        "46",
+        "38",
+        "12",
+        "10"
+      ],
+      "answer": "10",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "For a uniformly doped npn transistor, find the approximate emitter injection efficiency. Given that: N<0xE1><0xB5><0x8A> = 2 × 10¹⁸ cm⁻³, N<0xE1><0xB5><0x87> = 10¹⁷ cm⁻³, N<0xE1><0xB5><0x88> = 4 × 10¹⁹ cm⁻³, D<0xE1><0xB5><0x8A> = 8 cm²/s, D<0xE1><0xB5><0x88> = 28 cm²/s, D<0xE1><0xB5><0x87> = 20 cm²/s, x<0xE1><0xB5><0x8A> = 0.5 μm, x<0xE1><0xB5><0x87> = 0.3 μm.",
+      "image": "",
+      "options": [
+        "0.95",
+        "0.92",
+        "0.99",
+        "0.94"
+      ],
+      "answer": "0.99",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "In a long p-type Si-bar with cross-sectional area = 0.5 cm² and N<0xE2><0x82><0x90> = 2 × 10¹⁷ cm⁻³, extra holes = 10¹⁶ cm⁻³ are injected. Assume μ<0xE2><0x82><0x9A> = 500 cm²/Vs, n<0xE1><0xB5><0xA2> = 10¹⁰ cm⁻³ and τ<0xE2><0x82><0x9A> = 10⁻¹⁰ s, find minority carrier lifetime.",
+      "image": "",
+      "options": [
+        "10 μs",
+        "15 μs",
+        "20 μs",
+        "25 μs"
+      ],
+      "answer": "Data insufficient.",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "In a p-type Si at 300 K and N<0xE2><0x82><0x90> = 8 × 10¹⁵ cm⁻³, variation of space-charge density in the semiconductor as a function of surface potential is plotted, then select the true statement for weak inversion region. Given that p<0xE2><0x82><0x9B> and n<0xE2><0x82><0x9B> are hole and electron concentrations at the surface.",
+      "image": "",
+      "options": [
+        "p<0xE2><0x82><0x9B> > N<0xE2><0x82><0x90>",
+        "n<0xE2><0x82><0x9B> < N<0xE2><0x82><0x90> and n<0xE2><0x82><0x9B> > p<0xE2><0x82><0x9B>",
+        "n<0xE2><0x82><0x9B> < N<0xE2><0x82><0x90> and p<0xE2><0x82><0x9B> < N<0xE2><0x82><0x90>",
+        "n<0xE2><0x82><0x9B> > N<0xE2><0x82><0x90>"
+      ],
+      "answer": "n<0xE2><0x82><0x9B> < N<0xE2><0x82><0x90> and n<0xE2><0x82><0x9B> > p<0xE2><0x82><0x9B>",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "In order to ensure that the output voltage of an op-amp is zero, when both its inputs are grounded",
+      "image": "",
+      "options": [
+        "internal negative feedback is used",
+        "an external offset balancing circuit is used at the input terminals",
+        "the currents incident at the output node are carefully designed",
+        "the totem-pole output transistors are designed to have exactly equal cut-in voltages"
+      ],
+      "answer": "an external offset balancing circuit is used at the input terminals",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Network Theory",
+      "question": "Consider the resistive network shown below, the value of Norton current across the terminal AB ",
+      "image": "",
+      "options": [
+        "-6 A",
+        "2 A",
+        "7 A",
+        "-4.5 A"
+      ],
+      "answer": "7 A",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "The transfer characteristic of the different types of MOSFETs is shown below, where I<0xE1><0xB5><0x85> is drain current and V<0xE1><0xB5><0x8D><0xE2><0x82><0x9B> is the Gate-Source voltage, the correct combination of MOSFET w.r.t. to transfer characteristics is \nType of MOSFET\n(P) P-Channel Enhancement MOSFET\n(Q) P-Channel Depletion MOSFET\n(R) N-Channel Enhancement MOSFET\n(S) N-Channel Depletion MOSFET",
+      "image": "",
+      "options": [
+        "P-4, Q-2, R-1, S-3",
+        "P-3, Q-2, R-4, S-1",
+        "P-1, Q-3, R-2, S-4",
+        "P-2, Q-4, R-3, S-1"
+      ],
+      "answer": "P-1, Q-3, R-2, S-4",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "Acceptor impurity concentration of Si at 300K is 10¹⁹ cm⁻³. Calculate the concentration of donor impurity atoms that must be added so that Si is n-type and the Fermi Energy is 26 meV below the conduction band edge. (Given: Effective density state N<0xE1><0xB5><0x88> = 2.7 × 10¹⁹ cm⁻³ and Thermal Voltage (V<0xE1><0xB5><0x80>) at 300K is 26 mV)",
+      "image": "",
+      "options": [
+        "1.5 × 10¹⁹ cm⁻³",
+        "3 × 10¹⁹ cm⁻³",
+        "10¹⁹ cm⁻³",
+        "2 × 10¹⁹ cm⁻³"
+      ],
+      "answer": "2 × 10¹⁹ cm⁻³",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "The electric field between two parallel plates placed in vacuum is 'E'. If a slab of dielectric constant √3 is inserted in between the plates such that the normal to the boundary makes an angle 45° with the lines of electric force in between the plates. Find the angle (θ) between the electric lines in the medium between the plates (vacuum) and dielectric slab.",
+      "image": "",
+      "options": [
+        "60°",
+        "15°",
+        "30°",
+        "25°"
+      ],
+      "answer": "15°",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electromagnetics",
+      "question": "Two parallel perfectly conducting planes of infinite extent are placed 'b' distance apart so that the cut-off frequency of the lowest order TE mode is 15 GHz. If additionally, two perfectly conducting planes are placed 10 mm apart so as to form a rectangular waveguide as shown in figure. Find the cut-off frequency of TE₁₁ mode. ",
+      "image": "",
+      "options": [
+        "30 GHz",
+        "15/√2 GHz",
+        "15√2 GHz",
+        "10√2 GHz"
+      ],
+      "answer": "15√2 GHz",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "Consider the AND logic circuit in which V₂ = 3 V and V₁ lies between 0 to 5 volts. The output voltage is V₀. The cut-in voltage of the diode D₁ and D₂ is 0.6 Volts. The output voltage V₀ versus V₁ corresponding to the below network is ",
+      "image": "",
+      "options": [
+        "Plot (a)",
+        "Plot (b)",
+        "Plot (c)",
+        "Plot (d)"
+      ],
+      "answer": "Plot (b)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Power Electronics",
+      "question": "Following are the applications of a Buck and Boost Converters respectively\nA. Regulated DC power supplies\nB. Regenerative braking of DC motors\nC. DC motor speed control",
+      "image": "",
+      "options": [
+        "A, B",
+        "B, C",
+        "A, C",
+        "B, A"
+      ],
+      "answer": "A, B",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Electronic Devices and Circuits",
+      "question": "In a MOSFET, SiO₂ breaks down at electric field of the order of 5 × 10⁶ V/cm. For a gate oxide of thickness 1000 Å and channel thickness of 2 μm, what is the maximum V<0xE1><0xB5><0x8D><0xE2><0x82><0x9B> it can withstand?",
+      "image": "",
+      "options": [
+        "5 V",
+        "10 V",
+        "100 V",
+        "None of the above"
+      ],
+      "answer": "None of the above",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Power Electronics",
+      "question": "Which of the following is false for a Thyristor?\nA. Thyristor is a majority-carrier device.\nB. The forward-bias portion of Thyristor's i-v characteristics has two stable operating regions.\nC. The forward-bias portion of Thyristor's i-v characteristic has one stable operating region.\nD. The negative gate current turns off the Thyristor.",
+      "image": "",
+      "options": [
+        "A, B",
+        "B, C, D",
+        "A, C, D",
+        "B, C"
+      ],
+      "answer": "A, C, D",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Analog Electronics",
+      "question": "The Zener regulator circuit shown below consists of Si based Zener diode and Ge diode. The cut-in Voltage of Ge diode is 0.2 Volts, whereas cut-in Voltage of Si-diode is 0.7 Volts.  The output voltage (V₀) of the Zener regulator circuit is",
+      "image": "",
+      "options": [
+        "10.2 V",
+        "10 V",
+        "9.8 V",
+        "0.2 V"
+      ],
+      "answer": "10 V",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "The asymptotic bode plot for the gain magnitude of a minimum phase system G(s) is shown in figure below.  The steady state error for the ramp input is",
+      "image": "",
+      "options": [
+        "infinite",
+        "0.1",
+        "0",
+        "0.01"
+      ],
+      "answer": "0.1",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Power Electronics",
+      "question": "Identify the convertor topologies from the figures given below:  ",
+      "image": "",
+      "options": [
+        "(i) Flyback Converter (ii) Forward Converter",
+        "(i) Forward Converter (ii) Flyback Converter",
+        "Both are Forward Converters",
+        "Both are Flyback Converters"
+      ],
+      "answer": "(i) Flyback Converter (ii) Forward Converter",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "Consider two control systems with following transfer function,\nSystem 1: G(s) = 1/(3s + 1)\nSystem 2: G(s) = 1/(s + 1)\nWhich of the following is true?",
+      "image": "",
+      "options": [
+        "Bandwidth of System 1 is greater than bandwidth of System 2",
+        "Bandwidth of System 2 is greater than bandwidth of System 1",
+        "Bandwidth of both the systems is same",
+        "Both systems have infinite bandwidth"
+      ],
+      "answer": "Bandwidth of System 2 is greater than bandwidth of System 1",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "A system's open loop transfer function is given G(s) = K / (s(s+2)(s+4)). If system is having a unity negative feedback, which of the following is true for such system to be stable?",
+      "image": "",
+      "options": [
+        "K > 0",
+        "0 < K < 24",
+        "K < 24",
+        "0 < K < 48"
+      ],
+      "answer": "0 < K < 48",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "The third peak overshoot and second undershoot of the step response of the second order underdamped system is given by",
+      "image": "",
+      "options": [
+        "exp(-3επ/√(1-ε²)) and exp(-2επ/√(1-ε²)) respectively",
+        "exp(-4επ/√(1-ε²)) and exp(-5επ/√(1-ε²)) respectively",
+        "exp(-6επ/√(1-ε²)) and exp(-4επ/√(1-ε²)) respectively",
+        "exp(-5επ/√(1-ε²)) and exp(-4επ/√(1-ε²)) respectively"
+      ],
+      "answer": "exp(-5επ/√(1-ε²)) and exp(-4επ/√(1-ε²)) respectively",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "Consider the Nyquist plot of the second order underdamped system shown in the below figure.  The Resonant Frequency corresponding to the Nyquist plot is",
+      "image": "",
+      "options": [
+        "ω₁",
+        "ω₂",
+        "ω₃",
+        "ω₄"
+      ],
+      "answer": "ω₂",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "The unit step response of a system with the transfer function G(s) = (1-s)/(1+s) is given by which of the following? (A unit step function is represented by u(t)).",
+      "image": "",
+      "options": [
+        "(1 - 2e⁻ᵗ) u(t)",
+        "(1 - e⁻ᵗ) u(t)",
+        "e⁻ᵗ u(t)",
+        "2e⁻ᵗ u(t)"
+      ],
+      "answer": "(1 - 2e⁻ᵗ) u(t)",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "The system G(s) = 1600 / (s(s+1)(s+16)) is to be compensated such that its gain-crossover frequency becomes same as its uncompensated Phase-crossover frequency. Which of the following is the phase crossover frequency of the compensated system?",
+      "image": "",
+      "options": [
+        "4 rad/sec",
+        "8 rad/sec",
+        "16 rad/sec",
+        "None of the above"
+      ],
+      "answer": "None of the above",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Signals and Systems",
+      "question": "A discrete time, linear time invariant system with input sequence x<0xE2><0x82><0x99> and output sequence y<0xE2><0x82><0x99> is characterised by\ny<0xE2><0x82><0x99> = 0.1x<0xE2><0x82><0x99> + 0.9 y<0xE2><0x82><0x99>₋₁\nIf two such systems are connected in series, which of the following is the governing difference equation of the overall system?",
+      "image": "",
+      "options": [
+        "y<0xE2><0x82><0x99> - 1.8y<0xE2><0x82><0x99>₋₁ + 0.81y<0xE2><0x82><0x99>₋₂ = 0.01x<0xE2><0x82><0x99>",
+        "y<0xE2><0x82><0x99> + 0.81y<0xE2><0x82><0x99>₋₁ = 0.01x<0xE2><0x82><0x99>",
+        "y<0xE2><0x82><0x99> - 0.81y<0xE2><0x82><0x99>₋₁ + 1.8y<0xE2><0x82><0x99>₋₂ = 0.01x<0xE2><0x82><0x99>",
+        "y<0xE2><0x82><0x99> - 1.8y<0xE2><0x82><0x99>₋₁ = 0.01x<0xE2><0x82><0x99>"
+      ],
+      "answer": "y<0xE2><0x82><0x99> - 1.8y<0xE2><0x82><0x99>₋₁ + 0.81y<0xE2><0x82><0x99>₋₂ = 0.01x<0xE2><0x82><0x99>",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "The total number of feedback loops of the signal flow graph is, where R is input and C is output ",
+      "image": "",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "5",
+      "explanation": "Coming soon"
+    },
+    {
+      "chapter": "Control Systems",
+      "question": "From the below given Nyquist plot, calculate the number of open loop poles on the right hand side of s-plane for the closed loop system to be stable ",
+      "image": "",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "-1"
+      ],
+      "answer": "1",
+      "explanation": "Coming soon"
+    }
+  ]
+}

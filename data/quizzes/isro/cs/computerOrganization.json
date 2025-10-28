@@ -1,0 +1,12 @@
+{
+    "title": "Computer Organization and Architecture",
+    "chapters": [
+        "Machine instructions and addressing modes",
+        "ALU, data path, and control unit",
+        "Instruction pipelining",
+        "Memory hierarchy",
+        "I/O organization (interrupts, DMA)",
+        "RISC and CISC architectures"
+    ],
+    "questions": []
+}

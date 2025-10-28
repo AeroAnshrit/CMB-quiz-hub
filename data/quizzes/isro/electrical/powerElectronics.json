@@ -1,0 +1,12 @@
+{
+    "title": "Power Electronics",
+    "chapters": [
+        "Semiconductor devices (diode, BJT, MOSFET, IGBT, SCR)",
+        "AC-DC converters (rectifiers)",
+        "DC-DC converters (choppers)",
+        "DC-AC converters (inverters)",
+        "AC-AC converters",
+        "PWM techniques and motor drives"
+    ],
+    "questions": []
+}

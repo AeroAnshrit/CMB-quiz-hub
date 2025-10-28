@@ -1,0 +1,26 @@
+{
+    "title": "Fluid Mechanics",
+    "chapters": [
+        "Fluid properties and fluid statics",
+        "Buoyancy and Bernoulli’s equation",
+        "Flow through pipes",
+        "Laminar and turbulent flow",
+        "Boundary layer theory",
+        "Dimensional analysis"
+    ],
+    "questions": [
+        {
+            "question": "This is a dummy question. What is the answer?",
+            "image": null,
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "answer": "A",
+            "explanation": "This is a dummy explanation.",
+            "chapter": "Fluid properties and fluid statics"
+        }
+    ]
+}

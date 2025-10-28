@@ -1,0 +1,1046 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2020",
+  "questions": [
+
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "A centrifugal pump having an impeller diameter of 127 mm, delivers a power of 12 hp. If the impeller diameter is changed to 254 mm, what is the power, if other parameters are kept constant?",
+    "image": "",
+    "options": [
+      "48 hp",
+      "192 hp",
+      "24 hp",
+      "96 hp"
+    ],
+    "answer": "96 hp",
+    "explanation": "As per the affinity laws, the relationship between power (P) and diameter of impeller (D) is given by P ∝ D³. Therefore, P₂/P₁ = (D₂/D₁)³. P₂ = 12 * (254/127)³ = 12 * 2³ = 12 * 8 = 96 hp."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "In a circular tube of diameter 100 mm and length 13 m with laminar flow, the friction factor is estimated to be 0.05. Calculate the Reynolds number?",
+    "image": "",
+    "options": [
+      "950",
+      "2300",
+      "1280",
+      "None of the above"
+    ],
+    "answer": "1280",
+    "explanation": "For laminar flow in a circular tube, the friction factor (f) is related to the Reynolds number (Re) by the formula f = 64 / Re. Therefore, Re = 64 / f = 64 / 0.05 = 1280."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "An open tank is filled with water to a height of 20 m. What is the velocity of the water flow at the outlet, if the outlet is at the base of the tank?",
+    "image": "",
+    "options": [
+      "40 m/s (approx.)",
+      "20 m/s (approx.)",
+      "10 m/s (approx.)",
+      "5 m/s (approx.)"
+    ],
+    "answer": "20 m/s (approx.)",
+    "explanation": "According to Torricelli's law, the velocity of efflux (v) from an orifice at a depth h is given by v = √(2gh). Here, v = √(2 * 10 m/s² * 20 m) = √400 = 20 m/s."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "For a non-dimensional specific speed value of 1, for maximum efficiency, which of the following turbines is preferred?",
+    "image": "[IMAGE_HERE]",
+    "options": [
+      "Pelton wheel",
+      "Francis turbine",
+      "Kaplan turbine",
+      "Tyson wheel"
+    ],
+    "answer": "Francis turbine",
+    "explanation": "Based on the efficiency vs. non-dimensional specific speed chart, the Francis turbine shows maximum efficiency for a specific speed value around 1."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "An experiment is conducted with a fluid of density 1 kg/m³ at 10 m/s velocity. The free stream static pressure is 100 kPa and the local static pressure is 101 kPa. What is the pressure coefficient at the location?",
+    "image": "",
+    "options": [
+      "70",
+      "80",
+      "20",
+      "50"
+    ],
+    "answer": "20",
+    "explanation": "The pressure coefficient (Cp) is calculated as Cp = (P_local - P_freestream) / (0.5 * ρ * v²). Cp = (101000 - 100000) / (0.5 * 1 * 10²) = 1000 / 50 = 20."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "In a P-V diagram of a steady flow compressor, the intercooling can be represented as",
+    "image": "[IMAGE_HERE]",
+    "options": [
+      "Vertical line",
+      "Horizontal line",
+      "Parabolic line",
+      "None of the above"
+    ],
+    "answer": "Horizontal line",
+    "explanation": "Intercooling in a multi-stage compressor is a constant pressure process. On a P-V diagram, a constant pressure process is represented by a horizontal line."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "Which of the following is a non-Newtonian fluid?",
+    "image": "",
+    "options": [
+      "Air",
+      "Water",
+      "Gasoline",
+      "None of the above"
+    ],
+    "answer": "None of the above",
+    "explanation": "Air, Water, and Gasoline are all examples of Newtonian fluids. Non-Newtonian fluids include substances like printer ink (Thixotropic), blood and ketchup (Pseudo plastic), and sugar solution (Dilatant). Since none of the options are non-Newtonian, the correct answer is 'None of the above'."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "A hot body at 1000 K transfers 2000 kJ of heat to a body at 500 K. Determine the net entropy change?",
+    "image": "",
+    "options": [
+      "+4 kJ/K",
+      "-2 kJ/K",
+      "+2 kJ/K",
+      "-4 kJ/K"
+    ],
+    "answer": "+2 kJ/K",
+    "explanation": "The net entropy change (ΔS_net) is the sum of the entropy changes of the source and the sink. ΔS_net = (ΔS_source) + (ΔS_sink) = (-Q / T_hot) + (Q / T_cold) = (-2000 kJ / 1000 K) + (2000 kJ / 500 K) = -2 + 4 = +2 kJ/K."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "Highest ratio of specific heat is possible for?",
+    "image": "",
+    "options": [
+      "Argon",
+      "Helium",
+      "Hydrogen",
+      "Air"
+    ],
+    "answer": "Argon",
+    "explanation": "The ratio of specific heats (γ) is highest for monatomic gases. Helium (He) and Argon (Ar) are monatomic gases with γ ≈ 1.67. Hydrogen (H₂) and Air are diatomic with γ ≈ 1.4. Both Argon and Helium are correct, but Argon is listed first."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "Which of the following can be used to determine the variation of saturation pressure with temperature along phase boundaries?",
+    "image": "",
+    "options": [
+      "Joule-Thomson relation",
+      "Carnot equation",
+      "Rankine-Hugoniot's relation",
+      "Clausius-Clapeyron relation"
+    ],
+    "answer": "Clausius-Clapeyron relation",
+    "explanation": "The Clausius-Clapeyron relation, dP/dT = L / (T(V₂-V₁)), relates the change in saturation pressure with temperature to the latent heat (L) and the change in specific volume during a phase transition."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "Air at 27°C and 100 kPa enters in a steady flow nozzle at a velocity of 100 m/s. If the inlet area of the nozzle is 0.5 m², what is the mass flow rate through the system?",
+    "image": "",
+    "options": [
+      "116 kg/s",
+      "232 kg/s",
+      "58 kg/s",
+      "143 kg/s"
+    ],
+    "answer": "58 kg/s",
+    "explanation": "First, calculate the density of air using the ideal gas law: ρ = P / (R * T) = 100000 / (287 * (27+273)) ≈ 1.1614 kg/m³. Then, mass flow rate (ṁ) = ρ * A * v = 1.1614 * 0.5 * 100 ≈ 58.07 kg/s."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "Critical point of water is",
+    "image": "",
+    "options": [
+      "22.06 kPa",
+      "22.06 MPa",
+      "22.06 atm",
+      "22.06 mbar"
+    ],
+    "answer": "22.06 MPa",
+    "explanation": "The critical pressure for water is 220.6 bar, which is equivalent to 22.06 MPa."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "In a shower mixer, cold water at 27 deg C, flowing at 5 kg/min is mixed with hot water at 77 deg C flowing at 15 kg/min. The exit temperature of the mixture is",
+    "image": "",
+    "options": [
+      "45.4 deg C",
+      "64.5 deg C",
+      "34.5 deg C",
+      "68.4 deg C"
+    ],
+    "answer": "64.5 deg C",
+    "explanation": "Using the energy balance equation (enthalpy in = enthalpy out): (ṁ_cold * c * T_cold) + (ṁ_hot * c * T_hot) = (ṁ_total * c * T_exit). The specific heat 'c' cancels out. (5 * 27) + (15 * 77) = (20 * T_exit). 135 + 1155 = 20 * T_exit. T_exit = 1290 / 20 = 64.5°C."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "Which of the following uses a regenerator?",
+    "image": "",
+    "options": [
+      "Brayton cycle",
+      "Ericsson cycle",
+      "Stirling cycle",
+      "Both (b) and (c)"
+    ],
+    "answer": "Both (b) and (c)",
+    "explanation": "Both the Stirling cycle (two isothermal and two isochoric processes) and the Ericsson cycle (two isothermal and two isobaric processes) utilize a regenerator to improve thermal efficiency by recovering waste heat."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "Ratio of convective mass transfer to the mass diffusion rate is called?",
+    "image": "",
+    "options": [
+      "Sherwood number",
+      "Schmidt number",
+      "Rayleigh number",
+      "Strouhal number"
+    ],
+    "answer": "Sherwood number",
+    "explanation": "The Sherwood number (Sh) is a dimensionless number used in mass-transfer operations. It represents the ratio of convective mass transfer to the rate of mass diffusion."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "A gas is contained in a cylinder with a moveable piston of 100 kg mass. When 2500 J of heat flow into the gas, the internal energy of the gas increases by 1500 J. What is the distance through which the piston rises?",
+    "image": "",
+    "options": [
+      "2 m",
+      "1 m",
+      "2.5 m",
+      "0.5 m"
+    ],
+    "answer": "1 m",
+    "explanation": "From the first law of thermodynamics, Q = ΔU + W. The work done by the gas is W = Q - ΔU = 2500 J - 1500 J = 1000 J. Assuming the work is done only against the piston's weight, W = m * g * Δx. So, Δx = W / (m * g) = 1000 / (100 * 9.81) ≈ 1.01 m, which is approximately 1 m."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "A refrigerator with COP of 5 is used in a room at 300 K. What will be the heat intake through a section of refrigerator wall of area 100 cm x 100 cm with a thickness of 10 cm, assuming only conduction? Value of thermal conductivity of the wall can be taken as 1 W/cm.K",
+    "image": "",
+    "options": [
+      "5000 W",
+      "1000 W",
+      "7500 W",
+      "3000 W"
+    ],
+    "answer": "5000 W",
+    "explanation": "First, find the cold space temperature: COP = T_L / (T_H - T_L) => 5 = T_L / (300 - T_L) => 6*T_L = 1500 => T_L = 250 K. Now calculate heat transfer: Q = (k * A * ΔT) / Δx. Using consistent units (cm): Q = (1 W/cm.K * (100*100) cm² * (300-250) K) / 10 cm = 50,000 W. Note: This question was likely deleted by ISRO due to a unit mismatch in the provided options. The calculated answer is 50kW, not 5kW."
+  },
+  {
+    "chapter": "Thermodynamics",
+    "question": "A mass of 1 kg of air at 27°C and 0.98 atm is taken through a diesel cycle. If the compression ratio of the engine is 16, calculate the temperature of the air after compression? (for calculation, take the ratio of specific heats of air as 1.5)",
+    "image": "",
+    "options": [
+      "1200 deg C",
+      "1473 deg C",
+      "927 deg C",
+      "768 deg C"
+    ],
+    "answer": "927 deg C",
+    "explanation": "For an isentropic compression process, T₂/T₁ = (V₁/V₂)^(γ-1). T₁ = 27°C = 300 K. T₂ = T₁ * (r_c)^(γ-1) = 300 * (16)^(1.5-1) = 300 * 16^0.5 = 300 * 4 = 1200 K. To convert to Celsius, T₂ = 1200 - 273 = 927°C."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "An aircraft is in its take off roll at sea level with ambient temperature of 18°C. What is the approximate speed of the aircraft if the temperature measured by a probe at the exit of the engine diffuser is 36°C? (Assuming air stagnation at diffuser outlet and Cp of air as 1.0 kJ/kg.K)",
+    "image": "",
+    "options": [
+      "12 m/s",
+      "3 m/s",
+      "6 m/s",
+      "18 m/s"
+    ],
+    "answer": "18 m/s",
+    "explanation": "The stagnation temperature T₀ is related to static temperature T by T₀ = T + v²/(2*Cp). Here, 36 = 18 + v²/(2*1000). So, v² = 18 * 2000 = 36000. v = √36000 ≈ 189.7 m/s. Note: This question was likely deleted by ISRO due to a large discrepancy between the calculated answer and the options."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "The external surface of a wall of 3 m height, 5 m width and 0.5 m thickness is at a temperature of 2°C. If a heat loss of 150 W from the room is measured across the wall, find the inner wall temperature? The thermal conductivity of wall material can be taken as 1 W/m.K",
+    "image": "",
+    "options": [
+      "280 K",
+      "285 K",
+      "268 K",
+      "282 K"
+    ],
+    "answer": "280 K",
+    "explanation": "Using the formula for heat conduction, Q = (k * A * ΔT) / Δx. 150 = (1 * (3*5) * (T_inner - 2)) / 0.5. 150 * 0.5 = 15 * (T_inner - 2). 75 = 15 * (T_inner - 2). 5 = T_inner - 2. T_inner = 7°C. In Kelvin, T_inner = 7 + 273 = 280 K."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "The typical range of Prandtl number for water is",
+    "image": "",
+    "options": [
+      "0.004-0.300",
+      "1.7-13.7",
+      "50-500",
+      "2000-1000"
+    ],
+    "answer": "1.7-13.7",
+    "explanation": "The Prandtl number for water varies significantly with temperature, but its typical range is between 1.7 and 13.7."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "Analogy between momentum and heat transfer is known as",
+    "image": "",
+    "options": [
+      "Stanton-Prandtl analogy",
+      "Crassoff-Meyer analogy",
+      "Chilton-Colburn analogy",
+      "None of the above"
+    ],
+    "answer": "Chilton-Colburn analogy",
+    "explanation": "The Chilton-Colburn J-factor analogy is a successful and widely used analogy between heat, momentum, and mass transfer. It extends other analogies to a wider range of Prandtl and Schmidt numbers."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "Which of the following statement is true for a Rayleigh flow at M=1?",
+    "image": "",
+    "options": [
+      "Enthalpy is maximum",
+      "Entropy is maximum",
+      "Enthalpy is minimum",
+      "Both (b) and (c)"
+    ],
+    "answer": "Entropy is maximum",
+    "explanation": "In a Rayleigh flow (flow in a constant area duct with heat transfer), the point of maximum entropy on the Rayleigh line corresponds to a Mach number of M=1. This is the chocking point."
+  },
+  {
+    "chapter": "Fluid Mechanics",
+    "question": "A fluid passes through a well insulated tube of 4.7 cm² cross section area and 5 m length. If the pipe friction coefficient is 0.07 and the flow velocity is 3 m/s, then the flow can be represented using?",
+    "image": "",
+    "options": [
+      "Rayleigh flow model",
+      "Isentropic flow model",
+      "Gino flow model",
+      "Fanno flow model"
+    ],
+    "answer": "Fanno flow model",
+    "explanation": "Fanno flow is defined as adiabatic flow through a constant area duct where the effect of friction is considered. Since the tube is well-insulated (adiabatic) and friction exists (friction coefficient is given), Fanno flow is the correct model."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "A fluid having a density of 1 g/cc is in a state with Grashof number 2x10⁶ and prandtl number 0.7. Assuming acceleration due to gravity as 10 m/s², calculate the Rayleigh number?",
+    "image": "",
+    "options": [
+      "1.4x10⁶",
+      "2.86x10⁶",
+      "3.7x10⁵",
+      "8.4x10⁶"
+    ],
+    "answer": "1.4x10⁶",
+    "explanation": "The Rayleigh number (Ra) is the product of the Grashof number (Gr) and the Prandtl number (Pr). Ra = Gr * Pr = (2x10⁶) * 0.7 = 1.4x10⁶."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "A cold liquid enters a counter flow heat exchanger at 15 deg C at a rate of 8 kg/s. A hot stream of the same liquid enters the heat exchanger at 75 deg C at 2 kg/s. Assuming the specific heat of the fluid as 4 kJ/kg °C determine the maximum heat transfer rate.",
+    "image": "",
+    "options": [
+      "960 kW",
+      "240 kW",
+      "1920 kW",
+      "480 kW"
+    ],
+    "answer": "480 kW",
+    "explanation": "The maximum possible heat transfer (Q_max) is determined by the fluid with the minimum heat capacity rate (C_min) and the maximum temperature difference. C_hot = 2*4=8. C_cold = 8*4=32. So C_min is C_hot. Q_max = C_min * (T_hot_in - T_cold_in) = 8 kJ/s°C * (75 - 15)°C = 8 * 60 = 480 kW."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "The temperature of a surface with 0.2 m² area is 17 deg C. Calculate the wavelength corresponding to maximum monochromatic emissive power.",
+    "image": "",
+    "options": [
+      "20 micrometers",
+      "30 micrometers",
+      "10 micrometers",
+      "40 micrometers"
+    ],
+    "answer": "10 micrometers",
+    "explanation": "According to Wien's displacement law, λ_max * T = 2898 µm·K. The temperature T must be in Kelvin: T = 17 + 273 = 290 K. Therefore, λ_max = 2898 / 290 ≈ 9.993 µm, which is approximately 10 micrometers."
+  },
+  {
+    "chapter": "Heat Transfer",
+    "question": "For a surface, the direct and diffuse components of the solar radiation are 400 and 300 W/m² and the direct radiation makes 60 deg angle with the normal. If the surface temperature is 300 K and effective sky temperature is 200 K, calculate net rate of radiation heat transfer. (Assume solar absorptivity and emissivity as 0.1 each; For calculation take Stefan Boltzmanns constant as 6x10⁻⁸ W/m².K⁴)",
+    "image": "",
+    "options": [
+      "11 W/m²",
+      "45 W/m²",
+      "33 W/m²",
+      "64 W/m²"
+    ],
+    "answer": "11 W/m²",
+    "explanation": "Total incident solar radiation G_solar = (G_Direct * cosθ) + G_diffuse = (400 * cos(60°)) + 300 = (400 * 0.5) + 300 = 500 W/m². Net radiation = (α * G_solar) + εσ(T_sky⁴ - T_surface⁴) = (0.1 * 500) + (0.1 * 6x10⁻⁸ * (200⁴ - 300⁴)) = 50 + 6x10⁻⁹ * (1.6x10⁹ - 8.1x10⁹) = 50 - 39 = 11 W/m²."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "Which of the following element is added to high speed tool steels as a scavenger to remove slag impurities during melting and also for increasing cutting efficiency of tools.",
+    "image": "",
+    "options": [
+      "Chromium",
+      "Vanadium",
+      "Molybdenum",
+      "Manganese"
+    ],
+    "answer": "Vanadium",
+    "explanation": "Vanadium is added to high-speed tool steels to form very hard carbides, which increases wear resistance and cutting efficiency. It also acts as a deoxidizer, helping to remove impurities."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "Region of disorder created by movement of dislocations in super lattice is called:",
+    "image": "",
+    "options": [
+      "Twin",
+      "Stacking fault",
+      "Anti-phase boundary",
+      "Orowon loop"
+    ],
+    "answer": "Anti-phase boundary",
+    "explanation": "An anti-phase boundary (APB) is a planar defect that separates two domains of the same ordered phase that have a translational mismatch. It is a region of disorder created by the movement of dislocations in an ordered alloy or superlattice."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "The state of stress during deep drawing forming operation of a cup is",
+    "image": "",
+    "options": [
+      "In the flange of blank, uni-axial compression and in wall of cup, bi-axial tension and compression",
+      "In the flange of the blank, uni-axial tension and in wall of cup, bi-axial tension and compression",
+      "In the flange of the blank, bi-axial tension and compression and in the wall of cup, simple uni-axial tension",
+      "Both flange and wall of the cup will have bi-axial compression and tension"
+    ],
+    "answer": "In the flange of the blank, bi-axial tension and compression and in the wall of cup, simple uni-axial tension",
+    "explanation": "During deep drawing, the flange of the blank is under radial tension (pulling it in) and circumferential compression (as the circumference decreases). The wall of the cup, which has already been drawn, is under simple uni-axial tension as it pulls the rest of the material from the flange."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "During turning of a metallic rod at a given condition, the tool life was found to decrease from 100 min to 25 min. When cutting speed was increased from 50 m/min. to 100 m/min. How much will be life of tool if machined at 80 m/min.?",
+    "image": "",
+    "options": [
+      "38.06 min.",
+      "39.06 min.",
+      "40.06 min.",
+      "41.06 min."
+    ],
+    "answer": "39.06 min.",
+    "explanation": "Using Taylor's tool life equation, V*T^n = C. First, find n: 50 * 100^n = 100 * 25^n => (100/25)^n = 100/50 => 4^n = 2 => n = 0.5. Now use this to find the new tool life T₃: 50 * 100^0.5 = 80 * T₃^0.5 => 50 * 10 = 80 * √T₃ => √T₃ = 500 / 80 = 6.25. T₃ = 6.25² = 39.0625 min."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "In a single pass rolling operation, the thickness of a 100 mm wide plate is reduced from 20 mm to 15 mm. The roller radius is 125 mm and rotational speed is 8 rpm. The average flow stress for the plate material is 400 MPa. The power required for rolling operation in kW is?",
+    "image": "",
+    "options": [
+      "12.5 π/3",
+      "10π",
+      "40 π/3",
+      "20 π/3"
+    ],
+    "answer": "20 π/3",
+    "explanation": "Projected length Lp = √(R*Δh) = √(125 * 5) = 25 mm. Rolling force F = σ₀ * w * Lp = 400 MPa * 100 mm * 25 mm = 1000 kN. Torque T = F * (0.5*Lp) = 1000 kN * (0.5 * 25 mm) = 12500 N-m. Power for two rollers P = 2 * T * ω = 2 * 12500 * (2π * 8 / 60) ≈ 20944 W ≈ 20π/3 kW."
+  },
+  {
+    "chapter": "Project Management",
+    "question": "A dummy activity is used in PERT network to describe",
+    "image": "",
+    "options": [
+      "Precedence relationship",
+      "Necessary time delay",
+      "Resource restriction",
+      "Resource idleness"
+    ],
+    "answer": "Precedence relationship",
+    "explanation": "A dummy activity consumes no time or resources. Its sole purpose is to show a dependency (precedence relationship) between two or more activities that cannot be shown with the regular activity arrows alone, ensuring the logic of the network is correct."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "In small castings, which of the following allowances can be ignored.",
+    "image": "",
+    "options": [
+      "Shrinkage Allowance",
+      "Rapping Allowance",
+      "Draft Allowance",
+      "Machining Allowance"
+    ],
+    "answer": "Rapping Allowance",
+    "explanation": "Rapping or shaking allowance is a negative allowance given to the pattern to compensate for the slight increase in mold cavity size that occurs when the pattern is rapped for easy withdrawal. For small and medium castings, this effect is negligible and the allowance can be ignored."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "In an arc welding process, two weld coupons were made using two different welding processes. For the first coupon, the voltage, current and welding speed used are 15V, 300 A and 30mm/min respectively. Whereas the second coupon welded with 60 kV, 200 mA and 25 mm/s. If the heat transfer efficiency for welding the first coupon is half of that of second coupon, the ratio of heat input per unit length is?",
+    "image": "",
+    "options": [
+      "50:2",
+      "75:8",
+      "5:8",
+      "5:2"
+    ],
+    "answer": "75:8",
+    "explanation": "Heat input per unit length H = (η * V * I) / v. For coupon 1: v₁=30mm/min = 0.5mm/s. H₁ = (η₁ * 15 * 300) / 0.5 = 9000η₁. For coupon 2: H₂ = (η₂ * 60000 * 0.2) / 25 = 480η₂. Given η₁ = η₂/2. The ratio H₁/H₂ = (9000 * (η₂/2)) / (480η₂) = 4500/480 = 75/8."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "In Gas tungsten arc welding (GTAW) which of the following polarity is generally used for getting higher penetration",
+    "image": "",
+    "options": [
+      "Direct current straight polarity (DCSP)",
+      "Direct current reverse polarity (DCRP)",
+      "Alternating current high frequency (ACHF)",
+      "All of the above"
+    ],
+    "answer": "Direct current straight polarity (DCSP)",
+    "explanation": "In DCSP (Direct Current Electrode Negative), the electrode is negative and the workpiece is positive. This directs about two-thirds of the heat to the workpiece, resulting in deeper penetration, which is ideal for welding thicker materials."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "The laws of adhesive wear, commonly referred to as Archard's law can be expressed as (If 'Q' is the total volume of wear debris produced, 'W' is the normal load, 'L' is the sliding distance, 'H' is the hardness of the softest contacting surfaces being worn away, and 'k' is a non-dimensional wear coefficient)",
+    "image": "",
+    "options": [
+      "Q = kWL/H",
+      "Q = kW/LH",
+      "Q = kHW/L",
+      "Q = k/LWH"
+    ],
+    "answer": "Q = kWL/H",
+    "explanation": "Archard's law states that the total volume of wear debris (Q) is directly proportional to the normal load (W) and the sliding distance (L), and inversely proportional to the hardness (H) of the softer material. The constant of proportionality is the wear coefficient (k)."
+  },
+  {
+    "chapter": "Theory of Machines",
+    "question": "In a four-bar linkage if 'S' is the length of the shortest link, 'L' is the length of longest link and 'P' & 'Q' are length of other links, then the criteria for getting a triple rocker mechanism in which no links will fully rotate is",
+    "image": "",
+    "options": [
+      "S + Q > P + L",
+      "S + L < P + Q",
+      "S + L = P + Q",
+      "S + L > P + Q"
+    ],
+    "answer": "S + L > P + Q",
+    "explanation": "A triple rocker mechanism is formed when the four-bar linkage does not satisfy the Grashof condition. The Grashof condition states that for continuous relative motion between links, S + L ≤ P + Q. Therefore, if S + L > P + Q, no link can rotate a full 360 degrees, and all three moving links will be rockers."
+  },
+  {
+    "chapter": "Theory of Machines",
+    "question": "The piston of an engine moves with simple harmonic motion. The crank rotates at 120 r.p.m. with a stroke of 2 meters. The velocity of the piston, when it is at a distance of 0.8 metre from the center is",
+    "image": "",
+    "options": [
+      "4.8π",
+      "2.4π",
+      "1.2π",
+      "0.6π"
+    ],
+    "answer": "2.4π",
+    "explanation": "Stroke = 2m, so crank radius r = 1m. Angular velocity ω = 120 rpm = (120 * 2π) / 60 = 4π rad/s. Piston velocity v = ω * √(r² - x²). Here, x=0.8 is given. However, the calculation seems based on a different formula, possibly v=rω*sinθ. If x = r(1-cosθ), then 0.8=1(1-cosθ) is not a standard position. The provided solution uses a direct formula relating displacement from an end, not center. A simpler way: max velocity at center is v_max = rω = 4π. The answer suggests sinθ=3/5, so v = rω*sinθ = 1 * 4π * (3/5) = 2.4π m/s."
+  },
+  {
+    "chapter": "Theory of Machines",
+    "question": "If a block slides outward on a link at a uniform rate of 30 m/s, while the link is rotating at a constant angular velocity of 50 rad/s counter clockwise, the Coriolis component of acceleration is ____ m/s².",
+    "image": "",
+    "options": [
+      "1000",
+      "1500",
+      "3000",
+      "4500"
+    ],
+    "answer": "3000",
+    "explanation": "The magnitude of the Coriolis component of acceleration is given by the formula a_c = 2 * ω * V, where ω is the angular velocity of the rotating link and V is the sliding velocity of the block relative to the link. a_c = 2 * 50 rad/s * 30 m/s = 3000 m/s²."
+  },
+  {
+    "chapter": "Machine Design",
+    "question": "In a screw jack of lead angle α, the effort required to lift the load W is given by (Φ = Friction Angle)",
+    "image": "",
+    "options": [
+      "P = W tan(α-Φ)",
+      "P = W tan(α+Φ)",
+      "P = W cos(α-Φ)",
+      "P = W cos(α+Φ)"
+    ],
+    "answer": "P = W tan(α+Φ)",
+    "explanation": "The effort (P) required to lift a load (W) on a screw jack is given by P = W tan(α + Φ), where α is the lead angle and Φ is the friction angle. The friction angle opposes the direction of motion."
+  },
+  {
+    "chapter": "Theory of Machines",
+    "question": "When the axis of first and last gear are co-axial, then gear train is known as",
+    "image": "",
+    "options": [
+      "simple gear train",
+      "compound gear train",
+      "reverted gear train",
+      "epicyclic gear train"
+    ],
+    "answer": "reverted gear train",
+    "explanation": "A reverted gear train is a type of compound gear train where the input shaft and the output shaft are coaxial. This arrangement is commonly used in clocks and lathe back gears."
+  },
+  {
+    "chapter": "Theory of Machines",
+    "question": "A disc spinning on its axis at 20 rad/s will undergo precession when a torque 100 N-m is applied about an axis normal to it. If the mass moment of inertia is 1 kg-m², then the angular velocity of precession is?",
+    "image": "",
+    "options": [
+      "0.2 rad/s",
+      "5 rad/s",
+      "10 rad/s",
+      "200 rad/s"
+    ],
+    "answer": "5 rad/s",
+    "explanation": "The gyroscopic couple (C) or torque is related to the moment of inertia (I), spin velocity (ω), and precession velocity (ω_p) by the formula C = I * ω * ω_p. Therefore, ω_p = C / (I * ω) = 100 / (1 * 20) = 5 rad/s."
+  },
+  {
+    "chapter": "Theory of Machines",
+    "question": "Which of the following is an absorption type dynamometer?",
+    "image": "",
+    "options": [
+      "Prony brake dynamometer",
+      "Epicyclic-train dynamometer",
+      "Torsion dynamometer",
+      "Belt transmission dynamometer"
+    ],
+    "answer": "Prony brake dynamometer",
+    "explanation": "Dynamometers are classified as absorption or transmission type. Absorption dynamometers (like Prony brake, rope brake, hydraulic) absorb and dissipate the power they measure. Transmission dynamometers (like belt, epicyclic, torsion) transmit the power after measuring it."
+  },
+  {
+    "chapter": "Theory of Machines",
+    "question": "Which of the following mechanism provides intermittent rotary motion?",
+    "image": "",
+    "options": [
+      "Chebyschev linkage",
+      "Geneva Mechanism",
+      "Peaucellier Mechanism",
+      "Roberts Mechanism"
+    ],
+    "answer": "Geneva Mechanism",
+    "explanation": "The Geneva mechanism is a classic example of a mechanism that translates continuous rotary motion into intermittent rotary motion. It is often used in indexing machines."
+  },
+  {
+    "chapter": "Engineering Mathematics",
+    "question": "If m,n are integers and m+n is odd then value of ∫[0 to π] sin(mx) * cos(nx) dx is",
+    "image": "",
+    "options": [
+      "0",
+      "π/2",
+      "π",
+      "1"
+    ],
+    "answer": "0",
+    "explanation": "The solution provided in the paper calculates the value as 2m/(m²-n²), which seems to be for a specific case. However, using orthogonality of sine and cosine functions, the integral of sin(mx)cos(nx) over the interval [0, π] is 0 when m+n is odd."
+  },
+  {
+    "chapter": "Engineering Mathematics",
+    "question": "1 + x + x²/2 - x⁴/8 - x⁵/15 + ... =",
+    "image": "",
+    "options": [
+      "e^(tan x)",
+      "e^(cos x)",
+      "e^(sin x)",
+      "e^x sin x"
+    ],
+    "answer": "e^(sin x)",
+    "explanation": "This is the Maclaurin series expansion. For f(x) = e^(sin x): f(0)=1, f'(x)=cos(x)e^(sin x) so f'(0)=1, f''(x)=(cos²x-sinx)e^(sin x) so f''(0)=1. The series is f(0) + f'(0)x + f''(0)x²/2! + ... = 1 + x + x²/2 + ..., which matches the start of the given series."
+  },
+  {
+    "chapter": "Engineering Mathematics",
+    "question": "The Laplace transform of e^(at) * cos(ωt) is",
+    "image": "",
+    "options": [
+      "(s-a) / ((s-a)² + ω²)",
+      "ω / ((s-a)² + ω²)",
+      "a / ((s-a)² + ω²)",
+      "s / ((s-a)² + ω²)"
+    ],
+    "answer": "(s-a) / ((s-a)² + ω²)",
+    "explanation": "This is a direct application of the first shifting property of Laplace transforms. The Laplace transform of cos(ωt) is s/(s²+ω²). Applying the property L{e^(at)f(t)} = F(s-a), we replace every 's' with 's-a', which gives (s-a)/((s-a)²+ω²)."
+  },
+  {
+    "chapter": "Engineering Mathematics",
+    "question": "if u = yzi + 3zxj + zk, then curl u is",
+    "image": "",
+    "options": [
+      "-3xi + yj + 2zk",
+      "3xi - yj + 2zk",
+      "-3xi - yj - 2zk",
+      "3xi + yj - 2zk"
+    ],
+    "answer": "-3xi + yj + 2zk",
+    "explanation": "Curl u = ∇ x u. This is calculated as the determinant of a matrix. The result is i(∂(z)/∂y - ∂(3zx)/∂z) - j(∂(z)/∂x - ∂(yz)/∂z) + k(∂(3zx)/∂x - ∂(yz)/∂y) = i(0 - 3x) - j(0 - y) + k(3z - z) = -3xi + yj + 2zk."
+  },
+  {
+    "chapter": "Engineering Mathematics",
+    "question": "cos(z) can be expressed as",
+    "image": "",
+    "options": [
+      "(1/2)(e^(iz) + e^(-iz))",
+      "(1/2)(e^(iz) - e^(-iz))",
+      "(1/2i)(e^(iz) + e^(-iz))",
+      "(1/2i)(e^(iz) - e^(-iz))"
+    ],
+    "answer": "(1/2)(e^(iz) + e^(-iz))",
+    "explanation": "This is from Euler's formulas. We know e^(iz) = cos(z) + i*sin(z) and e^(-iz) = cos(z) - i*sin(z). Adding these two equations gives e^(iz) + e^(-iz) = 2*cos(z). Dividing by 2 gives the result."
+  },
+  {
+    "chapter": "Engineering Mathematics",
+    "question": "In a vector field, Divergence of the gradient is",
+    "image": "",
+    "options": [
+      "curl",
+      "unity",
+      "zero",
+      "Laplacian"
+    ],
+    "answer": "Laplacian",
+    "explanation": "The divergence of the gradient of a scalar function φ is div(grad φ) = ∇ ⋅ (∇φ) = ∇²φ, which is the definition of the Laplacian operator."
+  },
+  {
+    "chapter": "Engineering Mathematics",
+    "question": "If a continuously differentiable vector function is the gradient of a scalar function, then its curl is",
+    "image": "",
+    "options": [
+      "infinite",
+      "indeterminate",
+      "unity",
+      "zero"
+    ],
+    "answer": "zero",
+    "explanation": "This is a fundamental vector identity. The curl of the gradient of any scalar function (curl(grad φ) or ∇ x (∇φ)) is always zero. Such a vector field is called irrotational or conservative."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "What does 'a' and 'e' indicate in the surface texture symbol shown below",
+    "image": "[IMAGE_HERE]",
+    "options": [
+      "Roughness value, machining allowance",
+      "Production method, roughness value",
+      "Machining allowance, sampling length",
+      "Heat treatment method, sample length"
+    ],
+    "answer": "Roughness value, machining allowance",
+    "explanation": "In the standard symbol for surface texture, 'a' represents the primary roughness value (like Ra), and 'e' represents the machining allowance."
+  },
+  {
+    "chapter": "Engineering Mechanics",
+    "question": "Two steel trusses, XY and YZ of identical size supports a load of 200 N as shown in fig. The length of the truss in 1m. The force in the truss XY in N is",
+    "image": "[IMAGE_HERE]",
+    "options": [
+      "100 N",
+      "200 N",
+      "150 N",
+      "50 N"
+    ],
+    "answer": "200 N",
+    "explanation": "By symmetry and applying Lami's theorem at the joint, T_xy / sin(120°) = T_yz / sin(120°) = 200 / sin(120°). This directly implies that T_xy = T_yz = 200 N."
+  },
+  {
+    "chapter": "Engineering Mechanics",
+    "question": "A block weighing 100 N is resting on a plane inclined with horizontal as shown in Fig. What horizontal force P is necessary to hold the body from sliding down the plane? (Coefficient of friction can be taken as 0.25)",
+    "image": "[IMAGE_HERE]",
+    "options": [
+      "30 N",
+      "120 N",
+      "60 N",
+      "15 N"
+    ],
+    "answer": "60 N",
+    "explanation": "Balancing forces along and perpendicular to the incline. N = Wcosθ + Psinθ. To hold the body, Pcosθ + μN = Wsinθ. Substituting for N: Pcosθ + μ(Wcosθ + Psinθ) = Wsinθ. With θ=45°, P(cos45° + 0.25sin45°) = 100(sin45° - 0.25cos45°). Since sin45°=cos45°, P(1.25) = 100(0.75), so P = 60 N."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "The ratio of maximum shear stress to average shear stress in a beam of rectangular section is",
+    "image": "",
+    "options": [
+      "5.1",
+      "2/3",
+      "3/2",
+      "1.0"
+    ],
+    "answer": "3/2",
+    "explanation": "For a beam with a rectangular cross-section, the shear stress distribution is parabolic, with the maximum stress at the neutral axis being τ_max = 1.5 * τ_avg. Therefore, the ratio τ_max / τ_avg is 3/2 or 1.5."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "A mass less beam has a loading pattern shown in figure. Find the bending moment at mid span?",
+    "image": "[IMAGE_HERE]",
+    "options": [
+      "1 kN-m",
+      "3 kN-m",
+      "2 kN-m",
+      "0.0 kN-m"
+    ],
+    "answer": "1 kN-m",
+    "explanation": "First, find the reactions. The total load is 4 kN acting at 1.5m from A. Reaction at C, R_C * 2 = 4 * 1.5 => R_C = 3 kN. R_A = 4 - 3 = 1 kN. The mid-span is at B (x=1m). The bending moment at B is M_B = R_A * 1 = 1 kN * 1m = 1 kN-m."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "Steel machine element at the critical section is in biaxial stress state with two principal stress being 300 N/mm² and 300 N/mm² (equal magnitude). Find the von Mises stress (in N/mm²) in the member",
+    "image": "",
+    "options": [
+      "212.1",
+      "600",
+      "424.2",
+      "300"
+    ],
+    "answer": "300",
+    "explanation": "The von Mises stress (σ_v) for a plane stress condition is given by σ_v = √(σ₁² + σ₂² - σ₁σ₂). Since σ₁ = σ₂ = 300, σ_v = √(300² + 300² - 300*300) = √(300²) = 300 N/mm²."
+  },
+  {
+    "chapter": "Vibrations",
+    "question": "A machine component of 90 kg mass needs to be held in position using three springs as shown below. The spring constants K₁, K₂ and K₃ are 4, 4 and 8 N/m respectively. Find the natural frequency of the system in rad/sec.",
+    "image": "[IMAGE_HERE]",
+    "options": [
+      "0.33",
+      "0.42",
+      "0.13",
+      "3.0"
+    ],
+    "answer": "0.33",
+    "explanation": "Springs K₁ and K₂ are in series, so their equivalent stiffness is 1/K_series = 1/K₁ + 1/K₂ = 1/4 + 1/4 = 1/2, so K_series = 2 N/m. This combination is in parallel with K₃. The total equivalent stiffness K_eq = K_series + K₃ = 2 + 8 = 10 N/m. The natural frequency ω_n = √(K_eq / M) = √(10 / 90) = √(1/9) = 1/3 ≈ 0.33 rad/s."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "A cylindrical pressure vessel has diameter 200 mm and thickness 2 mm. Find the hoop and axial stress (N/mm²) in the cylindrical vessel, when it is subjected to an internal pressure of 5 MPa.",
+    "image": "",
+    "options": [
+      "125, 125",
+      "125, 250",
+      "250, 250",
+      "250, 125"
+    ],
+    "answer": "250, 125",
+    "explanation": "Hoop stress (σ_h) = (P * d) / (2 * t) = (5 MPa * 200 mm) / (2 * 2 mm) = 1000 / 4 = 250 MPa. Axial stress (σ_a) = (P * d) / (4 * t) = σ_h / 2 = 250 / 2 = 125 MPa."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "For a long slender column of uniform cross section, the ratio of critical buckling load for the case with both ends hinged to the case with both ends clamped is",
+    "image": "",
+    "options": [
+      "0.25",
+      "4.0",
+      "0.125",
+      "0.5"
+    ],
+    "answer": "0.25",
+    "explanation": "The critical buckling load (P_cr) is given by (π²EI) / (L_e)², where L_e is the effective length. For hinged-hinged ends, L_e = L, so P_cr_hinged = (π²EI) / L². For clamped-clamped ends, L_e = L/2, so P_cr_clamped = (π²EI) / (L/2)² = 4(π²EI) / L². The ratio is (1/4) = 0.25."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "If the length of a column subjected to compressive load is increase by three times its original length, the critical buckling load becomes",
+    "image": "",
+    "options": [
+      "1/3 of the original value",
+      "3 times the original value",
+      "1/9 of the original value",
+      "1/27 of the original value"
+    ],
+    "answer": "1/9 of the original value",
+    "explanation": "The critical buckling load (P_cr) is inversely proportional to the square of the effective length (P_cr ∝ 1/L_e²). If the length is tripled, the new load will be P_cr_new ∝ 1/(3L_e)² = 1/9 * (1/L_e²). So the load becomes 1/9 of the original value."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "A square bar of size 10 mm x 10 mm and length 1000 mm is subjected to 200 N axial tensile force. The bar is made of mild steel having modulus of elasticity of 200 GPa. Find the strain energy density stored in the bar under this state of loading?",
+    "image": "",
+    "options": [
+      "10 J/m³",
+      "20 J/m³",
+      "2 J/m³",
+      "5 J/m³"
+    ],
+    "answer": "10 J/m³",
+    "explanation": "Stress (σ) = Force / Area = 200 N / (10mm * 10mm) = 2 MPa. Strain energy density (U) = σ² / (2E) = (2x10⁶ Pa)² / (2 * 200x10⁹ Pa) = 4x10¹² / 4x10¹¹ = 10 J/m³."
+  },
+  {
+    "chapter": "Machine Design",
+    "question": "A solid circular shaft needs to be designed to transmit a torque of 55 N m. If the allowable shear stress of the material is 280 N/mm², find the diameter (in mm) of the shaft required to transmit torque. (Assume, π = 22/7)",
+    "image": "",
+    "options": [
+      "5.62",
+      "10",
+      "31.62",
+      "25.0"
+    ],
+    "answer": "10",
+    "explanation": "The torsion formula is T/J = τ/r. For a solid shaft, J = (πd⁴)/32 and r=d/2. This simplifies to τ = 16T / (πd³). Rearranging for d: d³ = 16T / (πτ) = (16 * 55000 Nmm) / ((22/7) * 280 N/mm²) = 880000 / 880 = 1000 mm³. So, d = 10 mm."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "If S is the applied stress, c is the width of the crack and r the radius of curvature at the tip of the crack, Griffith's crack theory gives the concentrated stress Sc as",
+    "image": "",
+    "options": [
+      "2S(c/r)^(1/2)",
+      "2S(c/r)^(1/3)",
+      "S(c/r)^(1/2)",
+      "2S(2c/r)^(1/2)"
+    ],
+    "answer": "2S(c/r)^(1/2)",
+    "explanation": "The Griffith crack theory for brittle materials relates the applied stress (S) to the concentrated stress (Sc) at the tip of an elliptical crack by the formula Sc = 2S * √(c/r), where 'c' is half the crack length and 'r' is the radius of curvature at the crack tip."
+  },
+  {
+    "chapter": "Machine Design",
+    "question": "A metal alloy machine component is subjected to fluctuating tensile stress from 100 N/mm² to 200 N/mm². The material has yield and endurance strength of 450 and 200 N/mm² respectively. Find the factor of safety of the machine component.",
+    "image": "",
+    "options": [
+      "5/6",
+      "12/7",
+      "1/3",
+      "6/5"
+    ],
+    "answer": "12/7",
+    "explanation": "Mean stress σ_m = (200+100)/2 = 150 MPa. Variable stress σ_v = (200-100)/2 = 50 MPa. Using the Soderberg failure criterion: (σ_m / σ_y) + (σ_v / σ_e) = 1/N. (150 / 450) + (50 / 200) = 1/N. (1/3) + (1/4) = 1/N. (7/12) = 1/N. Therefore, the factor of safety N = 12/7."
+  },
+  {
+    "chapter": "Vibrations",
+    "question": "A driver of mass 100 kg is standing at the tip of a spring board of negligible mass. The natural frequency of the spring board with the driver is 1.6 Hz. What is the static deflection at the tip of the spring board when the driver is standing at the tip?",
+    "image": "",
+    "options": [
+      "0.1 mm",
+      "981 mm",
+      "98.1 mm",
+      "9.81 mm"
+    ],
+    "answer": "98.1 mm",
+    "explanation": "The natural frequency (f_n) is related to static deflection (Δ) by f_n = (1/(2π)) * √(g/Δ). Rearranging for Δ: Δ = g / (2π * f_n)². Δ = 9.81 / (2π * 1.6)² ≈ 9.81 / 100.53 ≈ 0.097 m, which is 97.06 mm. The closest answer is 98.1 mm."
+  },
+  {
+    "chapter": "Engineering Materials",
+    "question": "Which of the following is classified as a secondary bond in materials?",
+    "image": "",
+    "options": [
+      "Ionic bonding",
+      "Covalent bonding",
+      "Metallic bonding",
+      "Hydrogen bonding"
+    ],
+    "answer": "Hydrogen bonding",
+    "explanation": "Ionic, covalent, and metallic bonds are primary bonds, involving the transfer or sharing of electrons. Secondary bonds, such as Van der Waals forces and hydrogen bonds, are weaker and arise from electrostatic attraction between dipoles."
+  },
+  {
+    "chapter": "Engineering Materials",
+    "question": "The number of atoms per unit cell for an FCC crystal structure is",
+    "image": "",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "4",
+    "explanation": "In a Face-Centered Cubic (FCC) crystal structure, there are 8 atoms at the corners (each shared by 8 cells, contributing 8 * 1/8 = 1 atom) and 6 atoms on the faces (each shared by 2 cells, contributing 6 * 1/2 = 3 atoms). The total is 1 + 3 = 4 atoms per unit cell."
+  },
+  {
+    "chapter": "Manufacturing",
+    "question": "Which of the following hardness test uses diamond cone type indenter?",
+    "image": "",
+    "options": [
+      "Brinell",
+      "Vickers",
+      "Knoop",
+      "Rockwell"
+    ],
+    "answer": "Rockwell",
+    "explanation": "The Rockwell hardness test uses either a steel ball indenter or a diamond cone indenter (known as a 'Brale' indenter). Brinell uses a steel ball, and Vickers uses a square-based diamond pyramid."
+  },
+  {
+    "chapter": "Engineering Materials",
+    "question": "In a two component system, if the non-compositional variable is only temperature, the number of degrees of freedom in the case of a single phase field as per Gibbs Phase Rule is?",
+    "image": "",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2",
+    "explanation": "The modified Gibbs Phase Rule when pressure is constant is P + F = C + 1. Here, P (phases) = 1, C (components) = 2. So, 1 + F = 2 + 1, which gives F (degrees of freedom) = 2."
+  },
+  {
+    "chapter": "Engineering Materials",
+    "question": "In an iron-carbon diagram, the percentage by weight of carbon at eutectoid composition is",
+    "image": "",
+    "options": [
+      "1.12",
+      "0.76",
+      "0.24",
+      "0.03"
+    ],
+    "answer": "0.76",
+    "explanation": "The eutectoid point on the iron-carbon phase diagram occurs at a temperature of 727°C and a carbon concentration of 0.76% by weight. At this point, austenite transforms directly into pearlite (a layered structure of ferrite and cementite)."
+  },
+  {
+    "chapter": "Engineering Materials",
+    "question": "Of the various microstructures that may be produced for a given steel alloy, which among the following is the hardest form",
+    "image": "",
+    "options": [
+      "Martensite",
+      "Pearlite",
+      "Bainite",
+      "Spheroidite"
+    ],
+    "answer": "Martensite",
+    "explanation": "Martensite is the hardest and most brittle microstructure in steel. It is formed by rapid quenching from the austenite phase, which traps carbon atoms in a body-centered tetragonal (BCT) crystal structure, causing significant lattice strain."
+  },
+  {
+    "chapter": "Machine Design",
+    "question": "Which spring steel is widely used for aircraft engine valves",
+    "image": "",
+    "options": [
+      "Oil tempered wire (0.6 C to 0.7 C)",
+      "Chrome vanadium",
+      "Hard drawn wire (0.6 C to 0.7 C)",
+      "Phosphor bronze wire"
+    ],
+    "answer": "Chrome vanadium",
+    "explanation": "Chrome-vanadium steel alloys are widely used for high-stress applications like engine valve springs and aircraft components because they offer excellent strength, toughness, and resistance to fatigue and high temperatures."
+  },
+  {
+    "chapter": "Machine Design",
+    "question": "If, K_f is the fatigue stress concentration factor and K_t is the theoretical stress concentration factor then, the notch sensitivity q is?",
+    "image": "",
+    "options": [
+      "(K_f + 1) / (K_t + 1)",
+      "(K_f - 1) / (K_t - 1)",
+      "(K_t - 1) / (K_f - 1)",
+      "(K_f - 1) / (K_t + 1)"
+    ],
+    "answer": "(K_f - 1) / (K_t - 1)",
+    "explanation": "Notch sensitivity, q, is a measure of how sensitive a material is to the effects of a stress concentration. It is defined by the formula q = (K_f - 1) / (K_t - 1), where q ranges from 0 (not sensitive) to 1 (fully sensitive)."
+  },
+  {
+    "chapter": "Mechanics of Materials",
+    "question": "Beach or clamshell marks on a failed metallic surface are typical of",
+    "image": "",
+    "options": [
+      "Ductile fracture",
+      "Brittle fracture",
+      "Creep failure",
+      "Fatigue failure"
+    ],
+    "answer": "Fatigue failure",
+    "explanation": "Beach marks (or clamshell marks) are macroscopic features on the fracture surface of a component that has failed due to fatigue. Each mark represents a period of crack growth under cyclic loading."
+  },
+  {
+    "chapter": "Vibrations",
+    "question": "In vibration isolation if ω/ωn is less than √2 then the transmissibility will be",
+    "image": "[IMAGE_HERE]",
+    "options": [
+      "Less than one",
+      "Equal to one",
+      "Greater than one",
+      "Zero"
+    ],
+    "answer": "Greater than one",
+    "explanation": "The transmissibility ratio (TR) is greater than 1 for the frequency ratio (ω/ωn) range from 0 to √2. This means in this range, the transmitted force is amplified. Isolation (TR < 1) only occurs when ω/ωn > √2."
+  },
+  {
+    "chapter": "Vibrations",
+    "question": "The natural frequency of a simply supported beam of length l with mass M at its centre, flexural rigidity EI and negligible beam mass is",
+    "image": "",
+    "options": [
+      "(1/2π) * √(48EI / Ml³)",
+      "(1/2π) * √(3EI / Ml³)",
+      "(1/2π) * √(EI / Ml³)",
+      "None of the above"
+    ],
+    "answer": "(1/2π) * √(48EI / Ml³)",
+    "explanation": "The static deflection (Δ) of a simply supported beam with a point load (W=Mg) at the center is Δ = (Wl³) / (48EI). The natural frequency is f_n = (1/(2π)) * √(g/Δ) = (1/(2π)) * √(k/M). The stiffness k = W/Δ = 48EI/l³. So, f_n = (1/(2π)) * √(48EI / Ml³)."
+  },
+  {
+    "chapter": "Vibrations",
+    "question": "A machine component of natural frequency 20 rad/s is subjected to a base motion from the machine which is harmonic in natural with amplitude 3 m/s² at 10 rad/s. What is the peak amplitude of relative displacement of the components if the damping is negligible?",
+    "image": "",
+    "options": [
+      "0.1 mm",
+      "1.0 mm",
+      "10.0 mm",
+      "100.0 mm"
+    ],
+    "answer": "10.0 mm",
+    "explanation": "The amplitude of relative displacement (A) for base excitation is given by A = (Y * r²) / √( (1-r²)² + (2ζr)² ), where Y is the base amplitude and r = ω/ωn. The base acceleration amplitude a_max = Yω², so Y = 3/10² = 0.03m. r = 10/20 = 0.5. With negligible damping (ζ=0), A = Y * r² / (1-r²) = 0.03 * (0.5)² / (1 - 0.5²) = 0.03 * 0.25 / 0.75 = 0.01 m, which is 10.0 mm."
+  }
+]
+}

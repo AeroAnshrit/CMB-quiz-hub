@@ -1,0 +1,10 @@
+{
+    "title": "Microprocessors and Microcontrollers",
+    "chapters": [
+        "Architecture and instruction set",
+        "Addressing modes and assembly language",
+        "Interfacing (memory, I/O, peripherals)",
+        "Interrupts and embedded system basics"
+    ],
+    "questions": []
+}

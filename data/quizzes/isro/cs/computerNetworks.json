@@ -1,0 +1,11 @@
+{
+    "title": "Computer Networks",
+    "chapters": [
+        "OSI and TCP/IP models",
+        "Data link layer (framing, error control)",
+        "Network layer (IP, routing)",
+        "Transport layer (TCP, UDP, congestion control)",
+        "Application layer (DNS, HTTP)"
+    ],
+    "questions": []
+}

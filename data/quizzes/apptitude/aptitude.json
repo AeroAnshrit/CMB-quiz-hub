@@ -1,0 +1,30 @@
+{
+    "title": "Aptitude",
+    "subjects": {
+        "numericalReasoning": {
+            "title": "Numerical Reasoning",
+            "chapters": [],
+            "questions": []
+        },
+        "logicalReasoning": {
+            "title": "Logical Reasoning",
+            "chapters": [],
+            "questions": []
+        },
+        "diagrammaticReasoning": {
+            "title": "Diagrammatic Reasoning",
+            "chapters": [],
+            "questions": []
+        },
+        "abstractReasoning": {
+            "title": "Abstract Reasoning",
+            "chapters": [],
+            "questions": []
+        },
+        "deductiveReasoning": {
+            "title": "Deductive Reasoning",
+            "chapters": [],
+            "questions": []
+        }
+    }
+}

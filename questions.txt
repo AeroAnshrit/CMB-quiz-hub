@@ -1,0 +1,560 @@
+﻿1. The pressure P of a gas in terms of its mean kinetic energy per unit volume E is equal to
+(a) E/3
+(b) E/2
+(c) 3E/4
+(d) 2E/3
+Answer: (d)
+Subject: Thermodynamics
+2. Work done in a free expansion process is
+(a) +ve
+(b) -ve
+(c) zero
+(d) none of the above
+Answer: (c)
+Subject: Thermodynamics
+3. If the value of n is infinitely large in a polytropic process PV^n = C, then the process is known as constant
+(a) volume
+(b) pressure
+(c) temperature
+(d) entropy
+Answer: (a)
+Subject: Thermodynamics
+4. During the charging of a storage battery, the current is 20A and the voltage E in 12.8V. The ratio of heat transfer from the battery is 16W. At what rate is the internal energy increasing?
+(a) 256 Js⁻¹
+(b) 272 Js⁻¹
+(c) 0
+(d) 240 Js⁻¹
+Answer: (d)
+Subject: Thermodynamics
+5. The compression ratio for diesel engines is close to
+(a) 3 to 6
+(b) 5 to 8
+(c) 15 to 20
+(d) 20 to 30
+Answer: (c)
+Subject: Thermodynamics
+6. One kg of carbon monoxide requires how much quantity of oxygen to produce 11/7 kg of carbon dioxide gas?
+(a) 4/7 kg
+(b) 11/4 kg
+(c) 9/7 kg
+(d) None of the above
+Answer: (a)
+Subject: Thermodynamics
+7. The entropy of water at 0 K is assumed to be
+(a) 1 JK⁻¹
+(b) -1 JK⁻¹
+(c) 10 JK⁻¹
+(d) 0
+Answer: (d)
+Subject: Thermodynamics
+8. An expansion process as per law PV = constant is known as
+(a) parabolic expansion
+(b) hyperbolic expansion
+(c) isentropic expansion
+(d) free expansion
+Answer: (b)
+Subject: Thermodynamics
+9. Speed of an aeroplane is measured by
+(a) pitot tube
+(b) hot wire anemometer
+(c) venturimeter
+(d) rotameter
+Answer: (a)
+Subject: Fluid Mechanics
+10. Euler's dimensionless number relates the following
+(a) inertial force and gravity
+(b) viscous force and inertial force
+(c) pressure force and inertial force
+(d) viscous force and pressure force
+Answer: (c)
+Subject: Fluid Mechanics
+11. Speed of sound in water is equal to (K-bulk modulus, p-density)
+(a) sqrt(K/ρ)
+(b) sqrt(Kρ)
+(c) sqrt(ρ/K)
+(d) K/ρ
+Answer: (a)
+Subject: Fluid Mechanics
+12. The velocity of sound in a gaseous medium at a temperature of 400K in 400 ms⁻¹. If the temperature of the medium is increased to 600 K, the velocity of sound will be nearly
+(a) 400 ms⁻¹
+(b) 490 ms⁻¹
+(c) 600 ms⁻¹
+(d) None of these
+Answer: (b)
+Subject: Thermodynamics
+13. Stress strain relation of the Newtonian fluid is
+(a) parabolic
+(b) linear
+(c) hyperbolic
+(d) inverse type
+Answer: (b)
+Subject: Fluid Mechanics
+14. For an irrotational flow, (∂²φ/∂x²) + (∂²φ/∂y²) = 0 is the equation given by
+(a) Cauchy-Riemann
+(b) Reynolds
+(c) Laplace
+(d) Bernoulli
+Answer: (c)
+Subject: Fluid Mechanics
+15. A simple compressible substance inside a cylinder undergoes change of state quasistatically, isothermally and at constant pressure of 1.5 MPa. If the enthalpy change for the system is 4000 kJ at 150°C, what is the corresponding change in its entropy?
+(a) 9.45 kJ K⁻¹
+(b) 26.67 kJ K⁻¹
+(c) 14.17 kJ K⁻¹
+(d) 0
+Answer: (a)
+Subject: Thermodynamics
+16. In a centrifugal pump casing, the flow of water leaving the impeller is
+(a) rectilinear flow
+(b) free vortex motion
+(c) radial flow
+(d) forced vortex
+Answer: (b)
+Subject: Fluid Mechanics
+17. For a two stage reciprocating compressor, compression from P₁ to P₃ is with perfect inter cooling and no pressure losses. If compression in both the cylinders follows the same polytropic process and the atmospheric pressure is Pₐ, then the intermediate pressure P₂ is given by
+(a) P₂ = (P₁ + P₃)/P₂
+(b) P₂ = sqrt(P₁.P₃)
+(c) P₂ = Pₐ * sqrt(P₃/P₁)
+(d) P₂ = Pₐ * sqrt(P₁/P₃)
+Answer: (b)
+Subject: Thermodynamics
+18. The degree of reaction in an axial flow compressor is defined as the ratio of static enthalpy rise in the
+(a) rotor to static enthalpy rise in the stator
+(b) stator to static enthalpy rise in the rotor
+(c) rotor to static enthalpy rise in the stage
+(d) stator to static enthalpy rise in the stage
+Answer: (c)
+Subject: Fluid Mechanics
+19. The frequency of ultrasonic waves is
+(a) less than 20 Hz
+(b) between 20 to 10000 Hz
+(c) between 20 to 20000 Hz
+(d) above 20000 Hz
+Answer: (d)
+Subject: General Science
+20. Loudness of the sound does not change with the change in
+(a) frequency
+(b) amplitude
+(c) distance from the source of sound
+(d) none of these
+Answer: (a)
+Subject: General Science
+21. If the stream function of two dimensional flow is ψ = 5xy, then the velocity at a point (3, 4) is
+(a) 25 ms⁻¹
+(b) 20 ms⁻¹
+(c) 7 ms⁻¹
+(d) 5 ms⁻¹
+Answer: (a)
+Subject: Fluid Mechanics
+22. A glass tube of 8 mm diameter is immersed in water. Surface tension of water is 0.0075 kg m and rise of water in the tube due to capillary effect is
+(a) 7.5 mm
+(b) 3.75 mm
+(c) 11.25 mm
+(d) None of these
+Answer: (b)
+Subject: Fluid Mechanics
+23. An impulse turbine produces 125 hp under a head of 25 meters. By what percentage should the speed be increased for a head of 100 metres
+(a) 25%
+(b) 50%
+(c) 75%
+(d) 100%
+Answer: (d)
+Subject: Fluid Mechanics
+24. The specific speed of a centrifugal pump, delivering 1000 litres of water per second against a head of 16 metre at 800 rpm is
+(a) 50 rpm
+(b) 100 rpm
+(c) 150 rpm
+(d) 200 rpm
+Answer: (b)
+Subject: Fluid Mechanics
+25. A pipe of 0.1 m² suddenly changes to 0.5 m² area. The quantity of water flowing in the pipe is 0.5 m³s⁻¹. Head loss due to sudden enlargement is nearly
+(a) 0.025 m
+(b) 0.05 m
+(c) 0.8 m
+(d) 1.2 m
+Answer: (c)
+Subject: Fluid Mechanics
+26. Efficiency of a centrifugal pump is maximum when the blades are
+(a) straight
+(b) forward curved
+(c) backward curved
+(d) forward and backward curved
+Answer: (c)
+Subject: Fluid Mechanics
+27. The hydraulic diameter, Dₕ of a rectangular channel with sides 'a' and 'b' is,
+(a) Dₕ = 4ab / (2a + b)
+(b) Dₕ = 2ab / (a + b)
+(c) Dₕ = 2ab / (2a + b)
+(d) Dₕ = 4ab / (a + b)
+Answer: (a)
+Subject: Fluid Mechanics
+28. Which of the following has maximum value of thermal conductivity?
+(a) steel
+(b) copper
+(c) brass
+(d) aluminium
+Answer: (b)
+Subject: Heat Transfer
+29. The value of Biot number is very small (<0.01) when
+(a) conductive resistance of the fluid is negligible
+(b) conductive resistance within the body is negligible
+(c) conductive resistance of the fluid surface of the body is negligible
+(d) None of these
+Answer: (b)
+Subject: Heat Transfer
+30. A steam pipe is to be insulated by 2 insulating materials put over each other. For best results
+(a) better insulation should be put over pipe and inferior one over it
+(b) inferior insulation should be put over pipe and better one over it
+(c) both may put in any order
+(d) unpredictable
+Answer: (d)
+Subject: Heat Transfer
+31. The critical radius of insulation for a spherical shell is
+(a) thermal conductivity of insulating material / heat transfer coefficient at the outer surface
+(b) 2 x thermal conductivity of insulating material / heat transfer coefficient at the outer surface
+(c) thermal conductivity of insulating material / 2 x heat transfer coefficient at the outer surface
+(d) heat transfer coefficient at the outer surface / thermal conductivity of insulating material
+Answer: (b)
+Subject: Heat Transfer
+32. If the temperature of a solid surface changes from 27°C to 81°C, then its emissive power changes in the ratio of nearly
+(a) 81
+(b) 9
+(c) 1.49
+(d) 1.94
+Answer: (d)
+Subject: Heat Transfer
+33. The heat removal rate from a refrigerated space is 7.2 kW and the power input to the compressor is 1.8 kW. The coefficient of performance (COP) of the refrigerator is
+(a) 4
+(b) 5
+(c) 1.25
+(d) 0.25
+Answer: (a)
+Subject: Refrigeration and Air Conditioning
+34. For a fluid having Prandtl number equal to unity, the relation between hydrodynamic boundary layer thickness (δ₁) and thermal boundary layer thickness (δ₂).
+(a) δ₁ > δ₂
+(b) δ₁ < δ₂
+(c) δ₁ = δ₂
+(d) δ₂ = δ₁ / 3
+Answer: (c)
+Subject: Heat Transfer
+35. Life of a ball bearing at a load of 10 kN is 24000 hours. If the load is increased to 20 kN (all other conditions are same), its life in hour is
+(a) 1000 h
+(b) 3000 h
+(c) 6000 h
+(d) 12000 h
+Answer: (b)
+Subject: Machine Design
+36. The main objective of 'shot peening' is to improve which property of metal parts
+(a) fatigue strength
+(b) ductility
+(c) surface finish
+(d) none of these
+Answer: (a)
+Subject: Manufacturing
+37. A hole is of dimension φ60(+0.015/+0.000) and the corresponding shaft is of dimension φ60(+0.011/+0.001). When they are assembled they will form a
+(a) interference fit
+(b) clearance fit
+(c) transition fit
+(d) none of these
+Answer: (c)
+Subject: Metrology
+38. Which of the following carbon steels is most weldable
+(a) 1.0% carbon steel
+(b) 0.3% carbon steel
+(c) 0.5% carbon steel
+(d) 0.15% carbon steel
+Answer: (d)
+Subject: Manufacturing
+39. A small percentage of boron is added to steel in order to
+(a) increase endurance strength
+(b) reduce machinability
+(c) increase water resistance
+(d) increase hardenability
+Answer: (d)
+Subject: Material Science
+40. A material that exhibits the same elastic properties in all directions at a point is called
+(a) homogenous
+(b) heterogenous
+(c) isotropic
+(d) orthotropic
+Answer: (c)
+Subject: Strength of Materials
+41. Number of atoms per unit cell of a face centered cubic (FCC) lattice is
+(a) 14
+(b) 7
+(c) 4
+(d) 10
+Answer: (c)
+Subject: Material Science
+42. The impact strength of a material is an index of its
+(a) fatigue strength
+(b) tensile strength
+(c) hardness
+(d) toughness
+Answer: (d)
+Subject: Material Science
+43. Which of the following order of crystal structure will match with metals Iron - Nickel - Titanium in that order at room temperature?
+(a) BCC-HCP-FCC
+(b) FCC-BCC-BCP
+(c) HCP-FCC-BCC
+(d) BCC-FCC-HCP
+Answer: (d)
+Subject: Material Science
+44. In a machining operation cutting speed is reduced by 50%. Assuming n=0.5 C=300 in Taylor's equation the increase in tool life is
+(a) 2
+(b) 4
+(c) 8
+(d) 16
+Answer: (b)
+Subject: Manufacturing
+45. In a linear arc welding process, the heat input per unit length is inversely proportional to
+(a) welding current
+(b) welding speed
+(c) welding voltage
+(d) duty cycle of power source
+Answer: (b)
+Subject: Manufacturing
+46. The welding process which uses a blanket of fusible granular flux is
+(a) submerged arc welding
+(b) tungsten inert gas welding
+(c) electroslag welding
+(d) thermit welding
+Answer: (a)
+Subject: Manufacturing
+47. In a metal sheet of 3 mm thickness, a hole of 7mm diameter needs to be punched. The yield strength in tension of the sheet material is 120 MPa and its ultimate shear strength is 100 MPa. The force required to punch the hole is
+(a) 7.92 kN
+(b) 11.6 kN
+(c) 6.6 kN
+(d) 13.9 kN
+Answer: (c)
+Subject: Manufacturing
+48. Profile of a gear tooth can be checked by
+(a) sine bar
+(b) bench micrometer
+(c) optical pyrometer
+(d) optical projector
+Answer: (d)
+Subject: Metrology
+49. The reflector combined with auto collimator can be used for checking
+(a) parallelism
+(b) circularity
+(c) surface finish
+(d) alignment
+Answer: (d)
+Subject: Metrology
+50. PERT has following time estimate
+(a) one time estimate
+(b) two time estimate
+(c) three time estimate
+(d) nil time estimate
+Answer: (c)
+Subject: Industrial Engineering
+51. Which of the following is an amorphous material
+(a) mica
+(b) lead
+(c) rubber
+(d) glass
+Answer: (d)
+Subject: Material Science
+52. In a party, each person shake hands with every other person present. The total number of handshakes was 45. The number of people in the party is
+(a) 12
+(b) 10
+(c) 8
+(d) 6
+Answer: (b)
+Subject: Mathematics
+53. Two non-zero vectors are parallel if their vector product is
+(a) 1
+(b) 0
+(c) -1
+(d) ∞
+Answer: (b)
+Subject: Mathematics
+54. If Eigen value of a matrix A is λ, then the Eigen value of A² is
+(a) 1
+(b) 1/λ
+(c) 1/λ²
+(d) λ²
+Answer: (d)
+Subject: Mathematics
+55. The value of lim (x→∞) (sin x)/x is equal to
+(a) 1
+(b) -1
+(c) Infinity
+(d) zero
+Answer: (d)
+Subject: Mathematics
+56. If f(x) = (1-x)/(1+x) then f(1/x) is equal to
+(a) f(x)
+(b) -f(x)
+(c) f(-x)
+(d) ±f(x)
+Answer: (b)
+Subject: Mathematics
+57. Inverse Laplace transform of s/(s²+a²) is
+(a) (e^(at) + e^(-at))/2
+(b) (e^(at) - e^(-at))/2
+(c) e^(at)/2
+(d) e^(-at)/2
+Answer: (*) [Note: Correct answer is cos(at), which is not in the options]
+Subject: Mathematics
+58. One dimensional wave equation is
+(a) ∂²y/∂t² = α² ∂²y/∂x²
+(b) ∂y/∂t = α² ∂²y/∂x²
+(c) ∂²y/∂t² + ∂²y/∂x² = 0
+(d) none of these
+Answer: (a)
+Subject: Mathematics
+59. Which of the following method is said to be a direct method in numerical methods?
+(a) Regula-Falsi method
+(b) Gauss-Siedel method
+(c) Newton-Raphson method
+(d) Gauss elimination method
+Answer: (d)
+Subject: Mathematics
+60. If X is a normal variable with mean µ and standard deviation σ, then the mean and standard deviation of the variable Z = (X-µ)/σ is
+(a) 1 and 0 respectively
+(b) µ and σ respectively
+(c) 0 and 1 respectively
+(d) None of these
+Answer: (c)
+Subject: Mathematics
+61. Example for an elliptic partial differential equation is
+(a) Uxx + Uyy = 0
+(b) Ut = c²Uxx
+(c) Utt = c²Uyy
+(d) yUxx + Uyy = 0
+Answer: (a)
+Subject: Mathematics
+62. The solution of the equation y'' + y = 0 satisfy the condition y(0)=1, y(π/2)=2, is
+(a) cos x + 2 sin x
+(b) cos x + sin x
+(c) 2 cos x + sin x
+(d) 2(cos x + 2 sin x)
+Answer: (a)
+Subject: Mathematics
+63. A composite bar made of aluminum and steel is fixed rigidly at supports P and Q as shown in figure. When the temperature of the bar is increased by 10°C the reactions at the supports are (given E_al=70 GPa, E_s=210 GPa, α_al= 11E-6 mm/mm°C and α_s=12 E-6 mm/mm°C)
+(a) 4060 N
+(b) 6780 N
+(c) 12240 N
+(d) 2412 N
+Answer: (a)
+Subject: Strength of Materials
+64. Torque, T is applied at the free end of a stepped rod of circular cross section as shown in figure. If the shear modulus of the material is G, the angular twist, at free end will be
+(a) 12TL / (Gπd⁴)
+(b) 24TL / (Gπd⁴)
+(c) 36TL / (Gπd⁴)
+(d) 48TL / (Gπd⁴)
+Answer: (c)
+Subject: Strength of Materials
+65. In most brittle materials, the ultimate strength in compression is larger than the ultimate strength in tension due to
+(a) Necking in tension
+(b) Presence of flaws and microscopic cracks or cavities
+(c) Non-linearity of stress-strain diagram
+(d) Severity of tensile stress as compared to compressive stress
+Answer: (b)
+Subject: Strength of Materials
+66. For the spring system given in figure, the equivalent stiffness is
+(a) 5K/2
+(b) 2K/5
+(c) K
+(d) 3K
+Answer: (c)
+Subject: Engineering Mechanics
+67. A round uniformly tapered bar of length L and Young's modulus E has diameter of 'd' at one end and '2d' at the other end. If the bar is pulled by an axial force F, the extension produced will be
+(a) 2FL / (πEd²)
+(b) 4FL / (πEd²)
+(c) 8FL / (πEd²)
+(d) 16FL / (πEd²)
+Answer: (a)
+Subject: Strength of Materials
+68. Two blocks A and B of 1 kg each are kept on a flat surface, one above other. The coefficient of friction between each contacting pair is 0.2. If the lower block is pulled with a horizontal force F, the minimum value of F for which the slip occurs between the blocks is nearly
+(a) 5.9 N
+(b) 4.9 N
+(c) 18.4 N
+(d) 0
+Answer: (a)
+Subject: Engineering Mechanics
+69. If the natural frequency of a spring mass system on earth is f, its natural frequency on moon where acceleration due to gravity is one-sixth of that on earth will be
+(a) f/6
+(b) 6f
+(c) f/√6
+(d) f
+Answer: (d)
+Subject: Theory of Machines
+70. A solid shaft can resist a bending moment of 6 kN m and a torque of 8 kN m applied together. The maximum torque that the shaft can resist when applied alone is
+(a) 7 kN m
+(b) 48 kN m
+(c) 10 kN m
+(d) 14 kN m
+Answer: (c)
+Subject: Strength of Materials
+71. Two shafts of the same length and material are connected in series, if the ratio of their diameters is 2, then the ratio of their angles of twist will be
+(a) 4
+(b) 8
+(c) 16
+(d) 32
+Answer: (c)
+Subject: Strength of Materials
+72. A concentrated load of F acts on a simply supported beam of span L at a distance of L/3 from left support, the bending moment at this location C is
+(a) 2FL/3
+(b) 4FL/9
+(c) 2FL/9
+(d) 4FL/3
+Answer: (c)
+Subject: Strength of Materials
+73. A solid metal bar of uniform diameter D and length L is hung vertically. If ρ is density and E is the Young's Modulus, then the total elongation due to self weight is
+(a) ρLg / 2E
+(b) ρL²g / 2E
+(c) ρEg / 2L²
+(d) ρL²g / E
+Answer: (b)
+Subject: Strength of Materials
+74. A circular solid disc of uniform thickness 20mm, radius 400 mm and mass 10 kg, is used as a flywheel. If it rotates at 300 rpm, the kinetic energy of the flywheel, in Joules is
+(a) 395
+(b) 790
+(c) 1580
+(d) 3160
+Answer: (a)
+Subject: Theory of Machines
+75. If the length of the cantilever beam is reduced to 1/4th, the natural frequency of the mass M at the end of this cantilever beam of negligible mass will be increased by a factor of
+(a) 2
+(b) √8
+(c) 4
+(d) 8
+Answer: (d)
+Subject: Theory of Machines
+76. The relationship between the linear elastic properties Young's Modulus (E), rigidity modulus (G) and Bulk modulus (K) is given by
+(a) 9/E = 3/K + 1/G
+(b) 1/E = 9/K + 3/G
+(c) 3/E = 9/K + 1/G
+(d) 9/E = 1/K + 3/G
+Answer: (d)
+Subject: Strength of Materials
+77. Euler's critical buckling load for a column fixed at both ends is
+(a) 2π²EI / L²
+(b) π²EI / 2L²
+(c) 4π²EI / L²
+(d) 4π²EI / 4L²
+Answer: (c)
+Subject: Strength of Materials
+78. A truck hauls a trailer at 60 km/hour when exerting a steady pull of 600N. If the work is done for 40 minutes, the power required is
+(a) 6 kW
+(b) 4 kW
+(c) 2.4 kW
+(d) 10 kW
+Answer: (d)
+Subject: Engineering Mechanics
+79. A perfectly balanced rotor shaft supported between short bearings at both ends shows a deflection of 2 mm at middle. Then the critical speed of the shaft in rpm will be nearly,
+(a) 335
+(b) 670
+(c) 2010
+(d) 1340
+Answer: (b)
+Subject: Theory of Machines
+80. If an element is loaded as shown in figure below, the Von Mises stress will be close to
+(a) 180 MPa
+(b) 350 MPa
+(c) 255 MPa
+(d) 495 MPa
+Answer: (b)
+Subject: Strength of Materials

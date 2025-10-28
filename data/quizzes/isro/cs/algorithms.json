@@ -1,0 +1,12 @@
+{
+    "title": "Algorithms",
+    "chapters": [
+        "Asymptotic analysis",
+        "Divide and conquer",
+        "Greedy algorithms",
+        "Dynamic programming",
+        "Graph algorithms (shortest paths, MST)",
+        "NP-completeness"
+    ],
+    "questions": []
+}

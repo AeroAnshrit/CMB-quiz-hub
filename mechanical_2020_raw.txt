@@ -1,0 +1,694 @@
+
+Question:
+For a non-dimensional specific speed value of 1, for maximum efficiency, which of the following turbines is preferred?
+A) Pelton wheel
+B) Francis turbine
+C) Kaplan turbine
+D) Tyson wheel
+
+Answer: B Subject: Fluid Mechanics / Fluid Machinery
+
+Question:
+In a circular tube of diameter 100 mm and length 13 m with laminar flow, the friction factor is estimated to be 0.05. Calculate the Reynolds number?
+A) 950
+B) 2300
+C) 1280
+D) None of the above
+
+Answer: C Subject: Fluid Mechanics
+
+Question:
+In a P-V diagram of a steady flow compressor, the intercooling can be represented as
+A) Vertical line
+B) Horizontal line
+C) Parabolic line
+D) None of the above
+
+Answer: B Subject: Thermodynamics
+
+Question:
+A centrifugal pump having an impeller diameter of 127 mm, delivers a power of 12 hp. If the impeller diameter is changed to 254 mm, what is the power, if other parameters are kept constant?
+A) 48 hp
+B) 192 hp
+C) 24 hp
+D) 96 hp
+
+Answer: D Subject: Fluid Mechanics / Fluid Machinery
+
+Question:
+An experiment is conducted with a fluid of density 1 $kg/m^{3}$ at $10~m/s$ velocity. The free stream static pressure is 100 kPa and the local static pressure is 101 kPa. What is the pressure coefficient at the location?
+A) 70
+B) 80
+C) 20
+D) 50
+
+Answer: C Subject: Fluid Mechanics
+
+Question:
+An open tank is filled with water to a height of 20 m. What is the velocity of the water flow at the outlet, if the outlet is at the base of the tank?
+A) $40~m/s$ (approx.)
+B) $20~m/s$ (approx.)
+C) $10~m/s$ (appгох.)
+D) $5~m/s$ (approx.)
+
+Answer: B Subject: Fluid Mechanics
+
+Question:
+Which of the following is a non-Newtonian fluid?
+A) Air
+B) Water
+C) Gasoline
+D) None of the above
+
+Answer: D Subject: Fluid Mechanics
+
+Question:
+A hot body at 1000 K transfers 2000 kJ of heat to a body at 500 K. Determine the net entropy change?
+A) +4 kJ/kg
+B) -2 kJ/kg
+C) +2 kJ/kg
+D) -4 kJ/kg
+
+Answer: C Subject: Thermodynamics
+
+Question:
+Highest ratio of specific heat is possible for?
+A) Argon
+B) Helium
+C) Hydrogen
+D) Air
+
+Answer: A Subject: Thermodynamics
+
+Question:
+Which of the following can be used to determine the variation of saturation pressure with temperature along phase boundaries?
+A) Joule-Thomson relation
+B) Carnot equation
+C) Rankine- Hougoniot's relation
+D) Clausius- Clapeyron relation
+
+Answer: D Subject: Thermodynamics
+
+Question:
+Air at $27^{\circ}C$ and 100 kPa enters in a steady flow nozzle at a velocity of $100~m/s.$ If the inlet area of the nozzle is 0.5 $m^{2}.$, what is the mass flow rate through the system
+A) $116~kg/s$
+B) 232 kg/s
+C) $58~kg/s$
+D) $143~kg/s$
+
+Answer: C Subject: Thermodynamics
+
+Question:
+Critical point of water is
+A) 22.06 kPa
+B) 22.06 MPa
+C) 22.06 atm
+D) 22.06 mbar
+
+Answer: B Subject: Thermodynamics
+
+Question:
+In a shower mixer, cold water at 27 deg C, flowing at $5~kg/min$ is mixed with hot water at 77 deg C flowing at 15 $kg/min.$ The exit temperature of the mixture is
+A) 45.4 deg C
+B) 64.5 deg C
+C) 34.5 deg C
+D) 68.4 deg C
+
+Answer: B Subject: Thermodynamics
+
+Question:
+Which of the following uses a regenerator?
+A) Brayton cycle
+B) Ericsson cycle
+C) Stirling cycle
+D) Both (b) and (c)
+
+Answer: D Subject: Thermodynamics
+
+Question:
+Ratio of convective mass transfer to the mass diffusion rate is called?
+A) Sherwood number
+B) Schmidt number
+C) Rayleigh number
+D) Strouhal number
+
+Answer: A Subject: Heat and Mass Transfer
+
+Question:
+A gas is contained in a cylinder with a moveable piston of 100 kg mass. When 2500 J of heat flow into the gas, the internal energy of the gas increases by 1500 J. What is the distance through which the piston rises?
+A) 2 m
+B) 1 m
+C) 2.5 m
+D) 0.5 m
+
+Answer: B Subject: Thermodynamics
+
+Question:
+A mass of 1 kg of air at $27^{\circ}C$ and 0.98 atm is taken through a diesel cycle. If the compression ratio of the engine is 16, calculate the temperature of the air after compression? (for calculation, take the ratio of specific heats of air as 1.5)
+A) 1200 deg C
+B) 1473 deg C
+C) 927 deg C
+D) 768 deg C
+
+Answer: C Subject: Thermodynamics
+
+Question:
+The external surface of a wall of 3 m height, 5 m width and 0.5 m thickness is at a temperature of $2^{\circ}C$ If a heat loss of 150 W from the room is measured across the wall, find the inner wall temperature? The thermal conductivity of wall material can be taken as 1 W/m.K
+A) 280 K
+B) 285 K
+C) 268 K
+D) 282 K
+
+Answer: A Subject: Heat Transfer
+
+Question:
+The typical range of Prandtl number for water is
+A) 0.004-0.300
+B) 1.7-13.7
+C) 50-500
+D) 2000-1000
+
+Answer: B Subject: Heat Transfer
+
+Question:
+Analogy between momentum and heat transfer is known as
+A) Stanton-Prandtl analogy
+B) Crassoff-Meyer analogy
+C) Chilton-Colburn analogy
+D) None of the above
+
+Answer: C Subject: Heat Transfer
+
+Question:
+Which of the following statement is true for a Rayleigh flow at $M=1$?
+A) Enthalpy is maximum
+B) Entropy is maximum
+C) Enthalpy is minimum
+D) Both (b) and (c)
+
+Answer: B Subject: Gas Dynamics
+
+Question:
+A fluid passes through a well insulated tube of 4.7 $cm^{2}$ cross section area and 5 m length. If the pipe friction coefficient is 0.07 and the flow velocity is 3 m/s, then the flow can be represented using?
+A) Rayleigh flow model
+B) Isentropic flow model
+C) Gino flow model
+D) Fanno flow model
+
+Answer: D Subject: Gas Dynamics
+
+Question:
+A fluid having a density of $\lfloor g/cc$ is in a state with Grashof number $2\times10^{6}$ and prandtl number 0.7. Assuming acceleration due to gravity as $10~m/s^{2}$, calculate the Rayleigh number?
+A) $1.4\times10^{6}$
+B) $2.86\times10^{6}$
+C) $3.7\times10^{5}$
+D) $8.4\times10^{6}$
+
+Answer: A Subject: Heat Transfer
+
+Question:
+A cold liquid enters a counter flow heat exchanger at 15 deg C at a rate of $8~kg/s.$ A hot stream of the same liquid enters the heat exchanger at 75 deg C at 2 $2~kg/s.$ Assuming the specific heat of the fluid as 4 $kJ/kg$ ${}^{\circ}C$ determine the maximum heat transfer rate.
+A) 960 kW
+B) 240 kW
+C) 1920 kW
+D) 480 kW
+
+Answer: D Subject: Heat Transfer
+
+Question:
+The temperature of a surface with $0.2~m^{2}$ area is 17 deg C. Calculate the wavelength corresponding to maximum monochromatic emissive power
+A) 20 micrometers
+B) 30 micrometers
+C) 10 micrometers
+D) 40 micrometers
+
+Answer: C Subject: Heat Transfer
+
+Question:
+For a surface, the direct and diffuse components of the solar radiation are 400 and 300 $W/m^{2}$ and the direct radiation makes 60 deg angle with the normal. If the surface temperature is 300 K and effective sky temperature is 200 K, calculate net rate of radiation heat transfer. (Assume solar absorptivity and emissivity as 0.1 each; For calculation take Stefan Boltzmanns constant as $6\times10^{-8}W/m^{2}.K^{4})$
+A) $11~W/m^{2}$
+B) $45~W/m^{2}$
+C) $33~W/m^{2}$
+D) $64~W/m^{2}$
+
+Answer: A Subject: Heat Transfer
+
+Question:
+Which of the following element is added to high speed tool steels as a scavenger to remove slag impurities during melting and also for increasing cutting efficiency of tools.
+A) Chromium
+B) Vanadium
+C) Molybdenum
+D) Manganese
+
+Answer: B Subject: Materials Science
+
+Question:
+Region of disorder created by movement of dislocations in super lattice is called:
+A) Twin
+B) Stacking fault
+C) Anti-phase boundary
+D) Orowon loop
+
+Answer: C Subject: Materials Science
+
+Question:
+The state of stress during deep drawing forming operation of a cup is
+A) In the flange of blank, uni-axial compression and in wall of cup, bi-axial tension and compression
+B) In the flange of the blank, uni-axial tension and in wall of cup, bi-axial tension and compression
+C) In the flange of the blank, bi-axial tension and compression and in the wall of cup, simple uni-axial tension
+D) Both flange and wall of the cup will have bi-axial compression and tension
+
+Answer: C Subject: Manufacturing / Production
+
+Question:
+During turning of a metallic rod at a given condition, the tool life was found to decrease from 100 min to 25 min. When cutting speed was increased from $50~m/min.$ to $100~m/min.$ How much will be life of tool if machined at 80 m/min.?
+A) 38.06 min.
+B) 39.06 min.
+C) 40.06 min.
+D) 41.06 min.
+
+Answer: B Subject: Manufacturing / Production
+
+Question:
+In a single pass rolling operation, the thickness of a 100 mm wide plate is reduced from 20 mm to 15 mm. The roller radius is 125 mm and rotational speed is 8 rpm. The average flow stress for the plate material is 400 MPa. The power required for rolling operation in kW is?
+A) $12.5~\pi/3$
+B) $10\pi$
+C) $40~\pi/3$
+D) $20~\pi/3$
+
+Answer: D Subject: Manufacturing / Production
+
+Question:
+A dummy activity is used in PERT network to describe
+A) Precedence relationship
+B) Necessary time delay
+C) Resource restriction
+D) Resource idleness
+
+Answer: A Subject: Industrial Engineering / Project Management
+
+Question:
+In small castings, which of the following allowances can be ignored.
+A) Shrinkage Allowance
+B) Rapping Allowance
+C) Draft Allowance
+D) Machining Allowance
+
+Answer: B Subject: Manufacturing / Production
+
+Question:
+In an arc welding process, two weld coupons were made using two different welding processes. For the first coupon, the voltage, current and welding speed used are 15V, 300 A and $30mm/min$ respectively. Whereas the second coupon welded with 60 kV, 200 mA and $25~mm/s.$ If the heat transfer efficiency for welding the first coupon is half of that of second coupon, the ratio of heat input per unit length is?
+A) 50:2
+B) 75:8
+C) 5:8
+D) 5:2
+
+Answer: B Subject: Manufacturing / Production
+
+Question:
+In Gas tungsten arc welding (GTAW) which of the following polarity is generally used for getting higher penetration
+A) Direct current straight polarity (DCSP)
+B) Direct current reverse polarity (DCRP)
+C) Alternating current high frequency (ACHF)
+D) All of the above
+
+Answer: A Subject: Manufacturing / Production
+
+Question:
+The laws of adhesive wear, commonly referred to as Archard's law can be expressed as (If 'Q' is the total volume of wear debris produced, 'W' is the normal load, 'L' is the sliding distance, 'H' is the hardness of the softest contacting surfaces being worn away, and 'k' is a non-dimensional wear coefficient dependent on the materials in contact and their exact degree of cleanliness)
+A) $Q=kWL/H$
+B) $Q=kW/LH$
+C) $Q=kHW/L$
+D) $Q=k/L~WH$
+
+Answer: A Subject: Machine Design / Tribology
+
+Question:
+In a four-bar linkage if 'S' is the length of the shortest link, 'L' is the length of longest link and 'P' & 'Q' are length of other links, then the criteria for getting a triple rocker mechanism in which no links will fully rotate is
+A) $S+Q>P+L$
+B) $S+L<P+Q$
+C) $S+L=P+Q$
+D) $S+L>P+Q$
+
+Answer: D Subject: Theory of Machines
+
+Question:
+The piston of an engine moves with simple harmonic motion. The crank rotates at 120 r.p.m. with a stroke of 2 meters. The velocity of the piston, when it is at a distance of 0.8 metre from the center is
+A) 4.8π
+B) 2.4π
+C) 1.2π
+D) 0.6π
+
+Answer: B Subject: Theory of Machines
+
+Question:
+If a block slides outward on a link at a uniform rate of $30~m/s,$ while the link is rotating at a constant angular velocity of $50~rad/s$ counter clockwise, the Coriolis component of acceleration is $m/s^{2}$.
+A) 1000
+B) 1500
+C) 3000
+D) 4500
+
+Answer: C Subject: Theory of Machines
+
+Question:
+In a screw jack of lead angle a, the effort required to lift the load W is given by (Φ = Friction Angle)
+A) $P=W~tan(\alpha-\phi)$
+B) $P=W~tan(\alpha+\phi)$
+C) $P=W~cos(\alpha-\phi)$
+D) $P=W~cos(\alpha+\phi)$
+
+Answer: B Subject: Machine Design
+
+Question:
+When the axis of first and last gear are co-axial, then gear train is known as
+A) simple gear train
+B) compound gear train
+C) reverted gear train
+D) epicyclic gear train
+
+Answer: C Subject: Theory of Machines
+
+Question:
+A disc spinning on its axis at 20 rad/s will undergo precession when a torque 100 N-m is applied about an axis normal to it. If the mass moment of inertia is 1 $kg-m^{2},$ then the angular velocity of precession is?
+A) $0.2~rad/s$
+B) $5~rad/s$
+C) $10~rad/s$
+D) $200~rad/s$
+
+Answer: B Subject: Theory of Machines / Dynamics
+
+Question:
+Which of the following is an absorption type dynamometer?
+A) Prony brake dynamometer
+B) Epicyclic- train dynamometer
+C) Torsion dynamometer
+D) Belt transmission dynamometer
+
+Answer: A Subject: Theory of Machines
+
+Question:
+Which of the following mechanism provides intermittent rotary motion?
+A) Chebyschev linkage
+B) Geneva Mechanism
+C) Peaucellier Mechanism
+D) Roberts Mechanism
+
+Answer: B Subject: Theory of Machines
+
+Question:
+$1+x+\frac{x^{2}}{2}-\frac{x^{4}}{8}-\frac{x^{5}}{15}+.........=$
+A) $e^{tan~x}$
+B) $e^{cos~x}$
+C) $e^{sin~x}$
+D) $e^{x}sin~x$
+
+Answer: C Subject: Engineering Mathematics
+
+Question:
+The Laplace transform of $e^{at} cos\omega t$
+A) $\frac{(s-a)}{(s-a)^{2}+\omega^{2}}$
+B) $\frac{w}{(s-a)^{2}+\omega^{2}}$
+C) $\frac{a}{(s-a)^{2}+\omega^{2}}$
+D) $\frac{s}{(s-a)^{2}+\omega^{2}}$
+
+Answer: A Subject: Engineering Mathematics
+
+Question:
+if $u=yzi+3zxj+zk,$ then curl u is
+A) $-3xi+yj+2zk$
+B) $3xi-yj+2zk$
+C) $-3xi-yj-2zk$
+D) $3xi+yj-2zk$
+
+Answer: A Subject: Engineering Mathematics
+
+Question:
+$cos(z)$ can be expressed as
+A) $\frac{1}{2}(e^{iz}+e^{-iz})$
+B) $\frac{1}{2}(e^{iz}-e^{-iz})$
+C) $\frac{1}{2i}(e^{iz}+e^{-iz})$
+D) $\frac{1}{2i}(e^{iz}-e^{-iz})$
+
+Answer: A Subject: Engineering Mathematics
+
+Question:
+In a vector field, Divergence of the gradient is
+A) curl
+B) unity
+C) zero
+D) Laplacian
+
+Answer: D Subject: Engineering Mathematics
+
+Question:
+If a continuously differentiable vector function is the gradient of a scalar function, then its curl is
+A) infinite
+B) indeterminate
+C) unity
+D) zero
+
+Answer: D Subject: Engineering Mathematics
+
+Question:
+What does ' $a^{\prime}$ and ' $e^{\prime}$ indicate in the surface texture symbol shown below
+A) Roughness value, machining allowance
+B) Production method, roughness value
+C) Machining allowance, sampling length
+D) Heat treatment method, sample length
+
+Answer: A Subject: Engineering Drawing / Manufacturing
+
+Question:
+Two steel trusses, XY and YZ of identical size supports a load of 200 N as shown in fig. The length of the truss in 1m. The force in the truss xy in N is
+A) 100 N
+B) 200 N
+C) 150 N
+D) 50 N
+
+Answer: B Subject: Engineering Mechanics
+
+Question:
+A block weighing 100 N is resting on a plane inclined with horizontal as shown in Fig. What horizontal force P is necessary to hold the body from sliding down the plane? (Coefficient of friction can be taken as 0.25)
+A) 30 N
+B) 120 N
+C) 60 N
+D) 15 N
+
+Answer: C Subject: Engineering Mechanics
+
+Question:
+The ratio of maximum shear stress to average shear stress in a beam of rectangular section is
+A) 5.1
+B) $2/3$
+C) $3/2$
+D) 1.0
+
+Answer: C Subject: Strength of Materials
+
+Question:
+A mass less beam has a loading pattern shown in figure. Find the bending moment at mid span?
+A) 1 kN-m
+B) 3 kN-m
+C) 2 kN-m
+D) 0.0 kN-m
+
+Answer: A Subject: Strength of Materials
+
+Question:
+Steel machine element at the critical section is in biaxial stress state with two principal stress being 300 $N/mm^{2}$ and 300 $N/mm^{2}$ (equal magnitude). Find the von Mises stress (in $N/mm^{2})$ in the member
+A) 212.1
+B) 600
+C) 424.2
+D) 300
+
+Answer: D Subject: Strength of Materials
+
+Question:
+A machine component of 90 kg mass needs to be held in position using three springs as shown below. The spring constants $K_{1},$ $K_{2}$ and $K_{3}$ are 4, 4 and 8 $N/m$ respectively. Find the natural frequency of the system in rad/sec.
+A) 0.33
+B) 0.42
+C) 0.13
+D) 3.0
+
+Answer: A Subject: Mechanical Vibrations
+
+Question:
+A cylindrical pressure vessel has diameter 200 mm and thickness 2 mm. Find the hoop and axial stress ( $(N/mm^{2})$ in the cylindrical vessel, when it is subjected to an internal pressure of 5 MPa.
+A) 125, 125
+B) 125, 250
+C) 250, 250
+D) 250, 125
+
+Answer: D Subject: Strength of Materials
+
+Question:
+For a long slender column of uniform cross section, the ratio of critical buckling load for the case with both ends hinged to the case with both ends clamped is
+A) 0.25
+B) 4.0
+C) 0.125
+D) 0.5
+
+Answer: A Subject: Strength of Materials
+
+Question:
+If the length of a column subjected to compressive load is increase by three times its original length, the critical buckling load becomes
+A) $1/3$ of the original value
+B) 3 times the original value
+C) $1/9$ of the original value
+D) $1/27$ of the original value
+
+Answer: C Subject: Strength of Materials
+
+Question:
+A square bar of size $10~mm\times10~mm$ and length 1000 mm is subjected to 200 N axial tensile force. The bar is made of mild steel having modulus of elasticity of 200 GPa. Find the strain energy density stored in the under this state of loading?
+A) $10~J/m^{3}$
+B) $20~J/m^{3}$
+C) $2~J/m^{3}$
+D) $5~J/m^{3}$
+
+Answer: A Subject: Strength of Materials
+
+Question:
+A solid circular shaft needs to be designed to transmit a torque of 55 N m. If the allowable shear stress of the material is $280~N/mm^{2}$ find the diameter (in mm) of the shaft required to transmit torque. (Assume, $\pi=22/7)$
+A) 5.62
+B) 10
+C) 31.62
+D) 25.0
+
+Answer: B Subject: Strength of Materials / Machine Design
+
+Question:
+If S is the applied stress, c is the width of the crack and r the radius of curvature at the tip of the crack, Griffith's crack theory gives the concentrated stress $S_{c}$ as
+A) $2S(c/r)^{1/2}$
+B) 2S $(c/r)^{1/3}$
+C) $S(c/r)^{1/2}$
+D) 2S $(2c/r)^{1/2}$
+
+Answer: A Subject: Strength of Materials / Fracture Mechanics
+
+Question:
+A metal alloy machine component is subjected to fluctuating tensile stress from $100~N/mm^{2}$ to 200 $N/mm^{2}$ The material has yield and endurance strength of 450 and $200~N/mm^{2}$ respectively. Find the factor of safety of the machine component.
+A) $5/6$
+B) $12/7$
+C) $1/3$
+D) $6/5$
+
+Answer: B Subject: Machine Design
+
+Question:
+A driver of mass 100 kg is standing at the tip of a spring board of negligible mass. The natural frequency of the spring board with the driver is 1.6 Hz. What is the static deflection at the tip of the spring board when the driver is standing at the tip?
+A) 0.1 mm
+B) 981 mm
+C) 98.1 mm
+D) 9.81 mm
+
+Answer: C Subject: Mechanical Vibrations
+
+Question:
+Which of the following is classified as a secondary bond in materials?
+A) Ionic bonding
+B) Covalent bonding
+C) Metallic bonding
+D) Hydrogen bonding
+
+Answer: D Subject: Materials Science
+
+Question:
+The number of atoms per unit cell for an FCC crystal structure is
+A) 2
+B) 4
+C) 6
+D) 8
+
+Answer: B Subject: Materials Science
+
+Question:
+Which of the following hardness test uses diamond cone type indenter?
+A) Brinell
+B) Vickers
+C) Knoop
+D) Rockwell
+
+Answer: D Subject: Materials Science
+
+Question:
+In a two component system, if the non-compositional variable is only temperature, the number of degrees of freedom in the case of a single phase field as per Gibbs Phase Rule is?
+A) 0
+B) 1
+C) 2
+D) 3
+
+Answer: C Subject: Materials Science / Thermodynamics
+
+Question:
+In an iron-carbon diagram, the percentage by weight of carbon at eutectoid composition is
+A) 1.12
+B) 0.76
+C) 0.24
+D) 0.03
+
+Answer: B Subject: Materials Science
+
+Question:
+Of the various microstructures that may be produced for a given steel alloy, which among the following is the hardest form
+A) Martensite
+B) Pearlite
+C) Bainite
+D) Spheroidite
+
+Answer: A Subject: Materials Science
+
+Question:
+Which spring steel is widely used for aircraft engine valves
+A) Oil tempered wire (0.6 C to 0.7 C)
+B) Chrome vanadium
+C) Hard drawn wire (0.6 C to 0.7 C)
+D) Phosphor bronze wire
+
+Answer: B Subject: Materials Science / Machine Design
+
+Question:
+If, $K_{f}$ is the fatigue stress concentration factor and $K_{t}$ is the theoretical stress concentration factor then, the notch sensitivity q is?
+A) $(K_{f}+1)/(K_{t}+1)$
+B) $(K_{f}-1)/(K_{t}-1)$
+C) $(K_{f}-1)/(K_{t}-1)$
+D) $(K_{f}-1)/(K_{t}+1)$
+
+Answer: B Subject: Machine Design
+
+Question:
+Beach or clamshell marks on a failed metallic surface are typical of
+A) Ductile fracture
+B) Brittle fracture
+C) Creep failure
+D) Fatigue failure
+
+Answer: D Subject: Machine Design / Materials Science
+
+Question:
+In vibration isolation if $\omega/\omega_{n}$ is less than $\sqrt{2}$ then the transmissibility will be
+A) Less than one
+B) Equal to one
+C) Greater than one
+D) Zero
+
+Answer: C Subject: Mechanical Vibrations
+
+Question:
+The natural frequency of a simply supported beam of length / with mass M at its centre, flexural rigidity El and negligible beam mass is
+A) $\frac{1}{2\pi}\sqrt{\frac{48EI}{Ml^{3}}}$
+B) $\frac{1}{2\pi}\sqrt{\frac{3EI}{Ml^{3}}}$
+C) $\frac{1}{2\pi}\sqrt{\frac{EI}{Ml^{3}}}$
+D) None of the above
+
+Answer: A Subject: Mechanical Vibrations
+
+Question:
+A machine component of natural frequency 20 rad/s is subjected to a base motion from the machine which is harmonic in natural with amplitude $3~m/s^{2}$ at $10~rad/s.$ What is the peak amplitude of relative displacement of the components if the damping is negligible?
+A) 0.1 mm
+B) 1.0 mm
+C) 10.0 mm
+D) 100.0 mm
+
+Answer: C Subject: Mechanical Vibrations
+

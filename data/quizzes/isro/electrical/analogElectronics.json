@@ -1,0 +1,13 @@
+{
+    "title": "Analog Electronics",
+    "chapters": [
+        "Diode and transistor characteristics",
+        "Biasing and small-signal models",
+        "Amplifiers (BJT, FET, OP-AMP)",
+        "Oscillators and feedback amplifiers",
+        "Voltage regulators and active filters",
+        "Differential amplifiers and op-amp applications",
+        "Power amplifiers"
+    ],
+    "questions": []
+}
