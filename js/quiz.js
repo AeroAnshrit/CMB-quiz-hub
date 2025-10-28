@@ -14,10 +14,7 @@ const state = {
     isQuizMode: false,
     userAnswers: [],
     currentPaper: null,
-    currentQuizType: null,
     currentExam: null,
-    currentSearchTerm: '', // <-- ADD THIS
-    pendingQuizStart: null, // <-- ADD THIS
     quizTimer: null, // Holds the setInterval instance
     timeLimitMinutes: 60 // Default time limit for quiz mode
 };
@@ -42,7 +39,6 @@ export function setCurrentExam(examKey) {
 }
 
 export async function showDynamicList(type) {
-    state.currentQuizType = type;
     ui.resetQuizUI();
     const items = type === 'year' ? await api.getYears(state.currentExam, state.currentBranch) : await api.getSubjects(state.currentExam, state.currentBranch);
     if (items) {
@@ -64,12 +60,8 @@ export function renderContentSection(sectionKey) {
 
 export async function startYearWiseQuiz(isQuizMode, options = {}) {
     state.isQuizMode = isQuizMode;
-    state.currentQuizType = 'year'; // Set this
-
-    const savedData = getSavedProgress();
 
     // Store the logic for starting a fresh quiz
-    state.pendingQuizStart = async () => {
         state.userAnswers = [];
         ui.resetQuizUI();
 
@@ -109,23 +101,11 @@ export async function startYearWiseQuiz(isQuizMode, options = {}) {
         } else {
             filterQuestionsByChapter('All'); // Default behavior
         }
-    };
-
-    if (savedData && savedData.isQuizMode === isQuizMode) { // Only resume if mode matches
-        ui.showResumeModal();
-    } else {
-        startNewQuiz(); // No saved data, or mode is different
-    }
 }
 
 export async function startTopicQuiz(subjectKey, options = {}) {
     state.currentSubjectKey = subjectKey;
     state.isQuizMode = false; // Topic mode is always solution mode
-    state.currentQuizType = 'topic'; // Set this
-
-    const savedData = getSavedProgress();
-
-    state.pendingQuizStart = async () => {
         ui.resetQuizUI();
         ui.submitBtn.classList.add('hidden');
         ui.nextBtn.classList.remove('hidden');
@@ -151,43 +131,6 @@ export async function startTopicQuiz(subjectKey, options = {}) {
         } else {
             filterQuestionsByChapter('All'); // Default behavior
         }
-    };
-
-    if (savedData && !savedData.isQuizMode) { // Only resume if mode matches (false)
-        ui.showResumeModal();
-    } else {
-        startNewQuiz();
-    }
-}
-
-export async function searchQuestions(term) {
-    const results = await api.searchAllQuestions(term);
-    return results;
-}
-
-export async function jumpToQuestion(data) {
-    // 1. Set all the state variables
-    setCurrentExam(data.exam);
-    setCurrentBranch(data.branch);
-    
-    const isYear = data.type === 'year';
-    
-    // 2. Set the *specific* quiz/paper key
-    if (isYear) {
-        setCurrentPaper({ key: data.key, title: 'Loading...' }); // Title will be fixed on load
-    } else {
-        state.currentSubjectKey = data.key;
-    }
-    
-    // 3. Find the question index
-    const indexToJumpTo = parseInt(data.index, 10);
-
-    // 4. Start the quiz, but tell it to jump
-    if (isYear) {
-        await startYearWiseQuiz(false, { jumpToIndex: indexToJumpTo }); // false = solution mode
-    } else {
-        await startTopicQuiz(data.key, { jumpToIndex: indexToJumpTo });
-    }
 }
 
 function applyFilters() {
@@ -196,15 +139,6 @@ function applyFilters() {
     // 1. Apply Chapter Filter
     if (state.currentChapter !== 'All') {
         questionsToDisplay = questionsToDisplay.filter(q => q.chapter === state.currentChapter);
-    }
-
-    // 2. Apply Search Filter
-    if (state.currentSearchTerm.trim() !== '') {
-        const lowerTerm = state.currentSearchTerm.toLowerCase();
-        questionsToDisplay = questionsToDisplay.filter(q =>
-            q.question.toLowerCase().includes(lowerTerm) ||
-            (q.explanation && q.explanation.toLowerCase().includes(lowerTerm))
-        );
     }
 
     // 3. Apply Randomization (if in Quiz Mode)
@@ -217,19 +151,11 @@ function applyFilters() {
 
     state.currentQuestions = questionsToDisplay;
     state.currentQuestionIndex = 0;
-    if(state.isQuizMode) saveQuizProgress(); // <-- ADD THIS
     showQuestion();
-}
-
-export function filterQuestionsByKeyword(term) {
-    state.currentSearchTerm = term;
-    applyFilters();
 }
 
 export function filterQuestionsByChapter(chapter) {
     state.currentChapter = chapter;
-    state.currentSearchTerm = ''; // <-- Reset search when chapter changes
-    document.getElementById('question-search-input').value = ''; // <-- Clear the search box
     ui.updateChapterSelection(chapter);
     applyFilters(); // <-- Call the new master function
 }
@@ -237,9 +163,6 @@ export function filterQuestionsByChapter(chapter) {
 export function goToQuestion(index) {
     state.currentQuestionIndex = index;
     showQuestion();
-    if (state.isQuizMode) {
-        saveQuizProgress(); // <-- ADD THIS
-    }
 }
 
 export function selectAnswer(selectedButton, selectedOption, question) {
@@ -250,7 +173,6 @@ export function selectAnswer(selectedButton, selectedOption, question) {
         // add selected classes including dark-mode indigo utilities
         selectedButton.classList.add('option-selected', 'dark:bg-indigo-700', 'dark:border-indigo-500', 'dark:text-white');
         ui.updateQuestionNav(state.currentQuestionIndex, state.userAnswers);
-        saveQuizProgress(); // <-- ADD THIS
     } else {
         if (selectedOption === question.answer) {
             state.score++;
@@ -263,12 +185,10 @@ export function nextQuestion() {
     if (state.currentQuestionIndex < state.currentQuestions.length - 1) {
         state.currentQuestionIndex++;
         showQuestion();
-        if (state.isQuizMode) saveQuizProgress(); // <-- ADD THIS
     } else if (state.isQuizMode) {
         alert('You are at the last question. Click Submit to see your score.');
     } else {
         ui.showSimpleScore(state.score, state.currentQuestions.length);
-        clearSavedProgress(); // <-- ADD THIS
     }
 }
 
@@ -295,7 +215,6 @@ export function calculateAndShowScore() {
     // Now, update the function call below to include quizTitle
     ui.showFinalScore(correct, incorrect, unattempted, state.allQuizQuestions.length, quizTitle);
     ui.displayScoreChart(correct, incorrect, unattempted); // <-- ADD THIS LINE
-    clearSavedProgress(); // <-- ADD THIS
 }
 
 
@@ -339,64 +258,6 @@ function stopTimer() {
     ui.hideTimerDisplay();
 }
 
-function getStorageKey() {
-    const { currentExam, currentBranch, currentQuizType } = state;
-    let key;
-    if (currentQuizType === 'year') {
-        key = state.currentPaper?.key;
-    } else {
-        key = state.currentSubjectKey;
-    }
-
-    if (!currentExam || !currentBranch || !key) return null;
-
-    // e.g., quiz_progress_isro_mechanical_mechanical_2008
-    return `quiz_progress_${currentExam}_${currentBranch}_${key}`;
-}
-
-function saveQuizProgress() {
-    const key = getStorageKey();
-    if (!key) return;
-
-    const progress = {
-        userAnswers: state.userAnswers,
-        currentQuestionIndex: state.currentQuestionIndex,
-        allQuizQuestions: state.allQuizQuestions,
-        currentQuestions: state.currentQuestions,
-        score: state.score,
-        isQuizMode: state.isQuizMode, // Save mode too
-        currentChapter: state.currentChapter // Save chapter
-    };
-
-    try {
-        localStorage.setItem(key, JSON.stringify(progress));
-    } catch (e) {
-        console.error("Failed to save progress", e);
-    }
-}
-
-function getSavedProgress() {
-    const key = getStorageKey();
-    if (!key) return null;
-
-    try {
-        const data = localStorage.getItem(key);
-        return data ? JSON.parse(data) : null;
-    } catch (e) {
-        console.error("Failed to read progress", e);
-        return null;
-    }
-}
-
-function clearSavedProgress() {
-    const key = getStorageKey();
-    if (key) {
-        localStorage.removeItem(key);
-    }
-}
-
-        
-
 function setupYearWiseUI(title) {
     ui.quizTitle.innerText = title;
     ui.chaptersSidebar.classList.remove('hidden');
@@ -430,56 +291,6 @@ function setupTopicQuizUI(title, chapters) {
     ui.chaptersSidebar.classList.remove('hidden');
     ui.populateChapters(chapters, state.allQuizQuestions);
     ui.showSection('quiz'); // Show section *after* setup
-}
-
-export function resumeQuiz() {
-    const savedData = getSavedProgress();
-    if (!savedData) {
-        startNewQuiz(); // Failsafe
-        return;
-    }
-
-    // Load state from saved data
-    state.allQuizQuestions = savedData.allQuizQuestions;
-    state.currentQuestions = savedData.currentQuestions;
-    state.userAnswers = savedData.userAnswers;
-    state.currentQuestionIndex = savedData.currentQuestionIndex;
-    state.score = savedData.score;
-    state.isQuizMode = savedData.isQuizMode;
-    state.currentChapter = savedData.currentChapter || 'All';
-
-    // Setup the UI
-    ui.resetQuizUI();
-    if (state.isQuizMode) {
-        ui.submitBtn.classList.remove('hidden');
-        ui.nextBtn.classList.remove('hidden');
-        ui.skipBtn.classList.remove('hidden');
-        setupYearWiseUI(state.currentPaper.title);
-    } else {
-        ui.submitBtn.classList.add('hidden');
-        ui.nextBtn.classList.remove('hidden');
-        ui.skipBtn.classList.remove('hidden');
-        // Need to get title/chapters. This is complex.
-        // Simple solution: just use allQuestions
-        setupTopicQuizUI("Resumed Quiz", []); // Title won't be perfect, but it works
-    }
-
-    ui.updateChapterSelection(state.currentChapter);
-    applyFilters(); // This will apply the saved chapter & show question
-}
-
-export function startNewQuiz() {
-    clearSavedProgress();
-    if (typeof state.pendingQuizStart === 'function') {
-        state.pendingQuizStart(); // Run the saved "start new" logic
-    }
-    state.pendingQuizStart = null;
-}
-
-export function endQuizAndGoHome() {
-    clearSavedProgress();
-    stopTimer(); // <-- ADD THIS
-    ui.goToHome();
 }
 
 function showQuestion() {

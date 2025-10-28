@@ -12,7 +12,6 @@ export const sections = {
     content: document.getElementById('content-section'),
     quizType: document.getElementById('quiz-type-section'),
     modeSelection: document.getElementById('mode-selection-section'),
-    search: document.getElementById('search-section')
 };
 export const contentTitle = document.getElementById('content-title');
 export const contentBody = document.getElementById('content-body');
@@ -31,8 +30,6 @@ export const skipBtn = document.getElementById('skip-btn');
 export const nextBtn = document.getElementById('next-btn');
 export const submitBtn = document.getElementById('submit-btn');
 export const confirmModal = document.getElementById('confirm-modal');
-export const resumeModal = document.getElementById('resume-modal');
-export const endQuizModal = document.getElementById('end-quiz-modal');
 export const confirmSubmitBtn = document.getElementById('confirm-submit-btn');
 export const cancelSubmitBtn = document.getElementById('cancel-submit-btn');
 export const scoreText = document.getElementById('score-text');
@@ -382,57 +379,6 @@ export function showFinalScore(correct, incorrect, unattempted, totalQuestions, 
     if (copyFeedback) copyFeedback.classList.add('hidden');
 
     showSection('score');
-}
-
-export function showResumeModal() {
-    if (resumeModal) resumeModal.classList.remove('hidden');
-}
-
-export function hideResumeModal() {
-    if (resumeModal) resumeModal.classList.add('hidden');
-}
-
-export function showEndQuizModal() {
-    if (endQuizModal) endQuizModal.classList.remove('hidden');
-}
-
-export function hideEndQuizModal() {
-    if (endQuizModal) endQuizModal.classList.add('hidden');
-}
-
-export function displaySearchResults(results) {
-    const resultsContainer = document.getElementById('search-results-container');
-    resultsContainer.innerHTML = '';
-
-    if (!results) { 
-        resultsContainer.innerHTML = '<p class="text-red-500 text-center">Search failed. Please try again.</p>';
-        return;
-    }
-
-    if (results.length === 0) {
-        resultsContainer.innerHTML = '<p class="text-gray-500 text-center">No matches found.</p>';
-        return;
-    }
-    
-    resultsContainer.innerHTML = `<p class="text-gray-500 text-center mb-4">Showing ${results.length} results:</p>`;
-
-    results.forEach(res => {
-        const resultEl = document.createElement('div');
-        resultEl.className = 'p-4 border border-gray-200 rounded-lg hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800 cursor-pointer';
-        
-        resultEl.dataset.action = 'go-to-search-result';
-        resultEl.dataset.exam = res.exam;
-        resultEl.dataset.branch = res.branch;
-        resultEl.dataset.key = res.key;
-        resultEl.dataset.type = res.type;
-        resultEl.dataset.index = res.index;
-        
-        resultEl.innerHTML = `
-            <p class="font-semibold text-indigo-600 dark:text-indigo-400">${res.title}</p>
-            <p class="mt-1 dark:text-gray-300">${res.question}</p>
-        `;
-        resultsContainer.appendChild(resultEl);
-    });
 }
 
 export function copyScoreToClipboard() {

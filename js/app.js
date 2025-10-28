@@ -210,36 +210,8 @@ function handleAppActions(e) {
                 ui.copyScoreToClipboard();
                 break;
 
-        // --- ADD ALL OF THIS ---
-        case 'open-end-quiz-modal':
-            ui.showEndQuizModal();
-            break;
-        case 'cancel-end-quiz':
-            ui.hideEndQuizModal();
-            break;
-        case 'confirm-end-quiz':
-            ui.hideEndQuizModal();
-            quiz.endQuizAndGoHome(); // New function in quiz.js
-            break;
-        case 'resume-confirm':
-            ui.hideResumeModal();
-            quiz.resumeQuiz(); // New function in quiz.js
-            break;
-        case 'resume-discard':
-            ui.hideResumeModal();
-            quiz.startNewQuiz(); // New function in quiz.js
-            break;
-        // --- END OF ADDED CODE ---
         case 'filter-by-chapter':
             quiz.filterQuestionsByChapter(chapter);
-            break;
-        // case 'show-search-page':
-        //     ui.showSection('search');
-        //     break;
-        // case 'go-to-search-result':
-        //     // The dataset from the result item has all the info
-        //     quiz.jumpToQuestion(actionTarget.dataset); // New func in quiz.js
-        //     break;
         case 'go-to-question':
             if (questionIndex) {
                 const index = parseInt(questionIndex, 10);
@@ -256,51 +228,11 @@ function init() {
     ModalController.init();
     setupThemeToggle();
     ui.goToHome();
-
-    // ADD THIS LISTENER
-    // We use 'input' to search as the user types
-    const searchInput = document.getElementById('question-search-input');
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            quiz.filterQuestionsByKeyword(e.target.value);
-        });
-    }
-    // END OF ADDED CODE
-
-    // --- ADD THIS NEW LISTENER ---
-    // const globalSearchForm = document.getElementById('global-search-form');
-    // if (globalSearchForm) {
-    //     globalSearchForm.addEventListener('submit', async (e) => {
-    //         e.preventDefault();
-    //         const input = document.getElementById('global-search-input');
-    //         const resultsContainer = document.getElementById('search-results-container');
-            
-    //         const term = input.value.trim();
-    //         if (!term) return;
-
-    //         resultsContainer.innerHTML = '<p class="text-gray-500 text-center">Searching...</p>';
-    //         const results = await quiz.searchQuestions(term); // New func in quiz.js
-    //         ui.displaySearchResults(results);
-    //     });
-    // }
 }
 
 // --- App Initialization ---
 init(); // <--- ADD THIS LINE BACK
 
-// One-time migration: remove old resume key once per user
-try {
-    if (window && window.localStorage) {
-        const MIGRATED_FLAG = 'engineering_quiz_migrated_v1';
-        const OLD_KEY = 'engineering_quiz_progress_v1';
-        if (!localStorage.getItem(MIGRATED_FLAG)) {
-            try { localStorage.removeItem(OLD_KEY); } catch (e) { /* ignore */ }
-            try { localStorage.setItem(MIGRATED_FLAG, '1'); } catch (e) { /* ignore */ }
-        }
-    }
-} catch (e) {
-    // ignore; localStorage may be unavailable in some environments
-}
 // --- PWA Service Worker Registration ---
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {

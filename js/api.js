@@ -38,8 +38,3 @@ export async function getYearWiseQuizData(exam, branch, yearKey) {
     return await fetchData(`/api/year-wise/${exam}/${branch}/${yearKey}`, 'Could not load year-wise quiz data');
 }
 // --- END OF REVERTED PATHS ---
-
-// Keep search commented out for now
-// export async function searchAllQuestions(query) {
-//   return await fetchData(`/api/search?q=${encodeURIComponent(query)}`, 'Could not perform search');
-// }
