@@ -1,0 +1,12 @@
+{
+    "title": "Electromagnetics",
+    "chapters": [
+        "Electrostatics (Coulomb's, Gauss's Law)",
+        "Magnetostatics (Ampere's, Faraday's Law)",
+        "Maxwell’s equations",
+        "Transmission lines",
+        "Wave propagation, reflection, and refraction",
+        "Waveguides and antennas"
+    ],
+    "questions": []
+}

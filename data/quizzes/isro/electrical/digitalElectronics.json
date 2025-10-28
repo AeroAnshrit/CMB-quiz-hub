@@ -1,0 +1,12 @@
+{
+    "title": "Digital Electronics",
+    "chapters": [
+        "Boolean algebra and logic gates",
+        "Combinational circuits (adders, multiplexers)",
+        "Sequential circuits (flip-flops, counters, registers)",
+        "Number systems and minimization",
+        "ADC/DAC converters",
+        "Logic families"
+    ],
+    "questions": []
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Power Systems",
+    "chapters": [
+        "Power generation concepts",
+        "Transmission line parameters and models",
+        "Per-unit system",
+        "Corona, insulators, and cables",
+        "Load flow analysis",
+        "Economic operation",
+        "Fault analysis",
+        "Protection schemes (breakers, relays)",
+        "Stability analysis"
+    ],
+    "questions": []
+}

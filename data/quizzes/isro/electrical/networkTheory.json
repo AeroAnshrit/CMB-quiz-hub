@@ -1,0 +1,15 @@
+{
+    "title": "Network Theory",
+    "chapters": [
+        "Network elements",
+        "Kirchhoff’s laws",
+        "Node & mesh analysis",
+        "Thevenin & Norton equivalents",
+        "Superposition",
+        "Resonance",
+        "Transient & steady state analysis",
+        "Two-port networks",
+        "Frequency response"
+    ],
+    "questions": []
+}

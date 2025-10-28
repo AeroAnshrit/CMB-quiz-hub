@@ -1,0 +1,15 @@
+{
+    "title": "Signals and Systems",
+    "chapters": [
+        "Signals and systems representation",
+        "Convolution",
+        "Fourier series",
+        "Fourier transform",
+        "Laplace transform",
+        "Z-transform",
+        "Sampling theorem",
+        "LTI system properties",
+        "Stability and causality"
+    ],
+    "questions": []
+}

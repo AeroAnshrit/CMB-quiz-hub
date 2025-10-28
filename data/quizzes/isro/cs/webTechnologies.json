@@ -1,0 +1,10 @@
+{
+    "title": "Web Technologies and Emerging Topics",
+    "chapters": [
+        "HTML, CSS, and JavaScript",
+        "Client-server model and REST APIs",
+        "Cloud computing fundamentals",
+        "Cybersecurity, AI, and ML fundamentals"
+    ],
+    "questions": []
+}

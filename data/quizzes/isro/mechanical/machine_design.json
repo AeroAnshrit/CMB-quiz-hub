@@ -1,0 +1,13 @@
+{
+    "title": "Machine Design",
+    "chapters": [
+        "Design for static and dynamic loading",
+        "Failure theories and fatigue strength",
+        "Design of bolted and riveted joints",
+        "Design of shafts, keys, and couplings",
+        "Design of springs",
+        "Design of bearings",
+        "Design of gears"
+    ],
+    "questions": []
+}

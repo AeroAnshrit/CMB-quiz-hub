@@ -1,0 +1,10 @@
+{
+    "title": "Communication Systems",
+    "chapters": [
+        "Analog communication (AM, FM, PM)",
+        "Digital communication (PCM, ASK, FSK, PSK)",
+        "Information theory (entropy, channel capacity)",
+        "Noise analysis and multiplexing"
+    ],
+    "questions": []
+}
