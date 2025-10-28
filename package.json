@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest --runInBand",
+    "test": "jest --clearCache && jest --runInBand",
     "start": "node server.js",
     "validate": "node scripts/validate_data.js",
     "build": "npx tailwindcss -i ./public/input.css -o ./public/css/styles.css",
