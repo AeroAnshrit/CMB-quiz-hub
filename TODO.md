@@ -1,30 +1,34 @@
-# TODO: Add Share Score Button Feature
+# Content Updates Task
 
-## Step 1: Add the "Share" Button to `index.html` ✅
-- Open `public/Index.html`
-- Find the `score-section` (around line 220)
-- Locate the "Try Another Quiz" button
-- Add the share button and feedback message before the "Try Another Quiz" button
+- [x] Update data/content/aboutUs.json with new content
+- [x] Update data/content/contactUs.json with new content
+- [x] Update data/content/privacyPolicy.json with new content
+- [x] Verify JSON syntax of updated files
 
-## Step 2: Update `ui.js` to Handle the Logic ✅
-- Add `let currentShareMessage = '';` at the top of `public/js/ui.js`
-- Add `export const copyFeedback = document.getElementById('copy-feedback');` to the DOM elements section
-- Change `showFinalScore` function signature to accept `quizTitle`
-- Add logic to build share message and store it in `showFinalScore`
-- Add `copyScoreToClipboard` function at the bottom
+## Server Troubleshooting: EADDRINUSE Error
 
-## Step 3: Update `quiz.js` to Pass the Title ✅
-- Open `public/js/quiz.js`
-- Find `calculateAndShowScore()` function
-- Add line to get `quizTitle` from `ui.quizTitle.innerText`
-- Update the `ui.showFinalScore` call to include `quizTitle`
+You need to stop the old process before starting the new one.
 
-## Step 4: Add the Click Handler in `app.js` ✅
-- Open `public/js/app.js`
-- Find the `handleAppActions` switch statement
-- Add new case for 'share-score' action
+### Stop the Stuck Process:
 
-## Testing
-- Restart the server
-- Do a hard reload (Ctrl + Shift + R)
-- Complete a quiz and test the Share Score button
+1.  Go to the terminal window in VS Code.
+2.  Press Ctrl + C firmly (maybe multiple times) until you get a fresh command prompt (like `PS C:\...\EngineeringQuiz>`).
+3.  If Ctrl + C doesn't work, close VS Code completely and then reopen your project. This usually kills any lingering processes.
+4.  (Advanced - If needed): If it's still stuck, use the Task Manager (Windows) or Activity Monitor (Mac) to find and end any running "Node.js" processes, or use the command line method:
+    *   Find PID: `netstat -ano | findstr ":3000"`
+    *   Kill PID: `taskkill /F /PID <PID_NUMBER>`
+
+### Restart the Server:
+
+1.  Once you have a clean terminal prompt, start the server again:
+    ```bash
+    npm start
+    ```
+    It should now start correctly without the `EADDRINUSE` error.
+
+### Hard Refresh the Browser:
+
+1.  Go to http://localhost:3000.
+2.  Press `Ctrl + Shift + R` (or `Cmd + Shift + R` on Mac) to force the browser to get the latest files from the now correctly running server.
+
+This should resolve both the server startup error and the frontend data loading error.

@@ -1,0 +1,14 @@
+{
+    "title": "Programming and Data Structures",
+    "chapters": [
+        "Programming in C/C++",
+        "Recursion, pointers, dynamic memory",
+        "Arrays, strings, linked lists",
+        "Stacks and queues",
+        "Trees, binary search trees, heaps",
+        "Hashing",
+        "Graphs and traversal algorithms",
+        "Sorting and searching algorithms"
+    ],
+    "questions": []
+}

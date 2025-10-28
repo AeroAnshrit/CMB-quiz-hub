@@ -1,0 +1,11 @@
+{
+    "title": "Operating Systems",
+    "chapters": [
+        "Processes, threads, and CPU scheduling",
+        "Synchronization and deadlocks",
+        "Memory management (paging, virtual memory)",
+        "File systems and I/O systems",
+        "Protection and security"
+    ],
+    "questions": []
+}

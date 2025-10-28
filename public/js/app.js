@@ -268,21 +268,21 @@ function init() {
     // END OF ADDED CODE
 
     // --- ADD THIS NEW LISTENER ---
-    const globalSearchForm = document.getElementById('global-search-form');
-    if (globalSearchForm) {
-        globalSearchForm.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const input = document.getElementById('global-search-input');
-            const resultsContainer = document.getElementById('search-results-container');
+    // const globalSearchForm = document.getElementById('global-search-form');
+    // if (globalSearchForm) {
+    //     globalSearchForm.addEventListener('submit', async (e) => {
+    //         e.preventDefault();
+    //         const input = document.getElementById('global-search-input');
+    //         const resultsContainer = document.getElementById('search-results-container');
             
-            const term = input.value.trim();
-            if (!term) return;
+    //         const term = input.value.trim();
+    //         if (!term) return;
 
-            resultsContainer.innerHTML = '<p class="text-gray-500 text-center">Searching...</p>';
-            const results = await quiz.searchQuestions(term); // New func in quiz.js
-            ui.displaySearchResults(results);
-        });
-    }
+    //         resultsContainer.innerHTML = '<p class="text-gray-500 text-center">Searching...</p>';
+    //         const results = await quiz.searchQuestions(term); // New func in quiz.js
+    //         ui.displaySearchResults(results);
+    //     });
+    // }
 }
 
 // --- App Initialization ---
@@ -313,3 +313,5 @@ if ('serviceWorker' in navigator) {
             });
     });
 }
+
+// Trigger deployment

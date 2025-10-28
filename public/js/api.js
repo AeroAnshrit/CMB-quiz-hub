@@ -17,28 +17,29 @@ async function fetchData(url, errorMessage) {
     }
 }
 
+// --- REVERT THESE PATHS ---
 export async function getSubjects(exam, branch) {
-    return await fetchData(`/data/quizzes/${exam}/${branch}/subjects.json`, 'Could not load subjects');
+    return await fetchData(`/api/subjects/${exam}/${branch}`, 'Could not load subjects');
 }
 
 export async function getYears(exam, branch) {
-    return await fetchData(`/data/yearWise/${exam}/${branch}/years.json`, 'Could not load papers');
+    return await fetchData(`/api/years/${exam}/${branch}`, 'Could not load papers');
 }
 
 export async function getContent(pageKey) {
-    return await fetchData(`/data/content/${pageKey}.json`, 'Could not load content');
+    return await fetchData(`/api/content/${pageKey}`, 'Could not load content');
 }
 
 export async function getQuizData(exam, branch, subjectKey) {
-    return await fetchData(`/data/quizzes/${exam}/${branch}/${subjectKey}.json`, 'Could not load quiz data');
+    return await fetchData(`/api/quiz/${exam}/${branch}/${subjectKey}`, 'Could not load quiz data');
 }
 
-// --- ADD THIS MISSING FUNCTION HERE ---
 export async function getYearWiseQuizData(exam, branch, yearKey) {
-    return await fetchData(`/data/yearWise/${exam}/${branch}/${yearKey}.json`, 'Could not load year-wise quiz data');
+    return await fetchData(`/api/year-wise/${exam}/${branch}/${yearKey}`, 'Could not load year-wise quiz data');
 }
-// -------------------------------------
+// --- END OF REVERTED PATHS ---
 
+// Keep search commented out for now
 // export async function searchAllQuestions(query) {
-//     return await fetchData(`/api/search?q=${encodeURIComponent(query)}`, 'Could not perform search');
+//   return await fetchData(`/api/search?q=${encodeURIComponent(query)}`, 'Could not perform search');
 // }
