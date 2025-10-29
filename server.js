@@ -29,6 +29,39 @@ async function loadJson(filePath) {
     }
 }
 
+app.get('/api/subjects/:exam/:branch', (req, res) => {
+  const { exam, branch } = req.params;
+  const filePath = path.join(__dirname, 'data', 'quizzes', exam, branch, 'subjects.json');
+  sendJsonFile(res, filePath);
+});
+
+app.get('/api/years/:exam/:branch', (req, res) => {
+  const { exam, branch } = req.params;
+  const filePath = path.join(__dirname, 'data', 'yearWise', exam, branch, 'years.json');
+  sendJsonFile(res, filePath);
+});
+
+app.get('/api/quiz/:exam/:branch/:subjectKey', (req, res) => {
+  const { exam, branch, subjectKey } = req.params;
+  const filePath = path.join(__dirname, 'data', 'quizzes', exam, branch, `${subjectKey}.json`);
+  sendJsonFile(res, filePath);
+});
+
+app.get('/api/year-wise/:exam/:branch/:yearKey', (req, res) => {
+  const { exam, branch, yearKey } = req.params;
+  const filePath = path.join(__dirname, 'data', 'yearWise', exam, branch, `${yearKey}.json`);
+  sendJsonFile(res, filePath);
+});
+
+app.get('/api/content/:pageKey', (req, res) => {
+  const { pageKey } = req.params;
+  const filePath = path.join(__dirname, 'data', 'content', `${pageKey}.json`);
+  sendJsonFile(res, filePath);
+});
+
+// --- NEW SEARCH ENDPOINT ---
+const glob = require('fast-glob');
+const searchCache = { all: [] }; // Initialize with an empty array
 async function cacheAllData() {
     console.log('Starting to cache all quiz data...');
 
@@ -78,6 +111,12 @@ async function cacheAllData() {
     console.log('--- Caching Complete ---');
 }
 
+// The API Route
+app.get('/api/search', (req, res) => {
+  try {
+    const query = (req.query.q || '').toLowerCase().trim();
+    if (!query) {
+      return res.json([]);
 // --- API ROUTES ---
 // These routes read from the cache, making them very fast.
 
@@ -114,6 +153,21 @@ app.get('/api/quiz/:branch/:key', (req, res) => {
     }
 });
 
+    if (!searchCache.all) {
+      return res.status(503).json({ error: 'Search cache is building. Please try again in a moment.' });
+    }
+
+    const results = searchCache.all.filter(q =>
+      q.question.toLowerCase().includes(query) ||
+      q.explanation.toLowerCase().includes(query)
+    );
+
+    // Limit to 50 results to avoid overwhelming the client
+    res.json(results.slice(0, 50));
+  } catch (error) {
+    console.error('Error in /api/search:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 // GET /api/year-wise/mechanical/ISRO-2023
 app.get('/api/year-wise/:branch/:key', (req, res) => {
     const { branch, key } = req.params;
@@ -145,6 +199,14 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'Index.html'));
 });
 
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(port, () => {
+    console.log(`Server listening at http://localhost:${port}`);
+    buildSearchCache(); // Build the cache when the server starts
+  });
+}
+
+module.exports = { app, buildSearchCache, searchCache };
 // --- Start Server ---
 // We must start the server *after* the data is cached
 cacheAllData().then(() => {
