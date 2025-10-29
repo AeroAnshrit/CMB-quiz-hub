@@ -68,7 +68,7 @@ app.get('/api/content/:pageKey', (req, res) => {
 
 // --- NEW SEARCH ENDPOINT ---
 const glob = require('fast-glob');
-const searchCache = {}; // Simple cache to store all questions
+const searchCache = { all: [] }; // Initialize with an empty array
 
 async function buildSearchCache() {
     console.log('Building search cache...');
@@ -137,27 +137,36 @@ async function buildSearchCache() {
 
 // The API Route
 app.get('/api/search', (req, res) => {
+  try {
     const query = (req.query.q || '').toLowerCase().trim();
     if (!query) {
-        return res.json([]);
+      return res.json([]);
     }
 
     if (!searchCache.all) {
-        return res.status(503).json({ error: 'Search cache is building. Please try again in a moment.' });
+      return res.status(503).json({ error: 'Search cache is building. Please try again in a moment.' });
     }
-    
-    const results = searchCache.all.filter(q => 
-        q.question.toLowerCase().includes(query) ||
-        q.explanation.toLowerCase().includes(query)
+
+    const results = searchCache.all.filter(q =>
+      q.question.toLowerCase().includes(query) ||
+      q.explanation.toLowerCase().includes(query)
     );
-    
+
     // Limit to 50 results to avoid overwhelming the client
     res.json(results.slice(0, 50));
+  } catch (error) {
+    console.error('Error in /api/search:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 // --- END OF NEW SEARCH ENDPOINT ---
 
 
-app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(port, () => {
+    console.log(`Server listening at http://localhost:${port}`);
     buildSearchCache(); // Build the cache when the server starts
-});
+  });
+}
+
+module.exports = { app, buildSearchCache, searchCache };
