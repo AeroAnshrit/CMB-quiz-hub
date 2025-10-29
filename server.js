@@ -78,8 +78,6 @@ async function cacheAllData() {
     console.log('--- Caching Complete ---');
 }
 
-<<<<<<< Updated upstream
-// The API Route
 // --- API ROUTES ---
 // These routes read from the cache, making them very fast.
 
@@ -90,10 +88,6 @@ app.get('/api/search', (req, res) => {
     if (!query) {
       return res.json([]);
     }
-=======
->>>>>>> Stashed changes
-// --- API ROUTES ---
-// These routes read from the cache, making them very fast.
 
     // This assumes `quizCache` is populated. We need to search through it.
     const results = [];
@@ -148,25 +142,6 @@ app.get('/api/quiz/:branch/:key', (req, res) => {
     }
 });
 
-<<<<<<< Updated upstream
-    if (!searchCache.all) {
-      return res.status(503).json({ error: 'Search cache is building. Please try again in a moment.' });
-    }
-
-    const results = searchCache.all.filter(q =>
-      q.question.toLowerCase().includes(query) ||
-      q.explanation.toLowerCase().includes(query)
-    );
-
-    // Limit to 50 results to avoid overwhelming the client
-    res.json(results.slice(0, 50));
-  } catch (error) {
-    console.error('Error in /api/search:', error);
-    res.status(500).json({ error: 'Internal Server Error' });
-  }
-});
-=======
->>>>>>> Stashed changes
 // GET /api/year-wise/mechanical/ISRO-2023
 app.get('/api/year-wise/:branch/:key', (req, res) => {
     const { branch, key } = req.params;
@@ -198,13 +173,9 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'docs', 'index.html'));
 });
 
-<<<<<<< Updated upstream
 // --- Start Server ---
 // We must start the server *after* the data is cached
 if (process.env.NODE_ENV !== 'test') {
-  app.listen(port, () => {
-    console.log(`Server listening at http://localhost:${port}`);
-  });
     cacheAllData().then(() => {
         app.listen(port, () => {
             console.log(`Server listening at http://localhost:${port}`);
@@ -215,18 +186,5 @@ if (process.env.NODE_ENV !== 'test') {
     });
 }
 
-module.exports = { app, searchCache };
-=======
->>>>>>> Stashed changes
-// --- Start Server ---
-// We must start the server *after* the data is cached
-cacheAllData().then(() => {
-    app.listen(port, () => {
-        console.log(`Server listening at http://localhost:${port}`);
-    });
-}).catch(error => {
-    console.error('Failed to start server:', error);
-    process.exit(1);
-});
 // Export for testing purposes
 module.exports = { app };
