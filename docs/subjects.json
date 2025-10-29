@@ -1,0 +1,44 @@
+{
+  "isro": {
+    "mechanical": [
+      {
+        "key": "thermodynamics",
+        "title": "Thermodynamics"
+      },
+      {
+        "key": "fluid_mechanics",
+        "title": "Fluid Mechanics"
+      },
+      {
+        "key": "strength_of_materials",
+        "title": "Strength of Materials"
+      },
+      {
+        "key": "theory_of_machines",
+        "title": "Theory of Machines"
+      }
+    ],
+    "electrical": [
+      {
+        "key": "circuit_theory",
+        "title": "Circuit Theory"
+      },
+      {
+        "key": "power_systems",
+        "title": "Power Systems"
+      }
+    ]
+  },
+  "gate": {
+    "mechanical": [
+      {
+        "key": "thermodynamics",
+        "title": "Thermodynamics (GATE)"
+      },
+      {
+        "key": "manufacturing",
+        "title": "Manufacturing"
+      }
+    ]
+  }
+}

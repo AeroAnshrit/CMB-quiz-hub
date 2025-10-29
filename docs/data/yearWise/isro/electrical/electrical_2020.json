@@ -3,7 +3,7 @@
   "questions": [
     {
       "chapter": "Electromagnetics",
-      "question": "The plane wave propagating through the dielectric has the magnetic field component as H = 20e⁻ᵃˣcos(ωt - 0.25x) a<0xE1><0xB5><0xA7> A/m (aₓ, a<0xE1><0xB5><0xA7>, a<0xE1><0xB5><0xA₂> are unit vectors along x, y and z axis respectively). Determine the polarization of the wave",
+      "question": "The plane wave propagating through the dielectric has the magnetic field component as H = 20e⁻ᵃˣcos(ωt - 0.25x) a<0xE1><0xB5><0xA7> A/m (aₓ, a<0xE1><0xB5><0xA7>, a<0xE1><0xB5><0xA₂) are unit vectors along x, y and z axis respectively). Determine the polarization of the wave",
       "image": "",
       "options": [
         "aₓ",
@@ -16,7 +16,7 @@
     },
     {
       "chapter": "Electromagnetics",
-      "question": "In free space, H = 0.1 cos(ωt - βx) a<0xE1><0xB5><0xA₂> A/m (aₓ, a<0xE1><0xB5><0xA7>, a<0xE1><0xB5><0xA₂> are unit vectors along x, y and z axis respectively). The total power passing through a square plate of side 10 cm on plane x + 2y = 1.0 is approximately:",
+      "question": "In free space, H = 0.1 cos(ωt - βx) a<0xE1><0xB5><0xA₂> A/m (aₓ, a<0xE1><0xB5><0xA7>, a<0xE1><0xB5><0xA₂) are unit vectors along x, y and z axis respectively). The total power passing through a square plate of side 10 cm on plane x + 2y = 1.0 is approximately:",
       "image": "",
       "options": [
         "42.12 mW",
@@ -432,11 +432,7 @@
     },
     {
       "chapter": "Digital Electronics",
-      "question": "In VHDL, following statement is written a process, where Clock frequency is 24 MHz.
-If (clock' event and clock = '1') then
-  counter_4bit <= counter_4bit + x"1";
-End if;
-The frequency of counter_4bit (2) will be:",
+      "question": "In VHDL, following statement is written a process, where Clock frequency is 24 MHz.\nIf (clock' event and clock = '1') then\n  counter_4bit <= counter_4bit + x\"1\";\nEnd if;\nThe frequency of counter_4bit (2) will be:",
       "image": "",
       "options": [
         "12 MHz",
@@ -657,11 +653,7 @@ The frequency of counter_4bit (2) will be:",
     },
     {
       "chapter": "Electronic Devices and Circuits",
-      "question": "The following table gives the forward characteristics of a Si diode. Estimate the temperature of a diode junction. (Given: ln(0.2) = -1.609)
-Vf(V) | If(mA)
-------|------
-0.6   | 1
-0.65  | 5",
+      "question": "The following table gives the forward characteristics of a Si diode. Estimate the temperature of a diode junction. (Given: ln(0.2) = -1.609)\nVf(V) | If(mA)\n------|------\n0.6   | 1\n0.65  | 5",
       "image": "",
       "options": [
         "240 K",
@@ -791,12 +783,7 @@ Vf(V) | If(mA)
     },
     {
       "chapter": "Electronic Devices and Circuits",
-      "question": "The transfer characteristic of the different types of MOSFETs is shown below, where I<0xE1><0xB5><0x85> is drain current and V<0xE1><0xB5><0x8D><0xE2><0x82><0x9B> is the Gate-Source voltage, the correct combination of MOSFET w.r.t. to transfer characteristics is 
-Type of MOSFET
-(P) P-Channel Enhancement MOSFET
-(Q) P-Channel Depletion MOSFET
-(R) N-Channel Enhancement MOSFET
-(S) N-Channel Depletion MOSFET",
+      "question": "The transfer characteristic of the different types of MOSFETs is shown below, where I<0xE1><0xB5><0x85> is drain current and V<0xE1><0xB5><0x8D><0xE2><0x82><0x9B> is the Gate-Source voltage, the correct combination of MOSFET w.r.t. to transfer characteristics is \nType of MOSFET\n(P) P-Channel Enhancement MOSFET\n(Q) P-Channel Depletion MOSFET\n(R) N-Channel Enhancement MOSFET\n(S) N-Channel Depletion MOSFET",
       "image": "",
       "options": [
         "P-4, Q-2, R-1, S-3",
@@ -861,10 +848,7 @@ Type of MOSFET
     },
     {
       "chapter": "Power Electronics",
-      "question": "Following are the applications of a Buck and Boost Converters respectively
-A. Regulated DC power supplies
-B. Regenerative braking of DC motors
-C. DC motor speed control",
+      "question": "Following are the applications of a Buck and Boost Converters respectively\nA. Regulated DC power supplies\nB. Regenerative braking of DC motors\nC. DC motor speed control",
       "image": "",
       "options": [
         "A, B",
@@ -890,11 +874,7 @@ C. DC motor speed control",
     },
     {
       "chapter": "Power Electronics",
-      "question": "Which of the following is false for a Thyristor?
-A. Thyristor is a majority-carrier device.
-B. The forward-bias portion of Thyristor's i-v characteristics has two stable operating regions.
-C. The forward-bias portion of Thyristor's i-v characteristic has one stable operating region.
-D. The negative gate current turns off the Thyristor.",
+      "question": "Which of the following is false for a Thyristor?\nA. Thyristor is a majority-carrier device.\nB. The forward-bias portion of Thyristor's i-v characteristics has two stable operating regions.\nC. The forward-bias portion of Thyristor's i-v characteristic has one stable operating region.\nD. The negative gate current turns off the Thyristor.",
       "image": "",
       "options": [
         "A, B",
@@ -946,10 +926,7 @@ D. The negative gate current turns off the Thyristor.",
     },
     {
       "chapter": "Control Systems",
-      "question": "Consider two control systems with following transfer function,
-System 1: G(s) = 1/(3s + 1)
-System 2: G(s) = 1/(s + 1)
-Which of the following is true?",
+      "question": "Consider two control systems with following transfer function,\nSystem 1: G(s) = 1/(3s + 1)\nSystem 2: G(s) = 1/(s + 1)\nWhich of the following is true?",
       "image": "",
       "options": [
         "Bandwidth of System 1 is greater than bandwidth of System 2",
@@ -1027,9 +1004,7 @@ Which of the following is true?",
     },
     {
       "chapter": "Signals and Systems",
-      "question": "A discrete time, linear time invariant system with input sequence x<0xE2><0x82><0x99> and output sequence y<0xE2><0x82><0x99> is characterised by
-y<0xE2><0x82><0x99> = 0.1x<0xE2><0x82><0x99> + 0.9 y<0xE2><0x82><0x99>₋₁
-If two such systems are connected in series, which of the following is the governing difference equation of the overall system?",
+      "question": "A discrete time, linear time invariant system with input sequence x<0xE2><0x82><0x99> and output sequence y<0xE2><0x82><0x99> is characterised by\ny<0xE2><0x82><0x99> = 0.1x<0xE2><0x82><0x99> + 0.9 y<0xE2><0x82><0x99>₋₁\nIf two such systems are connected in series, which of the following is the governing difference equation of the overall system?",
       "image": "",
       "options": [
         "y<0xE2><0x82><0x99> - 1.8y<0xE2><0x82><0x99>₋₁ + 0.81y<0xE2><0x82><0x99>₋₂ = 0.01x<0xE2><0x82><0x99>",

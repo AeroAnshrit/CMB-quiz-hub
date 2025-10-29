@@ -1,0 +1,32 @@
+{
+  "isro": {
+    "mechanical": [
+      {
+        "key": "2020",
+        "title": "ISRO Mechanical 2020"
+      },
+      {
+        "key": "2018",
+        "title": "ISRO Mechanical 2018"
+      },
+      {
+        "key": "2008",
+        "title": "ISRO Mechanical 2008"
+      }
+    ],
+    "electrical": [
+      {
+        "key": "2020",
+        "title": "ISRO Electrical 2020"
+      }
+    ]
+  },
+  "gate": {
+    "mechanical": [
+      {
+        "key": "2023_s1",
+        "title": "GATE Mechanical 2023 (Session 1)"
+      }
+    ]
+  }
+}

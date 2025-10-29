@@ -1,0 +1,11 @@
+{
+    "title": "Engineering Mechanics",
+    "chapters": [
+        "Free-body diagrams and equilibrium equations",
+        "Friction and its applications",
+        "Centroid and Moment of Inertia",
+        "Kinematics of particles and rigid bodies",
+        "Kinetics of particles and rigid bodies"
+    ],
+    "questions": []
+}

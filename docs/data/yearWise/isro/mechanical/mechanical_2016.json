@@ -562,7 +562,7 @@
     },
     {
       "chapter": "Fluid Mechanics",
-      "question": "Air accelerated isentropically from 100 m/s to 300 m/s in a nozzle. If the temperature at the inlet is 127°C, the inlet Mach number is (take R = 287 J/(kg K) and specific heat ratio = 1.4)",
+      "question": "Air is accelerated isentropically from 100 m/s to 300 m/s in a nozzle. If the temperature at the inlet is 127°C, the inlet Mach number is (take R = 287 J/(kg K) and specific heat ratio = 1.4)",
       "image": "",
       "options": [
         "0.249",
