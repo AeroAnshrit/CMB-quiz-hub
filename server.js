@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
+const glob = require('glob');
 const fs = require('fs').promises; // Use async file system
 
 const app = express();
@@ -79,6 +80,10 @@ async function cacheAllData() {
 
 <<<<<<< Updated upstream
 // The API Route
+// --- API ROUTES ---
+// These routes read from the cache, making them very fast.
+
+// GET /api/search
 app.get('/api/search', (req, res) => {
   try {
     const query = (req.query.q || '').toLowerCase().trim();
@@ -89,6 +94,26 @@ app.get('/api/search', (req, res) => {
 >>>>>>> Stashed changes
 // --- API ROUTES ---
 // These routes read from the cache, making them very fast.
+
+    // This assumes `quizCache` is populated. We need to search through it.
+    const results = [];
+    const allQuizzes = Object.values(quizCache.quizzes).flatMap(branch => Object.values(branch));
+    const allYearWise = Object.values(quizCache.yearWise).flatMap(branch => Object.values(branch));
+
+    [...allQuizzes, ...allYearWise].forEach(quiz => {
+        quiz.questions.forEach(q => {
+            if (q.question.toLowerCase().includes(query) || (q.explanation && q.explanation.toLowerCase().includes(query))) {
+                results.push({ ...q, quizTitle: quiz.title }); // Add context
+            }
+        });
+    });
+
+    res.json(results.slice(0, 50));
+  } catch (error) {
+    console.error('Error in /api/search:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
 
 // GET /api/subjects/mechanical
 app.get('/api/subjects/:branch', (req, res) => {
@@ -174,10 +199,20 @@ app.get('*', (req, res) => {
 });
 
 <<<<<<< Updated upstream
+// --- Start Server ---
+// We must start the server *after* the data is cached
 if (process.env.NODE_ENV !== 'test') {
   app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
   });
+    cacheAllData().then(() => {
+        app.listen(port, () => {
+            console.log(`Server listening at http://localhost:${port}`);
+        });
+    }).catch(error => {
+        console.error('Failed to start server:', error);
+        process.exit(1);
+    });
 }
 
 module.exports = { app, searchCache };
@@ -193,3 +228,5 @@ cacheAllData().then(() => {
     console.error('Failed to start server:', error);
     process.exit(1);
 });
+// Export for testing purposes
+module.exports = { app };
