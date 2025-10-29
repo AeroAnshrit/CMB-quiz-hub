@@ -236,7 +236,7 @@ init(); // <--- ADD THIS LINE BACK
 // --- PWA Service Worker Registration ---
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
+        navigator.serviceWorker.register('/CMB-quiz-hub/sw.js')
             .then((registration) => {
                 console.log('ServiceWorker registration successful with scope: ', registration.scope);
             })
