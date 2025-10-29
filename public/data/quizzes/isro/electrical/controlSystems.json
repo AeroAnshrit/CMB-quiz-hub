@@ -1,0 +1,12 @@
+{
+    "title": "Control Systems",
+    "chapters": [
+        "Modeling of physical systems (transfer function, block diagram)",
+        "Time and frequency response",
+        "Stability analysis (Routh, Nyquist, Bode)",
+        "Root locus",
+        "Compensators and PID controllers",
+        "State-space analysis"
+    ],
+    "questions": []
+}

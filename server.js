@@ -1,39 +1,32 @@
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
-const fs = require('fs').promises;
-const helmet = require('helmet');
+const fs = require('fs').promises; // Use async file system
+const glob = require('glob'); // Make sure you ran: npm install glob
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 
-// --- Security Middleware ---
-// Use Helmet to set various security-related HTTP headers
-app.use(helmet({
-  contentSecurityPolicy: {
-    directives: {
-      ...helmet.contentSecurityPolicy.getDefaultDirectives(),
-      "script-src": ["'self'", "'unsafe-inline'", "https://cdn.jsdelivr.net"], 
-      "img-src": ["'self'", "data:"], // Allow images from self and data URIs
-    },
-  },
-}));
+// --- In-Memory Cache ---
+// This will store all your quiz data when the server starts.
+const quizCache = {
+    subjects: {}, // e.g., { mechanical: [{...}], cs: [{...}] }
+    years: {},    // e.g., { mechanical: [{...}], cs: [{...}] }
+    quizzes: {},  // e.g., { mechanical: { thermo: {...} } }
+    yearWise: {}, // e.g., { mechanical: { 'ISRO-2023': {...} } }
+    content: {}   // e.g., { allAboutIsro: {...} }
+};
 
-// Serve static files from the "docs" directory
-app.use(express.static(path.join(__dirname, 'docs')));
+// --- Caching Functions ---
 
-// --- API Routes ---
-
-// Generic file reader function to avoid repetition
-async function sendJsonFile(res, filePath) {
-  try {
-    const data = await fs.readFile(filePath, 'utf8');
-    res.setHeader('Content-Type', 'application/json');
-    res.send(data);
-  } catch (error) {
-    console.error(`Error reading file: ${filePath}`, error);
-    res.status(404).json({ error: `Data not found for path: ${filePath}` });
-  }
+async function loadJson(filePath) {
+    try {
+        const data = await fs.readFile(filePath, 'utf-8');
+        return JSON.parse(data);
+    } catch (e) {
+        console.error(`Error loading JSON from ${filePath}:`, e.message);
+        return null; // Don't crash the server, just log the error
+    }
 }
 
 app.get('/api/subjects/:exam/:branch', (req, res) => {
@@ -69,70 +62,53 @@ app.get('/api/content/:pageKey', (req, res) => {
 // --- NEW SEARCH ENDPOINT ---
 const glob = require('fast-glob');
 const searchCache = { all: [] }; // Initialize with an empty array
+async function cacheAllData() {
+    console.log('Starting to cache all quiz data...');
 
-async function buildSearchCache() {
-    console.log('Building search cache...');
-    const quizFiles = await glob('data/{quizzes,yearWise}/**/*.json');
-    let allQuestions = [];
+    // 1. Cache Content (allAboutIsro.json, etc.)
+    const contentFiles = glob.sync('data/content/*.json');
+    for (const file of contentFiles) {
+        const key = path.basename(file, '.json'); // 'allAboutIsro'
+        const data = await loadJson(file);
+        if (data) quizCache.content[key] = data;
+    }
 
-    for (const file of quizFiles) {
-        // We only want to search *question* files, not list files
-        if (file.endsWith('subjects.json') || file.endsWith('years.json')) {
-            continue;
+    // Get all branches (mechanical, cs, etc.)
+    const branches = glob.sync('data/quizzes/isro/*').map(p => path.basename(p));
+
+    for (const branch of branches) {
+        // 2. Cache Subjects (subjects.json for each branch)
+        const subjectsData = await loadJson(`data/quizzes/isro/${branch}/subjects.json`);
+        if (subjectsData) quizCache.subjects[branch] = subjectsData;
+
+        // 3. Cache Years (years.json for each branch)
+        const yearsData = await loadJson(`data/yearWise/isro/${branch}/years.json`);
+        if (yearsData) quizCache.years[branch] = yearsData;
+
+        // 4. Cache Topic Quizzes (thermodynamics.json, etc.)
+        quizCache.quizzes[branch] = {};
+        const quizFiles = glob.sync(`data/quizzes/isro/${branch}/*.json`);
+        for (const file of quizFiles) {
+            const key = path.basename(file, '.json');
+            if (key !== 'subjects') {
+                const data = await loadJson(file);
+                if (data) quizCache.quizzes[branch][key] = data;
+            }
         }
 
-        try {
-            const data = await fs.readFile(file, 'utf8');
-            const jsonData = JSON.parse(data);
-            
-            // Extract context from the file path
-            // e.g., data/quizzes/isro/mechanical/fluid_mechanics.json
-            const parts = file.split('/');
-            // parts[0] = data
-            // parts[1] = quizzes or yearWise
-            
-            let exam, branch, key, type;
-            type = parts[1] === 'quizzes' ? 'topic' : 'year';
-
-            // Check for new structure: data/quizzes/isro/mechanical/file.json
-            if (parts.length === 5) { 
-                exam = parts[2];
-                branch = parts[3];
-                key = parts[4].replace('.json', '');
-            } 
-            // Check for original structure: data/quizzes/maths/file.json
-            else if (parts.length === 4) {
-                exam = 'general'; // Assign a default 'exam'
-                branch = parts[2]; // e.g., 'maths' or 'aptitude'
-                key = parts[3].replace('.json', '');
-            } else {
-                console.warn(`Skipping file with unexpected path structure: ${file}`);
-                continue;
+        // 5. Cache Year-Wise Quizzes (ISRO-2023.json, etc.)
+        quizCache.yearWise[branch] = {};
+        const yearFiles = glob.sync(`data/yearWise/isro/${branch}/*.json`);
+        for (const file of yearFiles) {
+            const key = path.basename(file, '.json');
+            if (key !== 'years') {
+                const data = await loadJson(file);
+                if (data) quizCache.yearWise[branch][key] = data;
             }
-
-            if (jsonData.questions && jsonData.questions.length > 0) {
-                jsonData.questions.forEach((q, index) => {
-                    allQuestions.push({
-                        // Question data
-                        question: q.question,
-                        explanation: q.explanation || '',
-                        // Context to find it again
-                        exam: exam,
-                        branch: branch,
-                        key: key,
-                        type: type,
-                        title: jsonData.title, // Title of the quiz/paper
-                        index: index // The question's index in the file
-                    });
-                });
-            }
-        } catch (e) {
-            console.error(`Failed to load/parse ${file} for search: ${e.message}`);
         }
     }
-    
-    searchCache.all = allQuestions;
-    console.log(`Search cache built. ${allQuestions.length} questions indexed.`);
+
+    console.log('--- Caching Complete ---');
 }
 
 // The API Route
@@ -141,7 +117,41 @@ app.get('/api/search', (req, res) => {
     const query = (req.query.q || '').toLowerCase().trim();
     if (!query) {
       return res.json([]);
+// --- API ROUTES ---
+// These routes read from the cache, making them very fast.
+
+// GET /api/subjects/mechanical
+app.get('/api/subjects/:branch', (req, res) => {
+    const { branch } = req.params;
+    const data = quizCache.subjects[branch];
+    if (data) {
+        res.json(data);
+    } else {
+        res.status(404).json({ error: `Data not found for subjects in branch: ${branch}` });
     }
+});
+
+// GET /api/years/mechanical
+app.get('/api/years/:branch', (req, res) => {
+    const { branch } = req.params;
+    const data = quizCache.years[branch];
+    if (data) {
+        res.json(data);
+    } else {
+        res.status(404).json({ error: `Data not found for years in branch: ${branch}` });
+    }
+});
+
+// GET /api/quiz/mechanical/thermodynamics
+app.get('/api/quiz/:branch/:key', (req, res) => {
+    const { branch, key } = req.params;
+    const data = quizCache.quizzes[branch]?.[key];
+    if (data) {
+        res.json(data);
+    } else {
+        res.status(404).json({ error: `Quiz not found for: ${branch}/${key}` });
+    }
+});
 
     if (!searchCache.all) {
       return res.status(503).json({ error: 'Search cache is building. Please try again in a moment.' });
@@ -158,9 +168,36 @@ app.get('/api/search', (req, res) => {
     console.error('Error in /api/search:', error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
+// GET /api/year-wise/mechanical/ISRO-2023
+app.get('/api/year-wise/:branch/:key', (req, res) => {
+    const { branch, key } = req.params;
+    const data = quizCache.yearWise[branch]?.[key];
+    if (data) {
+        res.json(data);
+    } else {
+        res.status(404).json({ error: `Year-wise quiz not found for: ${branch}/${key}` });
+    }
 });
-// --- END OF NEW SEARCH ENDPOINT ---
 
+// GET /api/content/allAboutIsro
+app.get('/api/content/:key', (req, res) => {
+    const { key } = req.params;
+    const data = quizCache.content[key];
+    if (data) {
+        res.json(data);
+    } else {
+        res.status(404).json({ error: `Content not found for: ${key}` });
+    }
+});
+
+// --- Static File Serving ---
+// This serves your index.html, css, and client-side js
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Fallback: send index.html for any other request
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'Index.html'));
+});
 
 if (process.env.NODE_ENV !== 'test') {
   app.listen(port, () => {
@@ -170,3 +207,13 @@ if (process.env.NODE_ENV !== 'test') {
 }
 
 module.exports = { app, buildSearchCache, searchCache };
+// --- Start Server ---
+// We must start the server *after* the data is cached
+cacheAllData().then(() => {
+    app.listen(port, () => {
+        console.log(`Server listening at http://localhost:${port}`);
+    });
+}).catch(error => {
+    console.error('Failed to start server:', error);
+    process.exit(1);
+});

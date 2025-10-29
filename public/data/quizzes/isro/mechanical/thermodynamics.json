@@ -1,0 +1,11 @@
+{
+    "title": "Thermodynamics",
+    "chapters": [
+        "Thermodynamic systems and properties",
+        "Properties of pure substances",
+        "First Law of Thermodynamics",
+        "Second Law of Thermodynamics and Entropy",
+        "Thermodynamic cycles (Otto, Diesel, Rankine)"
+    ],
+    "questions": []
+}

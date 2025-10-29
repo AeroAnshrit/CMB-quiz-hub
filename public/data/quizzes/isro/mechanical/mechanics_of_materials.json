@@ -1,0 +1,38 @@
+{
+    "title": "Mechanics of Materials (SOM)",
+    "chapters": [
+        "Stress and strain relationships",
+        "Elastic constants and Mohr’s circle",
+        "Bending and shear stresses in beams",
+        "Torsion of circular shafts",
+        "Deflection of beams",
+        "Energy methods"
+    ],
+    "questions": [
+        {
+            "chapter": "Torsion of circular shafts",
+            "question": "A solid shaft can resist a bending moment of 3.0 kNm and a twisting moment of 4.0 kNm together, then the maximum torque that can be applied is:",
+            "image": "https://placehold.co/600x300/e2e8f0/2d3748?text=Question+Diagram+Here",
+            "options": [
+                "7.0 kNm",
+                "3.5 kNm",
+                "4.5 kNm",
+                "5.0 kNm"
+            ],
+            "answer": "5.0 kNm",
+            "explanation": "The maximum equivalent torque (Te) on a shaft subjected to both bending moment (M) and twisting moment (T) is calculated using the formula: Te = sqrt(M^2 + T^2). Here, Te = sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5.0 kNm."
+        },
+        {
+            "chapter": "Shear force and bending moment diagrams",
+            "question": "A simply supported beam of length 3m carries a concentrated load of 12 kN at a distance of 1m from the left support. The maximum bending moment in the beam is:",
+            "options": [
+                "12 kNm",
+                "24 kNm",
+                "8 kNm",
+                "16 kNm"
+            ],
+            "answer": "8 kNm",
+            "explanation": "First, calculate the reactions. R_right = (12 * 1) / 3 = 4 kN. R_left = 12 - 4 = 8 kN. The maximum bending moment occurs at the point of the load application. M_max = R_left * 1m = 8 kN * 1m = 8 kNm."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "aboutUs": {
+    "title": "About Us",
+    "body": "<p>Welcome to CMB Quiz Hub! We are dedicated to helping engineering students prepare for competitive exams like ISRO, GATE, and ESE.</p><p>Our platform provides high-quality, relevant quiz questions and past papers to help you succeed.</p>"
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "body": "<p>Have questions or feedback? We'd love to hear from you!</p><p>You can reach out to us at <a href='mailto:example@email.com' class='text-blue-500 hover:underline'>example@email.com</a>.</p>"
+  },
+  "contribute": {
+    "title": "Contribute",
+    "body": "<p>Want to help improve CMB Quiz Hub? We are always looking for contributions. You can help by submitting new questions, reporting errors, or suggesting features.</p>"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "body": "<p>Your privacy is important to us. This policy explains what information we collect and how we use it...</p>"
+  },
+  "isroRecruitmentGuide": {
+    "title": "ISRO Recruitment Guide",
+    "body": "<p>Here is a detailed guide on the ISRO recruitment process...</p>"
+  },
+  "allAboutIsro": {
+    "title": "All About ISRO",
+    "body": "<p>Learn about the history, achievements, and future missions of the Indian Space Research Organisation.</p>"
+  }
+}
