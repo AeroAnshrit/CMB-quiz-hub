@@ -2,10 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const fs = require('fs').promises; // Use async file system
-const glob = require('glob'); // Make sure you ran: npm install glob
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 // --- In-Memory Cache ---
 // This will store all your quiz data when the server starts.
@@ -117,6 +116,7 @@ app.get('/api/search', (req, res) => {
     const query = (req.query.q || '').toLowerCase().trim();
     if (!query) {
       return res.json([]);
+    }
 // --- API ROUTES ---
 // These routes read from the cache, making them very fast.
 
@@ -168,6 +168,7 @@ app.get('/api/quiz/:branch/:key', (req, res) => {
     console.error('Error in /api/search:', error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
+});
 // GET /api/year-wise/mechanical/ISRO-2023
 app.get('/api/year-wise/:branch/:key', (req, res) => {
     const { branch, key } = req.params;
@@ -202,11 +203,10 @@ app.get('*', (req, res) => {
 if (process.env.NODE_ENV !== 'test') {
   app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
-    buildSearchCache(); // Build the cache when the server starts
   });
 }
 
-module.exports = { app, buildSearchCache, searchCache };
+module.exports = { app, searchCache };
 // --- Start Server ---
 // We must start the server *after* the data is cached
 cacheAllData().then(() => {
